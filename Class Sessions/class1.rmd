@@ -61,8 +61,6 @@ Expanding this notebook, complete the following tasks:
 
 3) In the second chunk divide 75 by 5, then add 43 and then multiply 6 (use parentheses)
 
-4) In the third chunk, Evaluate $$ \left | \frac{5^{25-2}}{6-4+1*2} \right | $$ Hint: use '^' to exponentiate. Look up the function to calculate an absolute value [here](https://www.statmethods.net/management/functions.html)
-
 # Exercise 2
 
 Using markdown, answer the following questions:
