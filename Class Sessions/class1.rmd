@@ -1,6 +1,6 @@
 ---
 title: "Class 1"
-author: "Jeremy Ferwerda"
+author: ""
 output:
   pdf_document: default
 ---
@@ -41,12 +41,19 @@ R Markdown Notebooks allow us to write text, write code and generate results wit
 
 ## How to write code within markdown
 
-When you see a white background you are writing text.  You can use Markdown (or LaTeX) here.  However we will also be interested in writing code to explore and summarize data.  Code is placed in a *chunk.*  Chunks start and end with three grave accents (the same key as the tilde): ```  
+When you see a white background you are writing text.  You can use Markdown here.  However we will also be interested in writing code to explore and summarize data.  Code is placed in a *chunk.*  Chunks start and end with three grave accents (the same key as the tilde): ```  
 `chunks` are interactive and allow to you run code. When you execute code within the notebook, the results appear beneath the code. To run a chunk, press the *Run* button (play button) within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
 Multiply 5 and 10:
 ```{r}
 # NOTE: we cannot use markdown in code chunks.  Here # means that we are creating a comment (notes that are not executable code).  We are not creating a header.
 ```
+
+Multiple 4 and 6, then square it
+```{r}
+
+```
+
 R also contains _functions_. For instance, the function sqrt() calculates a square root:
 ```{r}
 ```
@@ -55,7 +62,7 @@ R also contains _functions_. For instance, the function sqrt() calculates a squa
 
 Expanding this notebook, complete the following tasks:
 
-1) Create three new code chunks (using the green 'Insert' button in the top right, or by pressing *Cmd+Option+I*).
+1) Create two new code chunks (using the green 'Insert' button in the top right, or by pressing *Cmd+Option+I*).
 
 2) In the first chunk find the sum of 75, 83, 93, 34, 75 and 81 using math operators (+). Then try to find the sum using the function _sum()_. You can look up how to use the function _sum()_ by typing ?sum in the console (bottom of your screen). 
 
@@ -67,7 +74,7 @@ Using markdown, answer the following questions:
 
 1) Where are you from?
 2) What is your planned major?
-3) Have you taken a stats or a programming class before? 
+3) Have you taken a statistics or a programming class before? 
 4) What is your favorite book or movie?
 
 ## Prepare for submission
