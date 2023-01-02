@@ -126,10 +126,10 @@ A) Download the .zip file or sync git. Then, in your local directory, read in th
 enrollments <- read.csv("enrollments.csv")
 ```
 
-B) "Messy" Download the file from the internet into your local directory
+B) Download the file from the internet into your local directory
 ```{r}
 
-# download.file( ,"./enrollments.csv")
+download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/enrollments.csv" ,"./enrollments.csv")
 enrollments <- read.csv("enrollments.csv")
 ```
 
@@ -156,7 +156,7 @@ To create a new column in our data frame, we can also use the *$* operator
 
 ## Group work
 
-Let's assume that class sizes  (freshmen, sophomores, etc) are equal. Create a variable containing the size of the freshman class at each school. 
+Let's assume that class sizes (freshmen, sophomores, etc) are equal. Create a variable containing the size of the freshman class at each school. 
 
 ```{r}
 
