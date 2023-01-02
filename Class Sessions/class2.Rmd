@@ -1,0 +1,197 @@
+---
+title: "Class 2"
+author: ""
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(tidyverse)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Class Plan
+
+* Variables
+* Vectors
+* Intro to dataframes
+
+# Variables
+
+R can save information as a variable using the following syntax: variable name <- value.
+
+Let's create a variable named output, with the value of 13.
+
+```{r}
+
+```
+
+We can input variable names into functions. Let's take the natural log of *output*
+
+Note: There are many helpful lists of functions online: https://www.statmethods.net/management/functions.html
+
+```{r}
+
+```
+
+Get the value of the variable *output* by typing the variable name
+
+```{r}
+
+```
+
+Let's change the value of *output* by overwriting it
+
+```{r}
+
+```
+
+Now let's copy the variable *output* to a new variable called *output2*
+
+```{r}
+
+```
+
+We can perform mathematical operations on variables
+
+```{r}
+
+```
+
+## String (text) variables
+
+We can also store text within variables by wrapping the text in double quotation marks (""). 
+Let's create a new variable called output3 that contains the words "gov 10"
+
+```{r}
+
+```
+
+We can't perform mathematical operations on text
+
+```{r}
+
+```
+
+# Working with vectors 
+
+*Vectors* are one-dimensional arrays.  You can think of them as a single column of values.  We can manually create a vector using the *c()* function.  With c(), we can concatenate objects into a single vector
+
+Let's look at the schools with the largest undergraduate populations:
+
+| School (state)                                | Fall 2015 undergraduate enrollment |
+|-----------------------------------------------|------------------------------------|
+| University of Central Florida                 | 54,513                             |
+| Liberty University (VA)                       | 49,863                             |
+| Texas A&M University—College Station          | 48,960                             |
+| Ohio State University—Columbus                | 45,289                             |
+| Florida International University              | 41,038                             |
+
+First we will create a vector of enrollments.
+
+```{r}
+enrollments <- c()
+```
+
+Vectors can be combined. We will now create two different vectors. The first will contain enrollments from schools in Florida (named _florida_), while the other vector ( _other_ ) will contain enrollments from other schools.  Using c() with the vector names, we can concatenate both of these vectors into a new vector named _all.schools_
+
+```{r}
+
+```
+
+We can do this faster by using *indexing*, using the syntax variable_name[index].  Note: the first element in a vector is element 1, the second is element 2, etc.
+
+```{r}
+
+```
+
+We can also run functions on vectors:
+
+```{r}
+
+```
+
+
+# Data frames
+
+Data frames are similar to a spreadsheet, and contain multiple observations (rows) and variables (columns). 
+
+For this class, all data are stored in .csv format. Let's load enrollments.csv. There are two ways we can do this.
+
+A) Download the .zip file or sync git. Then, in your local directory, read in the file
+
+```{r}
+enrollments <- read.csv("enrollments.csv")
+```
+
+B) "Messy" Download the file from the internet into your local directory
+```{r}
+
+# download.file( ,"./enrollments.csv")
+enrollments <- read.csv("enrollments.csv")
+```
+
+We can see the variable names in our data frame using _names()_
+
+```{r}
+
+```
+
+We can select columns (vectors) in a dataframe by name using the *$* operator.  When using the *$* operator we place the name of the data frame to the left and the name of the variable to the right.
+
+Let's pull out a vector for the variable _enrollment_
+
+```{r}
+
+```
+
+To create a new column in our data frame, we can also use the *$* operator
+
+```{r}
+
+```
+
+
+## Group work
+
+Let's assume that class sizes  (freshmen, sophomores, etc) are equal. Create a variable containing the size of the freshman class at each school. 
+
+```{r}
+
+```
+
+Since we are talking about people, we should not have decimals. Update the code above to use the floor() function to round down your answer to the nearest integer.
+
+```{r}
+
+```
+
+What is the average size of the freshman class within the dataset?
+
+```{r}
+
+```
+
+
+## If time remaining: practice with Swirl
+
+Run the following. Note: you must be connected to the internet
+
+```{r}
+install.packages("swirl")
+library(swirl)
+install_course_github("kosukeimai","qss-swirl")
+```
+
+Then, in the console (bottom left window), type: swirl()
+Follow the prompts, and select the course 'qss-swirl'. Then choose Selection 1 (Intro 1). Continue until you get to 80% completion.
+
+Remember to type bye() in the console to leave Swirl. 
+
+## Evaluation
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
