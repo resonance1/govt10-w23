@@ -1,7 +1,9 @@
 ---
 title: "Class 1"
-author: ""
+author: ''
 output:
+  html_document:
+    df_print: paged
   pdf_document: default
 ---
 
@@ -12,77 +14,86 @@ knitr::opts_chunk$set(error = TRUE)
 ```
 
 Plan:
-
-* Class information  
-* Learning Markdown
+-   Class information
+-   Learning Markdown
 
 # Markdown
+
 ## A simple markup language
 
-Markdown allows us to format text.  Markdown can be compiled directly into a PDF, a Word file or an HTML file.  
+Markdown allows us to format text. Markdown can be compiled directly into a PDF, a Word file or an HTML file.
 
 For this class we only care about some basic formatting:
 
-**Bolding text**  
-_Italicizing text_ 
+**Bolding text**
+*Italicizing text*
 
-The **quick** brown fox jumps over the _startled_ gopher
+The **quick** brown fox jumps over the *startled* gopher
 
 # Creating a larger header
+
 ## Creating a second-level header
 
-There are several good resources for Markdown and R:
-* [Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
-* [Markdown Reference Card](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+There are several good resources for Markdown and R: \* [Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) \* [Markdown Reference Card](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 
 ## Why Notebooks?
 
-R Markdown Notebooks allow us to write text, write code and generate results within a single file.  In this class all in-class assignments and homework assignments will be submitted using Markdown Notebooks.  
+R Markdown Notebooks allow us to write text, write code and generate results within a single file. In this class all in-class assignments and homework assignments will be submitted using Markdown Notebooks.
 
 ## How to write code within markdown
 
-When you see a white background you are writing text.  You can use Markdown here.  However we will also be interested in writing code to explore and summarize data.  Code is placed in a *chunk.*  Chunks start and end with three grave accents (the same key as the tilde): ```  
-`chunks` are interactive and allow to you run code. When you execute code within the notebook, the results appear beneath the code. To run a chunk, press the *Run* button (play button) within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+When you see a white background you are writing text. You can use Markdown here. However we will also be interested in writing code to explore and summarize data. Code is placed in a *chunk.* Chunks start and end with three grave accents (the same key as the tilde): \`\`chunks\` are interactive and allow to you run code. When you execute code within the notebook, the results appear beneath the code. To run a chunk, press the *Run* button (play button) within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
 
 Multiply 5 and 10:
+
 ```{r}
 # NOTE: we cannot use markdown in code chunks.  Here # means that we are creating a comment (notes that are not executable code).  We are not creating a header.
 ```
 
 Multiple 4 and 6, then square it
+
 ```{r}
 
 ```
 
-R also contains _functions_. For instance, the function sqrt() calculates a square root:
+R also contains *functions*. For instance, the function sqrt() calculates a square root:
+
 ```{r}
+
 ```
+
 
 # Exercise 1
 
 Expanding this notebook, complete the following tasks:
 
-1) Create two new code chunks (using the green 'Insert' button in the top right, or by pressing *Cmd+Option+I*).
+1)  Create two new code chunks (using the green 'Insert' button in the top right, or by pressing *Cmd+Option+I*).
 
-2) In the first chunk find the sum of 75, 83, 93, 34, 75 and 81 using math operators (+). Then try to find the sum using the function _sum()_. You can look up how to use the function _sum()_ by typing ?sum in the console (bottom of your screen). 
+2)  In the first chunk find the sum of 75, 83, 93, 34, 75 and 81 using math operators (+). Then try to find the sum using the function *sum()*. You can look up how to use the function *sum()* by typing ?sum in the console (bottom of your screen).
 
-3) In the second chunk divide 75 by 5, then add 43 and then multiply 6 (use parentheses)
+3)  In the second chunk divide 75 by 5, then add 43 and then multiply 6 (use parentheses)
 
 # Exercise 2
 
 Using markdown, answer the following questions:
 
-1) Where are you from?
-2) What is your planned major?
-3) Have you taken a statistics or a programming class before? 
-4) What is your favorite book or movie?
+1)  Where are you from?
+2)  What is your planned major?
+3)  Have you taken a statistics or a programming class before?
+4)  What is your favorite book or movie?
 
-## Prepare for submission
+# Prepare for submission
 
-You will submit all assignments and problem sets as PDFs.  You create a PDF you will click the down arrow to the right of the *Knit* button and select *Knit to PDF*
+You will submit all assignments and problem sets as PDFs. You create a PDF you will click the down arrow to the right of the *Knit* button and select *Knit to PDF*. To create a PDF, you must first install tinytex. Run the code chunk below:
 
-## Evaluation
+```{r}
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+Now try to Knit to PDF. If it doesn't work, let me know via Slack and I will help you trouble shoot. For now, you can submit either your .rmd file or your .pdf file to complete the class notebook.
 
-1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
-2. What was the easiest thing to understand?
-3. What was the most difficult thing to understand?
+# Check-in
+
+1.  On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class:
+2.  What was the easiest thing to understand?
+3.  What was the most difficult thing to understand?
