@@ -7,13 +7,15 @@ output:
 
 ```{r setup, echo=F}
 library(knitr)
-library(tidyverse)
 opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 knitr::opts_chunk$set(error = TRUE)
 ```
 
 # Class Plan
 
+* Project management in R / github
+* Resources
+* Learning names
 * Variables
 * Vectors
 * Intro to dataframes
@@ -120,15 +122,15 @@ Data frames are similar to a spreadsheet, and contain multiple observations (row
 
 For this class, all data are stored in .csv format. Let's load enrollments.csv. There are two ways we can do this.
 
-A) Download the .zip file or sync git. Then, in your local directory, read in the file
+A) Download the .zip file or sync git. Then, read in the file:
 
 ```{r}
 enrollments <- read.csv("enrollments.csv")
 ```
 
-B) Download the file from the internet into your local directory
-```{r}
+B) Download the file from the internet into your current directory:
 
+```{r}
 download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/enrollments.csv" ,"./enrollments.csv")
 enrollments <- read.csv("enrollments.csv")
 ```
@@ -162,7 +164,7 @@ Let's assume that class sizes (freshmen, sophomores, etc) are equal. Create a va
 
 ```
 
-Since we are talking about people, we should not have decimals. Update the code above to use the floor() function to round down your answer to the nearest integer.
+Since we are talking about people, we should not use decimals. Update the code above to use the floor() function to round down your answer to the nearest integer.
 
 ```{r}
 
@@ -188,7 +190,7 @@ install_course_github("kosukeimai","qss-swirl")
 Then, in the console (bottom left window), type: swirl()
 Follow the prompts, and select the course 'qss-swirl'. Then choose Selection 1 (Intro 1). Continue until you get to 80% completion.
 
-Remember to type bye() in the console to leave Swirl. 
+*Remember to type bye() in the console to leave Swirl.*
 
 ## Evaluation
 
