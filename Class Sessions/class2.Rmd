@@ -1,6 +1,6 @@
 ---
 title: "Class 2"
-author: ""
+author: "Your name here"
 output:
   pdf_document: default
 ---
@@ -13,16 +13,15 @@ knitr::opts_chunk$set(error = TRUE)
 
 # Class Plan
 
-* Project management in R / github
-* Resources
-* Learning names
-* Variables
-* Vectors
-* Intro to dataframes
+-   Project management with R / git
+-   Resources
+-   R work: Variables
+-   R work: Vectors
+-   R work: Intro to dataframes
 
 # Variables
 
-R can save information as a variable using the following syntax: variable name <- value.
+R can save information as a variable using the following syntax: variable name \<- value.
 
 Let's create a variable named output, with the value of 13.
 
@@ -32,7 +31,7 @@ Let's create a variable named output, with the value of 13.
 
 We can input variable names into functions. Let's take the natural log of *output*
 
-Note: There are many helpful lists of functions online: https://www.statmethods.net/management/functions.html
+Note: There are many helpful lists of functions online: <https://www.statmethods.net/management/functions.html>
 
 ```{r}
 
@@ -64,8 +63,7 @@ We can perform mathematical operations on variables
 
 ## String (text) variables
 
-We can also store text within variables by wrapping the text in double quotation marks (""). 
-Let's create a new variable called output3 that contains the words "gov 10"
+We can also store text within variables by wrapping the text in double quotation marks (""). Let's create a new variable called output3 that contains the words"gov 10"
 
 ```{r}
 
@@ -77,19 +75,19 @@ We can't perform mathematical operations on text
 
 ```
 
-# Working with vectors 
+# Working with vectors
 
-*Vectors* are one-dimensional arrays.  You can think of them as a single column of values.  We can manually create a vector using the *c()* function.  With c(), we can concatenate objects into a single vector
+*Vectors* are one-dimensional arrays. You can think of them as a single column of values. We can manually create a vector using the *c()* function. With c(), we can concatenate objects into a single vector
 
 Let's look at the schools with the largest undergraduate populations:
 
-| School (state)                                | Fall 2015 undergraduate enrollment |
-|-----------------------------------------------|------------------------------------|
-| University of Central Florida                 | 54,513                             |
-| Liberty University (VA)                       | 49,863                             |
-| Texas A&M University—College Station          | 48,960                             |
-| Ohio State University—Columbus                | 45,289                             |
-| Florida International University              | 41,038                             |
+| School (state)                         | Fall 2015 undergraduate enrollment |
+|-----------------------------------------|-------------------------------|
+| University of Central Florida          | 54,513                             |
+| Liberty University (VA)                | 49,863                             |
+| Texas A&M University---College Station | 48,960                             |
+| Ohio State University---Columbus       | 45,289                             |
+| Florida International University       | 41,038                             |
 
 First we will create a vector of enrollments.
 
@@ -97,13 +95,13 @@ First we will create a vector of enrollments.
 enrollments <- c()
 ```
 
-Vectors can be combined. We will now create two different vectors. The first will contain enrollments from schools in Florida (named _florida_), while the other vector ( _other_ ) will contain enrollments from other schools.  Using c() with the vector names, we can concatenate both of these vectors into a new vector named _all.schools_
+Vectors can be combined. We will now create two different vectors. The first will contain enrollments from schools in Florida (named *florida*), while the other vector ( *other* ) will contain enrollments from other schools. Using c() with the vector names, we can concatenate both of these vectors into a new vector named *all.schools*
 
 ```{r}
 
 ```
 
-We can do this faster by using *indexing*, using the syntax variable_name[index].  Note: the first element in a vector is element 1, the second is element 2, etc.
+We can do this faster by using *indexing*, using the syntax variable_name[index]. Note: the first element in a vector is element 1, the second is element 2, etc.
 
 ```{r}
 
@@ -115,69 +113,74 @@ We can also run functions on vectors:
 
 ```
 
-
 # Data frames
 
-Data frames are similar to a spreadsheet, and contain multiple observations (rows) and variables (columns). 
+Data frames are similar to a spreadsheet, and contain multiple observations (rows) and variables (columns).
 
 For this class, all data are stored in .csv format. Let's load enrollments.csv. There are two ways we can do this.
 
-A) Download the .zip file or sync git. Then, read in the file:
+A)  Sync git, or download the .zip file and place all contents within your current working directory. Then, read in the file:
 
 ```{r}
 enrollments <- read.csv("enrollments.csv")
 ```
 
-B) Download the file from the internet into your current directory:
+B)  Download the file from the internet into your current directory:
 
 ```{r}
 download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/enrollments.csv" ,"./enrollments.csv")
 enrollments <- read.csv("enrollments.csv")
 ```
 
-We can see the variable names in our data frame using _names()_
+We can see the variable names in our data frame using *names()*
 
 ```{r}
 
 ```
 
-We can select columns (vectors) in a dataframe by name using the *$* operator.  When using the *$* operator we place the name of the data frame to the left and the name of the variable to the right.
+We can select columns (vectors) in a dataframe by name using the \$ operator. When using the \$ operator we place the name of the data frame to the left and the name of the variable to the right.
 
-Let's pull out a vector for the variable _enrollment_
+Let's pull out a vector for the variable *enrollment*
+
+```{r}
+
+```
+
+To create a new column in our data frame, we can also use the *\$* operator. If we pass it a single value, that value will be placed within every row.
 
 ```{r}
 
 ```
 
-To create a new column in our data frame, we can also use the *$* operator
+We can also create variables that are combinations of existing variables in the dataset:
 
 ```{r}
 
 ```
+
 
 
 ## Group work
 
-Let's assume that class sizes (freshmen, sophomores, etc) are equal. Create a variable containing the size of the freshman class at each school. 
+Let's assume that class sizes (freshmen, sophomores, etc) are equal. Create a new variable in the dataset containing the size of the freshman class at each school.
 
 ```{r}
 
 ```
 
-Since we are talking about people, we should not use decimals. Update the code above to use the floor() function to round down your answer to the nearest integer.
+Since we are talking about people, we should not use decimals. Update the code above to use the *floor()* function to round down your answer to the nearest integer. Overwrite the variable you previously created.
 
 ```{r}
 
 ```
 
-What is the average size of the freshman class within the dataset?
+Using the new variable, calculate the average size of the freshman class within the dataset.
 
 ```{r}
 
 ```
 
-
-## If time remaining: practice with Swirl
+# If time remaining: practice with Swirl
 
 Run the following. Note: you must be connected to the internet
 
@@ -187,13 +190,12 @@ library(swirl)
 install_course_github("kosukeimai","qss-swirl")
 ```
 
-Then, in the console (bottom left window), type: swirl()
-Follow the prompts, and select the course 'qss-swirl'. Then choose Selection 1 (Intro 1). Continue until you get to 80% completion.
+Then, in the console (bottom left window), type: swirl() Follow the prompts, and select the course 'qss-swirl'. Then choose Selection 1 (Intro 1). Continue until you get to \~80% completion. Note that the results will not be saved in the notebook - this is just an opportunity to practice. 
 
-*Remember to type bye() in the console to leave Swirl.*
+*Remember to type bye() in the console to leave Swirl!*
 
-## Evaluation
+## Check-in
 
-1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
-2. What was the easiest thing to understand?
-3. What was the most difficult thing to understand?
+1.  On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class:
+2.  What was the easiest thing to understand?
+3.  What was the most difficult thing to understand?
