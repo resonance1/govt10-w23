@@ -33,19 +33,10 @@ The ANES is a nation-wide survey that has been conducted for every election sinc
 
 You only need to use one of the following options.
 
-_Option 1:_  
 Sync with git, or download the zip file and place "turnout.csv" into your main directory. In other words, the turnout.csv file should be visible within the directory view in the bottom right (the file browser). Then run the code below:
 
 ```{r}
 turnout <- read.csv("turnout.csv")
-```
-
-_Option 2:_ (for those not using git)
-
-Download "turnout.csv" to your current directory, then load it
-```{r}
-download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/72bdf5dc32c9b66921988ab1b5ccd188bff06278/Problem%20Sets/turnout.csv","./turnout.csv")
-turnout <- read.csv('turnout.csv')
 ```
 
 ## Questions
