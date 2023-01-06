@@ -21,9 +21,15 @@ knitr::opts_chunk$set(error = TRUE)
 
 # Variables
 
-R can save information as a variable using the following syntax: variable name \<- value.
+R can save information as a variable using the following syntax: *variable name <- value*
 
 Let's create a variable named output, with the value of 13.
+
+```{r}
+
+```
+
+Get the value of the variable *output* by typing the variable name
 
 ```{r}
 
@@ -32,12 +38,6 @@ Let's create a variable named output, with the value of 13.
 We can input variable names into functions. Let's take the natural log of *output*
 
 Note: There are many helpful lists of functions online: <https://www.statmethods.net/management/functions.html>
-
-```{r}
-
-```
-
-Get the value of the variable *output* by typing the variable name
 
 ```{r}
 
@@ -55,7 +55,7 @@ Now let's copy the variable *output* to a new variable called *output2*
 
 ```
 
-We can perform mathematical operations on variables
+We can perform mathematical operations directly on variables
 
 ```{r}
 
@@ -63,7 +63,7 @@ We can perform mathematical operations on variables
 
 ## String (text) variables
 
-We can also store text within variables by wrapping the text in double quotation marks (""). Let's create a new variable called output3 that contains the words"gov 10"
+We can also store text within variables by wrapping the text in double quotation marks (""). Let's create a new variable called output3 that contains the words "gov 10"
 
 ```{r}
 
@@ -115,17 +115,25 @@ We can also run functions on vectors:
 
 # Data frames
 
-Data frames are similar to a spreadsheet, and contain multiple observations (rows) and variables (columns).
+Data frames are similar to a spreadsheet, and contain multiple observations (rows) and variables (columns). We'll also call them "data sets"
 
-For this class, all data are stored in .csv format. Let's load enrollments.csv. There are two ways we can do this.
+## Loading data frames
 
-A)  Sync git, or download the .zip file and place all contents within your current working directory. Then, read in the file:
+For this class, all data are stored in .csv format. Let's load enrollments.csv. There are three ways we can do this.
+
+A)  Sync git, then read in the file:
+
+```{r}
+enrollments <- read.csv("data/enrollments.csv")
+```
+
+B) Download the .zip file and place all contents within your current working directory.
 
 ```{r}
 enrollments <- read.csv("enrollments.csv")
 ```
 
-B)  Download the file from the internet into your current directory:
+C)  Download the file from the internet into your current directory:
 
 ```{r}
 download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/enrollments.csv" ,"./enrollments.csv")
@@ -138,7 +146,7 @@ We can see the variable names in our data frame using *names()*
 
 ```
 
-We can select columns (vectors) in a dataframe by name using the \$ operator. When using the \$ operator we place the name of the data frame to the left and the name of the variable to the right.
+We can select columns (vectors) in a dataframe by name using the *\$* operator. When using the *\$* operator we place the name of the data frame to the left and the name of the variable to the right.
 
 Let's pull out a vector for the variable *enrollment*
 
@@ -174,7 +182,7 @@ Since we are talking about people, we should not use decimals. Update the code a
 
 ```
 
-Using the new variable, calculate the average size of the freshman class within the dataset.
+Using the new variable, calculate the average size of the freshman class within the entire dataset.
 
 ```{r}
 
@@ -190,9 +198,14 @@ library(swirl)
 install_course_github("kosukeimai","qss-swirl")
 ```
 
-Then, in the console (bottom left window), type: swirl() Follow the prompts, and select the course 'qss-swirl'. Then choose Selection 1 (Intro 1). Continue until you get to \~80% completion. Note that the results will not be saved in the notebook - this is just an opportunity to practice. 
+Then, in the console (bottom left window), type: swirl() and hit enter. Follow the prompts, and select the course 'qss-swirl'. Then choose Selection 1 (Intro 1). Continue until you get to \~80% completion. Note that the results will not be saved in the notebook - this is just an opportunity to practice. 
 
 *Remember to type bye() in the console to leave Swirl!*
+
+If you still have time remaining, you can also begin your problem set.
+
+To submit your notebook, Knit to PDF. You do not need to run the tinytex code again to do so.
+
 
 ## Check-in
 
