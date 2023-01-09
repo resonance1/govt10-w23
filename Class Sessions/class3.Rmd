@@ -1,0 +1,237 @@
+---
+title: "Class 3"
+author: "Your name here"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Announcements
+* Quick Review
+* Learning R: More on manipulating data frames
+* Learning R: Handling missing data
+* Learning R: Practice with data frames (group work)
+
+# Quick Review
+
+Vectors vs. data frames
+
+```{r}
+enrollments <- read.csv("data/enrollments.csv")
+
+#florida <- c(41038,54513)
+#other <- c(49863,48960,45289)
+#enrollments <- c(florida,other)
+
+```
+
+# Dependencies
+
+Before we begin today, we are going to install a library called tidyverse, which makes manipulating data frames in R much easier:
+
+```{r}
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+# Manipulating Data frames
+
+Let's load the data from the problem set:
+
+```{r}
+# substitute in your directory as needed
+turnout <- read.csv("../Problem Sets/turnout.csv")
+```
+
+```{r}
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Problem%20Sets/turnout.csv","turnout.csv")
+#turnout <- read.csv("turnout.csv")
+```
+
+
+## Selecting specific rows
+
+We often only care about a subset of data within a dataset. If so, we can use the function _slice()_ to select only the rows we need.
+
+slice() is a function from a package called tidyverse. To use it, we need to use the pipe operator: dataframe %>% slice()
+
+```{r}
+
+turnout %>% slice()
+
+```
+
+We can use commas to select multiple rows:
+
+```{r}
+
+```
+
+We can also use the ":" operator to have R count between two numbers
+
+```{r}
+
+```
+
+## Selecting specific columns
+
+The fastest way to select a column is the "$" operator. But if we want to select multiple columns at once, we can use the _select()_ function:
+
+```{r}
+
+turnout %>% select()
+
+```
+
+If we want to get rid of a column, we can put "-" in front of the column name when running select(). Let's return the data frame, removing the *overseas* column
+
+```{r}
+
+```
+
+
+## Filtering
+
+We can also search for specific rows by using the function _filter()_ to create a new data frame with just the information we need. 
+
+Let's filter the dataset to all years after 1990. To do this, we have to use the > operator.
+
+```{r}
+turnout %>% filter()
+```
+
+We can also use >= or <=
+
+```{r}
+
+```
+
+If we want to match something exactly, we need to use two equal signs like so: '=='. Let's pull out the row from 1994.
+
+```{r}
+turnout %>% filter()
+
+```
+
+If we want to exclude something, we use '!=' Let's exclude the 1982 observation.
+
+```{r}
+turnout %>% filter()
+```
+
+
+## Combining variables
+
+We already know that variables can be combinations of other variables. 
+Let's create a variable in the data frame called *rate* which is the total number of votes divided by the eligible population.
+
+```{r}
+
+```
+
+Another way to do this without writing out turnout$ over again is to use the %>% mutate() function. Mutate() can be a shortcut when creating many variables.
+
+```{r}
+
+turnout %>% mutate()
+
+```
+
+To save the changes made by %>% mutate(), we need to overwrite the original data frame
+
+```{r}
+
+```
+
+
+## Handling missing data
+
+R uses the value _NA_ to indicate missing data. Missing data will cause many functions to fail.
+
+Let's place some missing data in our data frame.
+
+```{r}
+turnout$rate[1] <- NA
+```
+
+Now, let's take the average of *rate* using mean():
+
+```{r}
+
+```
+
+For most functions, we can pass an additional argument to instruct R to ignore NAs, called na.rm=T
+
+```{r}
+
+```
+
+# Group Work
+
+Prior to the Syrian refugee crisis in 2015, many European political parties were already capitalizing on the perception that immigration to Europe had reached unsustainable levels. To investigate this trend, we will draw on demographic data provided by Eurostat. 
+
+```{r}
+# substitute in your directory as needed
+foreignpop <-  read.csv("./data/foreignpopulation.csv")
+```
+
+The dataset contains 6 columns:
+
+country                 Country name
+foreign_2011            Number of foreign-born residents in 2011
+foreign_2015            Number of foreign-born residents in 2015
+population_2011         Total number of residents in 2011
+population_2015         Total number of residents in 2015
+western                 1 if the country is traditionally in Western Europe (non-communist), 0 otherwise
+
+1. Use %>% mutate() to create two new variables within the data frame: pctforeign_2011 and pctforeign_2015. These variables should contain the percentage of each country's population that is foreign-born in each year.
+
+```{r}
+
+```
+
+2. Create a new variable in the data frame, delta_pctforeign, that measures the percentage point change in each country's foreign born population between 2011 and 2015. 
+
+```{r}
+
+```
+
+3. What is the average change, across all countries, in the percentage of foreign population between 2011 and 2015? 
+
+```{r}
+
+```
+
+4. Let's exclude countries with very small populations. Filter the data frame to include only countries with more than 5 million residents in 2015. Remember to save the filtered data frame as something else. Then recalculate the answer to #3.
+
+```{r}
+
+```
+
+5. Let's look at only those countries in Western Europe. Using the original version of the dataframe, filter the data, save a new version of the data frame, and recalculate your answer to #3
+
+```{r}
+
+```
+
+6. Lastly, let's look at only countries NOT in Western Europe. What is the average change across these countries in the percentage of foreign population between 2011 and 2015?
+
+```{r}
+
+```
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
