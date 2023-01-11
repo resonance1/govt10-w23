@@ -1,0 +1,164 @@
+---
+title: "Problem Set 2"
+author: ""
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(tidyverse)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Social Desirability experiment (8 points)
+
+Gerber, Green & Latimer (2008) conducted an experiment which aimed to increase voter turnout in elections by exploiting social desirability bias. 
+
+The research design randomly allocated citizens into one of four conditions:
+
+* Neighbor Shaming - These individuals received a letter saying their neighbors would be told if they did not vote
+* Hawthorne - These individuals received a letter saying researchers were observing whether they voted or not
+* Civic Duty - These individuals receiverd a letter saying it was a civic duty to vote
+* Control - These individuals received no letter. 
+  
+After sending the letters, the researchers observed whether individuals voted in the 2008 primaries. 
+
+Let's load the data 
+
+```{r}
+library(tidyverse)
+sociald <- read.csv("social.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Problem%20Sets/social.csv","social.csv")
+#sociald <- read.csv("social.csv")
+```
+
+The variables in the dataset are as follows:
+
+hhsize          household size of voter
+messages        GOTV messages voter received (Civic Duty, Control, Neighbors, Hawthorne)
+sex             sex of voter (female or male)
+yearofbirth     year of birth of voter
+primary2008     whether a voter turned out in the 2008 Primary election (1=voted, 0=abstained)
+
+
+1.1 Use tidyverse commands to calculate the average turnout in the 2008 primaries for the 4 different groups ("Control","Civic Duty","Neighbors","Hawthorne"). 
+
+```{r}
+
+```
+
+1.2 Which experimental intervention was most effective?
+
+[Full sentences here]
+
+1.3 For each of the 4 groups, what is the average household size? The average age in 2006? The proportion of females?
+
+```{r}
+
+```
+
+1.4 What does this suggest about the quality of the randomization?
+
+[Full sentences here]
+
+
+
+# Demographic change and attitudes towards immigration (12 points)
+
+A researcher conducted a randomized field experiment assessing the extent to which individuals living in suburban communities around Boston, Massachusetts changed their views in response to perceived demographic change.
+
+Subjects in the experiment were individuals riding on the commuter rail line and overwhelmingly white. Every morning, multiple trains pass through various stations in suburban communities that were used for this study. For pairs of trains leaving the same station at roughly the same time, one was randomly assigned to receive the treatment and one was designated as a control.
+
+The treatment in this experiment was the presence of Hispanic 'confederates' (a term used in experiments to indicate that these individuals did not know the full purpose of the study at the time of their participation) on the platform prior to the train's arrival. The presence of these confederates at the train station was intended to emulate the kind of demographic change anticipated for the United States in coming years.
+
+For individuals in the control group, no such confederates were present on the platform. For individuals in the treatment group, confederates were always present on their train platform.  The study was administered for 10 days. Participants were asked questions related to immigration policy both before the study started and after the study had ended.
+
+The names and descriptions of relevant variables in the data set boston.csv are:
+
+| Name                  | Description                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| age                   | Age of individual at time of experiment                                   
+| treatment             | Whether an individual was exposed to immigration and is in the treatment group (1) or (0) 
+| income                | Income group in dollars (not exact income)
+| male                  | Whether individual indicated they were male (1) or not (0)
+| white                 | Indicator variable for whether individual identifies as white (1) or not (0)
+| college               | Indicator variable for whether individual attended college (1) or not (0)
+| usborn                | Indicator variable for whether individual is born in the US (1) or not (0)
+| partisanship          | Self-reported political views, ranging from (1) Very Conservative to (5) Very Liberal
+| immigration_before    | Policy opinion on question about increasing the number of immigrants allowed in the country, 
+                        | from Oppose Increase (1) to Not Sure (3) to Support Increase (5). Asked at the beginning of the study.
+| immigration_after     | Same question as above, asked at the conclusion of the study.  
+
+
+## Loading the data
+
+```{r}
+
+boston <- read.csv("boston.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Problem%20Sets/boston.csv","boston.csv")
+#boston <- read.csv("boston.csv")
+```
+
+## Questions
+
+### Question 2
+
+2.1. Create a new variable in the boston dataset called *diff_imm* that measures the difference in each individual's response, between the beginning and end of the study, to the question about "increasing the number of immigrants". Note: when measuring changes we always start with the most recent period first (now-then)
+
+```{r}
+
+```
+
+2.2. Using this new variable, calculate the average change observed for the treatment and control groups over the course of this study. Now subtract the average change in the control group from the average change in the treated group (you can do this manually without losing credit). This is called the "average treatment effect", and it indicates the observed consequences of exposure to immigration in this experiment. 
+
+```{r}
+
+
+```
+
+2.3. Interpret this result using the 5 point scale on immigration preferences. 
+
+[Answer in full sentences here]
+
+
+### Question 3 
+
+In this study, the randomization occurred at the level of the train -- each train was assigned to different groups of individuals waiting in platforms.
+
+3.1. How accurate was this type of randomization in creating similar treatment and control groups? Compare the average values of the treated and control groups for age, income, ideology, white, college, and usborn.
+
+```{r}
+
+```
+
+3.2. Discuss the similarities and differences between the treated and control groups. How confident are you that the results of this study indicate a causal relationship between exposure to immigration and exclusionary attitudes?
+
+[Answer in full sentences here]
+
+### Question 4
+
+4.1 Using tidyverse, calculate the average treatment effects for liberal (1 and 2 on the scale) vs conservative (4 and 5 on the scale) respondents. Remember to use both filter() and group_by() 
+
+```{r}
+
+
+```
+
+4.2 To place these results in context, calculate the pre-treatment baseline for the survey question on immigration (immigration_before), separately for liberals and conservatives.
+
+```{r}
+
+```
+
+4.3 Examining the results of 4.1 and 4.2, why might we have seen a weaker effect of the treatment among conservatives?
+
+[Full sentences here]
+
+
+
+
+Please submit as a .PDF using Canvas
