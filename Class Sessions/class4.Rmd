@@ -1,0 +1,199 @@
+---
+title: "Class 4"
+author: "Your name here"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(tidyverse)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Review
+* Correlation and Causation (Brief Lecture)
+* R work: Contingency tables
+* R work: %>% summarize()
+* R work: Logical tests and operators
+
+
+# Review
+
+## Folder/file management for non-git users.
+
+## Tidyverse functions review
+
+
+```{r}
+library(tidyverse)
+foreignpop <-  read.csv("./data/foreignpopulation.csv")
+```
+
+Use %>% mutate() to create two new variables within the data frame: pctforeign_2011 and pctforeign_2015. These variables should contain the percentage of each country's population that is foreign-born in each year.
+
+```{r}
+foreignpop <- foreignpop %>% mutate(pctforeign_2011 = foreign_2011/population_2011, 
+                                    pctforeign_2015 = foreign_2015/population_2015)
+
+```
+
+Create a new variable in the data frame, delta_pctforeign, that measures the percentage point change in each country's foreign born population between 2011 and 2015. 
+
+```{r}
+
+```
+
+Let's exclude countries with very small populations. Filter the data frame to include only countries with more than 5 million residents in 2015. Remember to save the filtered data frame as something else.
+ 
+```{r}
+
+```
+
+
+## Cause and effect (brief lecture)
+
+# An experimental example
+
+Does racial discrimination exist in the labor market? Or, should racial disparities in the unemployment rate be attributed to other factors such as racial gaps in educational attainment? To answer this question, two social scientists conducted the following experiment.
+
+In response to newspaper ads, the researchers sent out resumes of fictitious job candidates to potential employers. They varied only the names of the job applicants while leaving the other information in the resumes unchanged. For some resumes, stereotypically black- sounding names such as Lakisha Washington or Jamal Jones were used, whereas other resumes contained typically white-sounding names such as Emily Walsh or Greg Baker. The researchers then compared the callback rates between these two groups of resumes and examined whether the resumes with typical black names received fewer callbacks than those with stereotypically white names. The positions to which the applications were sent were either in sales, administrative support, clerical, or customer services.
+
+| Name      | Description                                 |
+|-----------|---------------------------------------------|
+| firstname | first name of fictitious job applicant      |
+| sex       | sex of applicant (female or male)           |
+| race      | race of applicant (black or white)          |
+| call      | whether a callback was made (1= yes, 0= no) |
+
+```{r}
+resume <- read.csv("data/resume.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/data/resume.csv","resume.csv")
+#resume <- read.csv("resume.csv")
+
+```
+
+## Contingency Tables
+
+We want to know if race had a relationship with the likelihood of getting a callback.  We will use a two-way *contingency table* via the *table()* method to look for this relationship.  A contingency table shows us the the number of rows (observations) at each level (value) of two variables.
+
+Let's create a contingency table for 'race' and 'call'
+
+```{r}
+table()
+
+```
+
+We can calculate this manually, but it's easier to see the proportions. Let's use prop.table(). To use prop.table(x), we need 'x' to be a table. We should also specify whether we want the proportions to be for the rows: prop.table(x,margin=1), or the columns: prop.table(x,margin=2).
+
+```{r}
+
+```
+
+Repeat this for sex and callback
+
+```{r}
+
+```
+
+## An alternative using tidyverse
+
+We can use %>% summarize() to summarize results using mathematical functions. First, we need to %>% group_by() a specific column. Then, we will take the average of "call".
+
+```{r}
+resume %>% group_by() %>% summarize()
+
+```
+
+Using these functions, now find the average rate of response to each first name.
+
+```{r}
+resume %>% group_by() %>% summarize()
+
+```
+
+## More Filtering in R
+
+Use filter() to select all female respondents within the dataframe (==).  Sex is a character variable, so we need to use ""
+
+```{r}
+
+```
+
+We often want to subset on multiple criteria.  To do this we need to two new operands:
+
+| or  
+& and  
+
+Select all respondents who are white AND female
+
+```{r}
+
+```
+
+Select all respondents who are black OR female.
+
+```{r}
+
+```
+
+Now let's get the mean callback rate of everyone who is black OR female, and compare this group to everyone else. 
+
+```{r}
+
+```
+
+
+## Group Exercise
+
+1. Let's check to see whether names were properly randomized in this experiment. Find the percentage of resumes labeled as 'white'
+
+```{r}
+
+```
+
+2. Let's control for sex. Using tidyverse functions, compare callback rates between black females and white females. Hint: try chaining together %>% filter() %>% group_by %>% summarize()
+
+```{r}
+
+```
+
+3. Now let's examine callback rates between black males and white males. 
+
+```{r}
+
+```
+
+4. Using tidyverse functions, compare callback rates between black males and all others. 
+
+```{r}
+
+```
+
+5. Using tidyverse functions, compare callback rates between white females and all others.
+
+```{r}
+
+```
+
+6. Using tidyverse functions, compare callback rates between those who are white or male, and all others.
+
+```{r}
+
+```
+
+7. Do you think that this study identifies a causal or a correlational relationship between race and callback rates? Why or why not?
+
+[Full sentences here]
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
