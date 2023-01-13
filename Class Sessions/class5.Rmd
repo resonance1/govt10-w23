@@ -1,0 +1,226 @@
+---
+title: "Class 5"
+author: "Your name here"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(tidyverse)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Review
+* Brief Lecture (Causality/Randomization)
+* Group Work
+
+
+# Review
+
+## Binary variables
+
+We often encounter data stored in binary format, where 1 means yes and 0 means no. 
+
+A useful property we will use is that the average of a binary variable is the same as the proportion of 1s. Consider the following:
+
+```{r}
+
+# Vector with 10 entries, 1 of which is 1
+example <- c(rep(0,9),1)
+mean(example)
+
+#x <- table()
+#prop.table()
+
+```
+
+## Examining effects by group
+
+```{r}
+library(tidyverse)
+resume <- read.csv("data/resume.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/data/resume.csv","resume.csv")
+#resume <- read.csv("resume.csv")
+
+```
+
+
+*Principle 1: Do not use tidyverse() unless it is useful!*
+
+Let's check to see whether names were properly randomized in this experiment. Find the percentage of resumes labeled as 'white'
+
+```{r}
+
+x <- table(resume$race)
+prop.table(x)
+
+# For your reference only: 
+# resume %>% group_by(race) %>% summarize(n=n()) %>% mutate(prop = n/sum(n))
+
+```
+
+*Principle 2: There are usually multiple ways to do something*
+
+```{r}
+mean(resume$call)
+resume %>% summarize(mean(call))
+
+```
+
+*Principle 3: Break down a question into components*
+
+Compare callback rates between black females and white females.
+
+```{r}
+# Outcome: 
+# Subgroup:  
+# Comparison: 
+
+# Option A: filter() only
+
+bfemales <- 
+wfemales <- 
+mean()
+mean()
+
+
+# Option B: group_by + summarize
+
+
+```
+
+# Logical operators
+
+```{r}
+
+# Black and Female vs Everyone Else
+resume %>% filter(sex=="female" & race=="black") %>% slice(1:30)
+
+# Option 1: 
+
+# Option 2:
+
+# Option 3:
+
+
+```
+
+# Brief Lecture: Causality / Randomization 
+
+
+# Simulating the effects of randomization (demonstration only - do *not* need to know this code)
+
+Initialize
+
+```{r}
+nrows <- 10000
+age <- round(rnorm(10000,mean=40,sd=10))
+college <- rbinom(10000,1,.38)
+hair <- c(rep("brown",4000),rep("blonde",1000),rep("red",250),rep("black",4750))
+handshake10k <- data.frame(age,college,hair)
+```
+
+Randomize
+
+```{r}
+handshake10k$treatment <- 0
+randomsample <- sample(1:nrow(handshake10k),5000)
+handshake10k$treatment[randomsample] <- 1
+```
+
+Let's check how accurate randomization was. Compare the mean value of age and college between the groups:
+
+```{r}
+
+
+```
+
+Visualize Law of Large Numbers via flipping a fair coin
+
+```{r}
+n <- 50000
+x <- sample(0:1,n, repl=T)
+s <- cumsum(x)
+r <- s/(1:n)
+plot(r, ylim=c(0, 1), type="l")
+lines(c(0,n), c(.50,.50),col="red")
+round(cbind(x,s,r), 5)[1:10,]; r[n]
+```
+
+
+# Group work
+
+A) Practice: racial discrimination experiment
+
+1. If the resume study was randomized correctly, each type of resume (black or white) should be the same, on average, with respect to other characteristics. Evaluate whether there is a similar proportion of female names in each type of resume (you can use prop.table() for this). What does this suggest about the quality of the randomization?
+
+```{r}
+
+
+```
+
+[Discuss randomization quality here]
+
+B) Practice: health savings experiment
+
+To understand why the poor are constrained in their ability to save for investments in preventative health products, researchers designed a field experiment in rural Kenya in which they randomly varied access to innovative saving technologies.  In the first treatment group (*Safe Box*), respondents were given a box locked with a padlock. This treatment is designed to estimate the effect of having a safe and designated storage technology for preventative health savings.  
+
+In the second treatment group (*Locked Box*), respondents were given a locked box, but not the key to the padlock. The respondents were instructed to call the program officer once they had reached their saving goal, and the program officer would then meet the participant and open the box. Compared to the safe box, the locked box offered stronger commitment through earmarking (the money saved could only be used for health expenses). 
+
+In this exercise, our outcome of interest is the amount (in Kenyan shilling) spent on preventative health products after 12 months.
+
+
+| Name           | Description                                                     |
+|----------------|-----------------------------------------------------------------|
+| bg_female      | 1 if female, and 0 otherwise                                    |
+| bg_married     | 1 if married, and 0 otherwise                                   |
+| bg_b1_age      | age at baseline                                                 |
+| tgroup         | Locked Box, Safe Box, or Control                                |
+| fol2_amtinvest | Amount invested in health products                              |
+ 
+## Load the data
+
+```{r}
+hsavings <- read.csv("data/rosca.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/data/rosca.csv","rosca.csv")
+#hsavings <- read.csv("rosca.csv")
+
+```
+
+1. Evaluate the quality of the randomization. To do so, test whether participants in each of the three groups (safe_box, locked_box, or control) have a similar age, on average. Then check whether a similar proportion of the three groups are female and married. 
+
+```{r}
+
+
+```
+
+[Discuss randomization quality here]
+
+2. Now calculate the average treatment effect for those assigned to the safe_box and locked_box conditions. Which was more effective in increasing health savings, relative to the control group?
+
+```{r}
+
+
+
+```
+
+3. If time: was the locked box treatment more effective among male or female study participants? Recalculate the treatment effects for each subset of participants
+
+```{r}
+
+
+
+```
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
