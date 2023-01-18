@@ -1,0 +1,129 @@
+---
+title: "Class 6"
+author: "Your name"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Review of average treatment effects / quiz
+* Experimental design (brief lecture)
+* Group work - Chechnya natural experiment
+
+# Average treatment effects, by group
+
+```{r}
+# Setup
+library(tidyverse)
+boston <- read.csv("data/boston.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/data/boston.csv","boston.csv")
+#crim <- read.csv("boston.csv")
+
+boston$diff_imm <- boston$numberim.post - boston$numberim.pre
+```
+
+Calculate the average treatment effect. Now evaluate whether there is a different effect of exposure to immigration for usborn vs non-usborn respondents.
+
+```{r}
+
+```
+
+# Quiz 1
+
+```{r}
+library(tidyverse)
+download.file("https://raw.githubusercontent.com/resonance1/other/main/crim.csv","crim.csv")
+crim <- read.csv("crim.csv")
+
+```
+
+The relevant variables in the dataset are as follows:
+
+jobid	            Job ID number
+callback	        1 if applicant received a callback, 0 if the applicant did not receive a callback.
+black	            1 if the applicant identifies as black, 0 if the applicant does not identify as black. 
+crimrec          	1 if the applicant has a putative criminal record, 0 if the applicant does not.
+custserv        	1 if job is in the costumer service sector, 0 if it is not.
+interact          1 if the applicant spoke to the recruiter in person, 0 if not
+distance          Distance between the job and downtown Milwaukee
+manualskill	      1 if job requires manual skills, 0 if it does not.
+
+In this experiment, does the effect of having a criminal record differ according to the race of the applicant? 
+
+```{r}
+
+```
+
+
+Evaluate the quality of the randomization by looking at the race of the applicant, as well as the type of job they applied to. Do you think this study likely identifies a causal relationship or a correlation? Why or why not?
+
+```{r}
+
+```
+
+
+# Lecture
+
+# Group work: Indiscriminate Violence and Insurgency
+
+What is the relationship between state violence and insurgency? While some researchers and military analysts argue that indiscriminate violence is effective in suppressing insurgencies, many argue that violence actually increases insurgent attacks by creating cooperative relationships between affected citizens and insurgents. In this exercise, we will examine this question using data on indiscriminate Russian artillery fire in Chechnya from 2000 to 2005. 
+
+```{r}
+chechen <- read.csv("data/chechen.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/data/chechen.csv","chechen.csv")
+#chechen <- read.csv("chechen.csv")
+
+```
+
+The variables of interest are as follows:
+
+fire            Whether Russians struck a village with artillery fire (equal to 1) or not (equal to 0)
+deaths          Estimated number of individuals killed during Russian artillery fire
+preattack       The number of insurgent attacks before Russian artillery fire
+postattack      The number of insurgent attacks after Russian artillery fire
+
+1. What proportion of villages were attacked by Russian artillery? What was the average number of deaths associated with an attack?
+
+```{r}
+
+```
+
+2. Using the _postattack_ variable, compare the average number of insurgent attacks observed for villages hit by artillery fire vs. those that were not hit. 
+
+```{r}
+
+```
+
+3. The results to the previous question should suggest that villages which experienced attacks had less insurgent activity afterwards. However, one possible explanation is that these villages also had less insurgent activity to begin with. To examine this, look at the _preattack_ variable, which measures the time period before the Russian artillery attacks occurred. What is the difference in the average number of insurgent attacks between the villages that were later hit by artillery fire and those that were not? 
+
+```{r}
+
+```
+
+4. Let's estimate the average treatment effect. Create a new variable in the dataset called _diffattack_ by calculating the difference in the number of insurgent attacks before and after the Russian artillery fire, for each village. Compute the mean difference in the diffattack variable between villages shelled and villages not shelled. 
+
+```{r}
+
+```
+
+5.Does this analysis support the claim that indiscriminate violence reduced insurgency attacks in Chechnya? If you were in charge of briefing military leaders on these results, what caveats and/or additional data might you want to draw on?
+
+[Answer]
+
+
+## Evaluation
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
