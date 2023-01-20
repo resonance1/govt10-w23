@@ -1,0 +1,153 @@
+---
+title: "Class 7"
+author: "Your name"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Group work review
+* Lecture (data types / distributions)
+* Group work
+
+# Review 
+
+```{r}
+library(tidyverse)
+chechen <- read.csv("data/chechen.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w23/main/Class%20Sessions/data/chechen.csv","chechen.csv")
+#chechen <- read.csv("chechen.csv")
+
+```
+
+The variables of interest are as follows:
+
+fire            Whether Russians struck a village with artillery fire (equal to 1) or not (equal to 0)
+deaths          Estimated number of individuals killed during Russian artillery fire
+preattack       The number of insurgent attacks before Russian artillery fire
+postattack      The number of insurgent attacks after Russian artillery fire
+
+4. Let's estimate the average treatment effect. Create a new variable in the dataset called _diffattack_ by calculating the difference in the number of insurgent attacks before and after the Russian artillery fire, for each village. Compute the mean difference in the diffattack variable between villages shelled and villages not shelled. 
+
+```{r}
+chechen$diffattack <- chechen$postattack - chechen$preattack
+
+```
+
+5.Does this analysis support the claim that indiscriminate violence reduced insurgency attacks in Chechnya? If you were in charge of briefing military leaders on these results, what caveats and/or additional data might you want to draw on?
+
+[Answers]
+
+
+# Data Types (Lecture)
+
+Mapping discrete variables to continuous variables
+
+```{r}
+
+example <- data.frame(education=c("primary","intermediate","secondary","advanced"))
+
+```
+
+Mapping discrete variables to binary variables
+
+```{r}
+
+```
+
+# Distributions (Lecture)
+
+A histogram is useful for examining a single distribution. We use hist() to generate a histogram of a continuous vector. 
+
+```{r}
+
+hist()
+#abline(v=mean(,na.rm=T),col="red")
+
+```
+
+A boxplot is useful for comparing distributions. We use the formula boxplot(y~x), where y is the outcome variable and x is the group.
+
+```{r}
+
+boxplot()
+
+```
+
+We can find the standard deviation of a distribution by using sd(). Let's find the standard deviation of diffattack
+
+```{r}
+
+sd()
+
+```
+
+We can find the quantiles by using quantile():
+
+```{r}
+
+quantile()
+
+```
+
+
+# Group work
+
+Let's look at the Chechen data again.
+
+1. What is the *median* difference in attacks (diffattack) for the treated and control groups? Hint: try using median() in the summarize() function, or run median() twice on two filtered vectors (one for each group).
+
+```{r}
+
+```
+
+2. Separately for the treated and control groups:
+
+- What is the standard deviation of diffattack?
+- What are the 75th, 90th and 99th percentiles of diffattack?
+
+
+```{r}
+
+```
+
+3. Average treatment effects can sometimes be driven by outliers. In other words, even if most units did not respond to the treatment, a large response among a small subset of treated units could generate an average difference between treated and control groups. For instance, consider the case where there are 10 villages. 9 villages did not change their resistance activity following artillery fire (diffattack = 0). However, the remaining village had a decrease of 10 attacks in the period following artillery fire. In this case the average treatement effect would have been -1, even though most villages did not change their behavior. When we look at just the average treatment effect, we cannot distinguish this case from a hypothetical situation in which each of the 10 villages had 1 less attack following the artillery fire -- the average treatment effect would be identical (-1).
+
+Based on your answers to 1 and 2 above, is the average treatment effect in the Chechen study influenced by outliers? In other words, is the observed reduction in violence concentrated in a subset of villages, or did most villages decrease violent resistance following artillery fire?
+
+[Answer here]
+
+
+4. What factors characterize potential outliers? Using case_when(), create a new binary variable in the dataset called large_effect that receives a 1 when
+the number of attacks decreased by 4 or more (diffattack <= -4).
+
+Then, using your new variable, compare the average number of deaths for this group of villages compared to the rest of the sample. 
+
+```{r}
+
+chechen <- chechen %>% mutate(
+  large_effect=case_when(
+    
+  )
+)
+
+
+```
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
