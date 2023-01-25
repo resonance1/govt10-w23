@@ -1,0 +1,179 @@
+---
+title: "Problem Set 4"
+author: ""
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+library(tidyverse)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+## Municipal Mergers
+
+For many years, researchers have argued that small-sized municipalities create the potential for welfare gains because public sectors can be better tailored to
+local preferences. However, a counterargument holds that the large-sized municipalities are more cost-effective due to economies of scale.
+
+If scale effects exist in municipalities, we should, all things equal, observe a negative correlation between municipality size and per capita administrative costs.
+
+The Danish structural reform in late 2007 provides an unique opportunity of a natural experiment. The reform was quick and radical, merging many municipalities within six months, and created a variation between merged (treated) and not merged (control).
+
+Note that amalgamation results in a change in the unit of analysis. The control group (not experienced amalgamation) has the same municipalities before and after the structural reform.  However, the units in the treatment group change due to merging. In this exercise, we designate merged municipalities as treated units and calculate their outcomes before amalgamation as an average. For example, suppose a municipality A in this dataset is a result of merging the municipalities B, C, and D. During the pre-treatment period (2005-2007), the outcome `Y` is the average of the outcomes from B, C, and D.
+
+------------------------------------------------------------------------------
+ Name                Description
+ ------------------- ---------------------------------------------------------
+ `year`               Year. (pre-treatment period is 2005-2007, post-treatment
+                        period is 2008-2011)
+
+ `Y`                  The outcome variable. Administrative costs per capita (1000s of Danish Kroner)
+                     
+ `treatment`          The municipality is a result of amalgamation (1, treated group)
+                        or not (0, control group).
+ 
+ `region`             Region ID (1-5) 
+ 
+ `municipality_id`    Municipality ID (there are 98 unique municipalities)
+ 
+------------------------------------------------------------------------------
+
+```{r}
+library(tidyverse)
+admincosts <- read.csv("admin_costs.csv")
+```
+
+### Question 1
+
+1.1 What proportion of municipalities in the dataset merged in each of the 5 regions?
+
+```{r}
+
+
+```
+
+1.2 Calculate the difference-in-differences (DiD) estimate, using the years 2007 (pre) and 2008 (post). Interpret the effect size.
+
+```{r}
+
+
+
+```
+[Short Sentences here]
+
+1.3 Calculate the average administrative costs per capita in each year, separately for the treated and control groups. Save each result as a vector. Then plot the two vectors using a line plot. Adjust the y limits on the y-axis using ylim() so that it displays values between 4500 and 6500 kroner.
+
+Hint: Use plot(x,type="l",ylim=c()), where x is the vector. You can add the second vector using the lines() function. Remember to color each line differently
+
+```{r}
+
+```
+1.4 Interpret the results so far. Can we interpret the relationship as causal? 
+
+[Short Sentences here]
+
+
+1.5 Calculate the DiD estimate for the years 2006 (pre) and 2007 (post). Do these results increase or decrease your confidence that the relationship is causal?
+
+```{r}
+
+
+
+```
+
+[Short Sentences here]
+
+
+# Voting in the United Nations General Assembly 
+
+Like legislators in the US Congress, the member states of the United Nations (UN) are politically divided on many issues such as trade, nuclear disarmament, and human rights. During the Cold War, countries in the UN General Assembly tended to split into two factions: one led by the capitalist United States and the other by the communist Soviet Union. In this exercise, we will analyze how states' ideological positions, as captured by their votes on UN resolutions, have changed since the fall of communism.
+
+In the analysis that follows, we measure state preferences in two ways. First, we can use the proportion of votes by each country that coincide with votes on the same issue cast by the two major Cold War powers: the United States and the Soviet Union. For example, if a country voted for ten resolutions in 1992, and if its vote matched the United States’s vote on exactly six of these resolutions, the variable PctAgreeUS in 1992 would equal 60 for this country. 
+
+Second, we can also measure state preferences in terms of numerical ideal points (see Section 3.5 of the book). These _ideal points_ capture what international relations scholars have called countries’ liberalism on issues such as political freedom, democratization, and financial liberalization. 
+
+## Load the data
+
+```{r}
+unvotes <- read.csv("unvoting.csv")
+```
+
+| Name           | Description                                                  |
+|----------------|--------------------------------------------------------------|
+| CountryName    | The name of the country                                      |
+| CountryAbb     | The abbreviated name of the country                          |
+| idealpoint     | Estimated ideal point                                        |
+| Year           | The year for which the ideal point is estimated              |
+| PctAgreeUS     | The proportion of votes that match votes cast by the US      |
+| PctAgreeRUSSIA | The proportion of votes that match votes cast by Russia/USSR |
+
+### Question 2
+
+2.1 What is the correlation between _idealpoint_ and _PctAgreeUS_? Between _idealpoint_ and _PctAgreeRUSSIA_ ? 
+
+```{r}
+
+
+```
+
+2.2. Using a histogram, plot the distribution of ideal points for 1950, at the start of the cold war. Then, in another histogram, plot the distribution of ideal points for 1985, during the height of the cold war. 
+
+```{r}
+
+```
+
+2.3. Create a combined boxplot showing each distribution (1950 and 1984). Then calculate the standard deviation of ideal points for each year.
+
+```{r}
+
+
+```
+
+2.4 How do the distributions of ideal points differ between 1950 and 1984? 
+
+[Short Sentences here]
+
+### Question 3 
+
+3.1. Now let's turn to changes over time. Plot the average percent agreement with the US in each year. Set the limits of the y axis to range between 0 and 1
+
+```{r}
+
+```
+
+3.2. Add the average percent agreement with Russia as a red line for comparison  
+
+Note: You will need to copy your code from 3.1, generate a vector for Russia, and then use lines(x, col="red")
+
+```{r}
+
+
+```
+
+3.3. Were countries moving closer to the US or to Russia during the cold war (before 1991)? What about after Putin came to power (after 1999)? 
+
+[Short sentences here]
+
+### Question 4
+
+4.1. One problem with using the proportion of votes that agree with the US or Russia as a measure of state preferences is that the ideological positions of the US and Russia might also change over time. This makes it difficult to know if the US, Russia or both changed ideological positions. Investigate this issue by plotting ideal points for the US and Russia over time on the same graph. 
+
+You will need to use the *CountryAbb* variable to select ideal points for only the US or Russia, respectively. Then group by year and use the summarize() function to generate the vectors for the line plots. 
+
+```{r}
+
+```
+
+4.2. To truly understand this shift, we will need to plot a representation of movement among all countries excluding Russia and the US.  Compute the mean ideal point for all countries (excluding the US and Russia) each year and add this to the plot (you will need to copy your code from 4.1 to the chunk below).
+
+```{r}
+
+```
+
+4.3. How might the results of this analysis modify (or not) your interpretation of the previous analysis? 
+
+[Short sentences here]
+
+Please submit as a .PDF using Canvas
