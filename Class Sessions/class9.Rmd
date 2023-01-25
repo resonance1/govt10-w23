@@ -1,0 +1,75 @@
+---
+title: "Class 9"
+author: "Your name"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* DiD Review
+
+### Review
+
+In many (but not all) states in Austria, voting in parliamentary elections was compulsory, punishable by fines. In 1992, the Federal Constitutional Court announced that this practice was unconstitutional and struck down the law. 
+
+We are interested in finding out whether the repeal of the law (and the accompanying reduction in turnout) reduced support for left-wing parties. States that were forced to abolish compulsory voting are considered the treatment group, while states that never enacted compulsory voting are in the control group. 
+
+Import the dataset using the following commands:
+
+```{r}
+austria <- read.csv("data/austria.csv")
+```
+
+The dataset contains a partial sample of election results from Austrian municipalities, and includes following variables:
+
+name                    name of the municipality
+state                   name of the state
+treated                 1 if the state practiced compulsory voting prior to 1992, 0 otherwise
+socialist_voteshare     the percentage of votes cast for the socialist party in an election year
+
+
+1. Use the difference-in-differences estimator to evaluate the effect of repealing compulsory voting on municipal-level vote share for the Socialist Party. Interpret the results -- was the repeal of compulsory voting associated with reduced support for the Socialist party? 
+ _For this estimate, you should focus only on the elections held in 1990 (before) and 1994 (after), since the repeal occurred in 1992_ 
+
+```{r}
+
+
+```
+
+
+2. To evaluate the parallel trends assumption, repeat the analysis from #1 using the years 1986 (before) and 1990 (after). Does the parallel trends assumption appear to hold in this case? Why or why not?
+
+```{r}
+
+```
+
+3. Use a histogram or a boxplot to look at the distributions for the longitudinal difference, separately for the treated and control groups. Are there any clear outliers?
+
+```{r}
+
+
+```
+
+Working with Longitudinal data
+
+```{r}
+
+```
+
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
