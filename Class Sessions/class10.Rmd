@@ -1,0 +1,147 @@
+---
+title: "Class 10"
+author: "Your name"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Quick Quiz Review
+* Longitudinal vs Wide Data
+* Correlation (lecture)
+* Descriptive relationships (practice)
+
+# Quick Quiz Review
+
+```{r}
+library(tidyverse)
+
+download.file("https://raw.githubusercontent.com/resonance1/other/main/terrorism.csv","terrorism.csv")
+terrorism <- read.csv("terrorism.csv") 
+
+```
+
+4. Then for the treated and control groups, calculate the median of the *median.income* variable, as well as the 10th and 90th percentiles. Are the distributions similar? 
+
+```{r}
+
+terrorism %>% group_by(treatment) %>% summarize(med=median(median.income, na.rm=T),
+                                                q10=quantile(median.income,.1, na.rm=T),
+                                                q90=quantile(median.income,.9, na.rm=T))
+```
+
+
+# Longitudinal vs wide data
+
+```{r}
+austria <- read.csv("data/austria.csv") %>% unique()
+
+```
+
+Moving from long -> wide:
+
+Function: pivot_wider(names_from = TIME, values_from = OUTCOME,names_prefix="your prefix")
+
+```{r}
+
+
+```
+
+Moving from wide -> long:
+
+Function: pivot_longer(cols=starts_with("your prefix"), names_to=TIME,values_to=OUTCOME,names_prefix="your prefix")
+
+```{r}
+
+```
+
+Graphing long data
+
+```{r}
+
+treated <- austria %>% filter(treated==1) %>% group_by(year) %>% summarize(outcome=mean(socialist_voteshare))
+control <- austria %>% filter(treated==0) %>% group_by(year) %>% summarize(outcome=mean(socialist_voteshare))
+
+
+```
+
+
+# Lecture: Correlation
+
+# Exploring descriptive relationships in data
+
+Descriptive correlations can provide helpful information to policymakers (remember that any causal relationship between two variables will have a non-zero correlation). In this exercise, you will evaluate the factors that are correlated with violent crime, using data from Denmark.
+
+
+```{r}
+denmark <- read.csv("data/denmark.csv")
+```
+
+Variables:
+
+violentcrime_rate          Violent crime (scaled by population)
+murderrate                 Murders (scaled by population)
+lowincome_rate             Poverty Rate (scaled by population)
+unemp_rate                 Unemployment Rate (scaled by population)
+pct1565                    % of Population Aged 15-65 (scaled by population)
+pctforeign                 % Non-citizen population (scaled by population)
+sd_share                   Social Democratic Share of council seats
+pop                        Population
+eEducationhead             Spending on education, per capita
+eHousinghead               Spending on public housing, per capita
+eSocialhead                Spending on social expenditures, per capita
+eTrafficInfrastructure     Spending on infrastructure, per capita
+eTotalhead                 Total spending, per capita
+drug_total                 Total drug offenses
+murder                     Total murders
+violentcrime               Total violent crimes
+
+
+Let's explore potential correlations between violent crime and other municipal-level variables using a scatter plot.
+
+```{r}
+y <- denmark$violentcrime_rate
+x <- 
+  
+plot()
+```
+
+We can add a trend line to the plot using lines(lowess(x,y))
+
+```{r}
+```
+
+We can also evaluate the correlation numerically using cor(x,y,use="complete.obs"):
+
+```{r}
+```
+
+With your neighbors, explore other correlations. Which factors are most strongly correlated with violent crime? Use a separate code chunks for each variable you explore. 
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+
+If time remaining: work on PSET 4
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
