@@ -1,0 +1,136 @@
+---
+title: "Class 11"
+author: "Your name"
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Sampling and Response Bias (lecture)
+
+## Item non-response
+
+Let's load a survey of Afghan citizens. 
+
+```{r}
+library(tidyverse)
+afghan <- read.csv("data/afghan.csv")
+```
+
+One of the most common items individuals refuse to respond to in surveys are questions about income. How many fall into this category in the afghan survey?
+
+To determine this, we can use is.na() on the _income_ variable.
+
+```{r}
+
+```
+
+How does non-response vary by other characteristics? Let's look at responses to the income question as a function of: a) employment, and b) years of education. 
+
+```{r}
+
+```
+
+# Lecture - Sensitive Questions
+
+## Group Question
+
+Now let's assess the list experiment. The relevant variables are:
+
+*list.group*        
+
+Whether respondents saw no sensitive items (Control), or a sensitive item stating that they support the ISAF (UN international forces) or support the Taliban
+
+*list.response*    
+
+The number of statements respondents agreed with
+
+
+1. What is the non-response rate to the list experiment?
+
+```{r}
+
+```
+
+2. According to the list experiment, what percentage of respondents supported the ISAF? the Taliban? To answer this question, compare the mean number of items respondents agreed with between each of the treated groups and the control group. 
+
+```{r}
+
+
+```
+
+# Short Lecture - Sampling Error
+
+## Sampling and Survey Error
+
+Supports Biden     = 1
+Does not support Biden = 0 
+
+The support for Biden in this particular state is 40%:
+
+```{r}
+state <- c(rep(1,40000),rep(0,60000))
+
+```
+
+To take a sample, we use the _sample()_ function. The format is:
+
+  sample(whatwewanttosample,sizeofsample,replace=F)
+
+Let's draw a sample of size 10, and examine the mean.
+
+```{r}
+
+```
+
+Now let's draw new samples of 10 and 500, and compare the mean and standard deviation:
+
+```{r}
+
+
+
+```
+Now let's draw a 1000 person sample. What is the expected error, using the equation covered in class?
+
+```{r}
+
+
+```
+
+To test whether our formula for the expected error works, let's draw 100 samples, each of size 1000. Then we'll plot the average value from each sample. A distribution of sample means is known as a *sampling distribution* 
+
+```{r}
+# You do not need to know this code
+n<-1000
+samples <- 100
+out <- c()
+for (i in 1:samples){
+  out <- c(out,mean(sample(state,n,replace=FALSE)))
+}
+
+```
+
+## Practice Question (if time)
+
+A polling company sampled 500 Americans to ask them if they approved supplying arms to Ukraine. On a scale of 1 to 5, where 1 meant "strongly oppose" and 5 meant "strongly support", the average response was 4.12. The standard deviation was 0.25. What was the expected error of this poll?
+
+```{r}
+
+```
+
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
