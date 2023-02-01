@@ -1,0 +1,293 @@
+---
+title: "Midterm Review"
+author: ""
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Format
+
+- 2 hours
+- Contents:
+    - Multiple choice/ short answer questions (on concepts)
+    - 2-3 data exercises
+
+## Difference in Differences
+
+In many (but not all) states in Austria, voting in parliamentary elections was compulsory, punishable by fines. In 1992, the Federal Constitutional Court announced that this practice was unconstitutional and struck down the law. 
+
+We are interested in finding out whether the repeal of the law (and the accompanying reduction in turnout) reduced support for left-wing parties. States that were forced to abolish compulsory voting are considered the treatment group, while states that never enacted compulsory voting are in the control group. 
+
+```{r}
+library(tidyverse)
+austria_long <- read.csv('data/austria_long.csv')
+```
+
+The dataset contains a partial sample of election results from Austrian municipalities, and includes following variables:
+
+name                    name of the municipality
+state                   name of the state
+treated                 1 if the state practiced compulsory voting prior to 1992, 0 otherwise
+socialist_voteshare     the percentage of votes cast for the socialist party in an election year
+
+Step 1: determine the treatment year, and identify the time periods immediately before (pre) and immediately after (post)
+Step 2: determine the treatment and outcome variables
+
+### Longitudinal data (many rows per observation; 1 outcome column, 1 time column)
+
+Step 3: get the average values of the outcome, for the treated and control units, _separately for the pre and post period_
+To do this, filter for both year and treatment status
+
+```{r}
+
+treat_pre <- 
+treat_post <- 
+
+control_pre  <- 
+control_post  <-
+
+```
+Step 4: Calculate the longitudinal differences for the treated and control (post-pre)
+Step 5: Subtract the longitudinal difference of the control from the treated group.
+
+```{r}
+
+```
+
+Step 6: Evaluate the parallel trends assumption by plugging in different time values prior to the treatment
+
+```{r}
+
+
+```
+
+### Wide data (1 row per observation; many outcome x time columns)
+
+```{r}
+
+austria_wide <- read.csv('data/austria_wide.csv')
+
+```
+
+Step 3: Create a longitudinal difference variable using mutate()
+
+```{r}
+
+
+```
+
+Step 4: Use group_by %>% summarize() to get the average longitudinal difference for the treated/control
+Step 5: Subtract control from treated
+
+```{r}
+result <- austria_wide %>% group_by(treated) %>% summarize(avg=mean(long_diff,na.rm=T))
+result$avg[2] - result$avg[1]
+
+```
+
+Step 6: Check parallel trends by substituting in prior years
+
+```{r}
+
+```
+
+### Plotting DiD
+
+Step 1: Start with longitudinal data
+Step 2: Filter by the treated variable, group by year, and then get the average. Remember to label your variable in summarize()
+
+```{r}
+
+treated <-
+control <-
+
+```
+Step 3: Put one of the results in plot(), and the other in lines()
+
+
+```{r}
+
+```
+
+
+## Treatment Effects with Multiple Groups
+
+
+### Scenario 1: You have a dataset with a single treatment variable, but multiple treatments
+
+```{r}
+savings <- read.csv("data/rosca.csv")
+```
+
+Solution: Use group_by %>% summarize() to get values for all groups
+
+```{r}
+
+```
+
+Remember to subtract the control group from each treated group
+
+
+### Scenario 2: You have a dataset with multiple binary treatment variables
+
+```{r}
+savings2 <- read.csv("data/rosca2.csv")
+```
+
+Solution: Use filter() to get the correct groups
+
+```{r}
+
+```
+
+Alternative: Create a new variable with the correct values for each treatment
+
+```{r}
+
+```
+
+### Complex filtering
+
+Find the median age within the full sample. Create a new variable called _old_ that is 1 when an individual is older than or equal to the median age, and 0 when the individual's age is below the median. Calculate the treatment effects for this group.
+
+```{r}
+
+```
+
+
+## Distributions
+
+We assess distributions for the following reasons:
+
+- It tells us whether skew in the outcome variable might lead to misleading conclusions
+- It tells us whether the treatment effect was driven by outliers or not
+
+Let's look at the distribution of the main outcome variable in the savings experiment using a histogram
+
+```{r}
+
+```
+
+Let's look across the treated and control groups. Whenever we are comparing distributions, we use a boxplot
+
+```{r}
+
+
+```
+
+Now let's examine the median difference
+
+```{r}
+
+```
+
+Another approach to deal with skew is to take the average of a logged variable. The difference between two logged variables is equivalent to a percentage change.
+
+```{r}
+
+```
+
+## Standard deviation
+
+Standard deviation is a measure of dispersion. Let's look at the standard deviation of age in this experiment
+
+```{r}
+
+```
+
+We can recover this manually:
+
+```{r}
+
+
+```
+
+Why does it matter? (insert rousing speech)
+
+
+## Natural experiments
+
+Natural experiments are simply randomized controlled trials where the researcher does not control randomization.
+
+Compared to an RCT, they often have higher external validity. However, the randomization may be imperfect, lowering internal validity.
+
+When analyzing natural experiments, we _analyze them the same as RCTs_. We need to interpret the variable that the researcher claims is "as-if randomly assigned" as the treatment 
+
+### Validation
+
+For RCTs and Natural Experiments, we need to verify that EVERY characteristic _measured before the treatment_, is on average, similar across the treated and control groups. Without this 'balance', we cannot interpret the results as causal.
+
+Let's evaluate balance for the get out the vote experiment. 
+
+```{r}
+
+gotv <- read.csv("data/social.csv")
+
+```
+
+```{r}
+
+```
+
+## Expected error
+
+A polling company sampled 500 Americans to ask them if they approved supplying arms to Ukraine. On a scale of 1 to 5, where 1 meant "strongly oppose" and 5 meant "strongly support", the average response was 4.12. The standard deviation was 0.25. What was the expected error of this poll?
+
+```{r}
+
+```
+
+A reminder on why this works:
+
+```{r}
+state <- c(rep(1,40000),rep(0,60000))
+sd(state)/sqrt(10000)
+```
+
+If we had a sample of size 10k, how close would we be on average to the true answer?
+
+```{r}
+
+n<-10000
+samples <- 1000
+out <- c()
+for (i in 1:samples){
+  out <- c(out,mean(sample(state,n,replace=FALSE)))
+}
+hist(out,breaks=200)
+
+
+```
+
+
+## Conceptual Practice Questions
+
+1. Your friend Bobby tells you that he has a designed a study to test the effects of watching NBC News on political preferences and obtained compelling results. Bobby's study surveys the political preferences of 100 student volunteers. From this larger sample, he selected 20 strong Democrats and 20 strong Republicans, and tasks them with watching NBC News every night. At the end of the study, he measures political preferences again. According to Bobby, watching NBC news makes the general population more Democratic: over time, both groups displayed more agreement with the Democratic party.
+
+Identify two errors in Bobby's research design. If you wanted to rerun the study, how might you redesign it to obtain a more robust estimate of the effect of watching NBC news on political opinions?
+
+2. Your friend Prunella designed an experiment to test whether exposure to videos showing squirrels raiding bird feeders reduces positive attitudes towards squirrels. 
+
+Prunella randomly selected 20 Americans, and then randomly assigned 10 to watch the squirrel video. Conducting a balance check, Prunella found that the treated and control group had approximately the same prior interest in squirrels. She concludes that the effect she identifies is causal. 
+
+Do you agree with her reasoning? 
+
+3. If X is negatively correlated with Y, then Y is ____ correlated with X.  
+
+4. The difference-in-differences design is invalid if there are pre-existing differences between groups (TRUE/FALSE) 
+
+5. If the variable _Income_ is coarsened to have the following values: "Less than 20k", "Between 30k and 50k", "50k to 100k", and "100k+", can we treat it as an ordinal variable?
+
+
+
+This PDF does not need to be submitted.
+
+
