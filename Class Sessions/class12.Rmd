@@ -1,0 +1,233 @@
+---
+title: "Class 12"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Midterm Debrief
+* Prediction
+
+# Midterm Debrief
+
+```{r}
+library(tidyverse)
+download.file("http://107.21.234.10/research/calatrava.csv","calatrava.csv")
+calatrava <- read.csv("calatrava.csv")
+
+```
+
+Relevant Variables (Measured by polling station)
+observer          1 if an international observer was present at polling station, and 0 otherwise
+mrr_2022_f        Vote share for the MRR party in the November 2022 federal elections (outcome variable, 0 to 1) 
+mrr_2020_m        Vote share for the MRR party in the March 2020 local elections (0 to 1) 
+total_pop         Total population, per polling station, in 2022
+gender            Percentage of eligible voters who registered as female, per polling station, in 2022
+age               Average age of eligible voters, per polling station, in 2022
+income            Average monthly income of eligible voters, per polling station, in 2022
+mrr_2018_f        Vote share for the MRR party in the November 2018 federal elections (0 to 1)
+
+
+1. What is the average treatment effect of assigning an international observer to a polling station, on MRR vote share in 2022? Briefly interpret the effect size.
+
+```{r}
+result <- calatrava %>% group_by(observer) %>% summarize(outcome=mean(mrr_2022_f,na.rm=T))
+result$outcome[2] - result$outcome[1]
+
+sd(calatrava$mrr_2022_f[calatrava$observer==0],na.rm=T)
+```
+
+2 Using the information available in the dataset, evaluate the quality of the randomization conducted by the MRR.
+
+```{r}
+calatrava %>% group_by(observer) %>% summarize(mean(mrr_2020_m,na.rm=T),
+                                               mean(total_pop,na.rm=T),
+                                               mean(gender,na.rm=T),
+                                               mean(age,na.rm=T),
+                                               mean(income,na.rm=T),
+                                               mean(mrr_2018_f,na.rm=T))
+
+```
+
+3. In light of your findings in 1.2, interpret the validity of the average treatment effect you obtained in question 1.1. Is this a valid causal relationship? What do the results suggest about electoral corruption in the Republic of Calatrava?
+
+
+
+
+
+# Lecture: Prediction
+
+## Polling Example
+
+```{r}
+state <- c(rep(1,40000),rep(0,60000))
+
+
+# You do not need to know this code
+n<-1000
+samples <- 100
+out <- c()
+for (i in 1:samples){
+  out <- c(out,mean(sample(state,n,replace=FALSE)))
+}
+
+
+
+```
+
+
+## 2008 Presidential Election
+
+Load the dataset:
+
+```{r}
+library(tidyverse)
+polls08 <- read.csv("data/polls08.csv")
+```
+
+Let's create a new variable called _poll.margin_ that measures the difference in polling support between Obama and McCain:
+
+```{r}
+
+polls08 <- polls08 %>% mutate()
+
+```
+
+In R, we can use ymd() or mdy() to create dates that R can understand
+
+```{r}
+#install.packages("lubridate")
+library(lubridate)
+
+x <- ymd("2021-11-5")
+y <- mdy("10/15/21")
+x - y
+```
+
+Polls tend to get more accurate the closer they get to an election. Let's create a variable called _days.until_ that measures the number of days between a given poll and the election date (November 4 2008).
+
+```{r}
+
+polls08 <- polls08 %>% mutate()
+```
+
+Let’s examine polls within the state of California by filtering
+
+```{r}
+
+
+
+```
+
+Now, lets sort our data by a particular column. This is going to require some new syntax:   dataset %>% arrange(sort_column)
+
+```{r}
+
+
+```
+
+We can select the most recent poll in California using slice(). An alternative approach is to use filter()
+
+```{r}
+
+
+```
+
+We can do this for all states at once by returning to the main dataset and using %>% group_by _before_ sorting. 
+
+```{r}
+
+
+
+```
+
+
+# Merging datasets
+
+What if we want to compare the accuracy of our poll results to the actual results? To do that, we will need to merge two datasets together.
+
+Load the actual results: 
+
+```{r}
+pres08 <- read.csv("data/pres08.csv")
+```
+
+Let's create a margin variable in this new dataset that mirrors our prior format (Obama vs Mccain)
+
+```{r}
+pres08 <- pres08 %>% mutate()
+
+```
+
+To merge datasets, we need to find a _key_ that's held in common between the two datasets.
+
+```{r}
+```
+
+We can merge using the following syntax:
+
+dataset1 %>% left_join(dataset2,by="key")
+
+```{r}
+
+
+```
+
+This can result in some duplication of columns. To fix this, we can trim a dataset before merging using select():
+
+```{r}
+
+
+```
+
+# Error
+
+Evaluating Prediction error: Actual - Predicted
+
+```{r}
+
+```
+
+Root mean squared error (RMSE):
+
+```{r}
+
+```
+
+
+# Group Work
+
+Modify the code to average across all polls conducted _within the last two weeks_ before the election. Does the accuracy increase or decrease compared to looking at the most recent poll?
+
+Coding Steps:
+1. Use filter() to subset the initial polls dataset to include only polls wit days_until <= 14
+2. Use %>% group_by() %>% summarise() to create a new dataset with the _average_ poll margin in each state
+3. Merge this new dataset to the actual election results (pres08) using left_join()
+4. Create a new variable in the dataset measuring the difference between the averaged polls and the actual results
+5. Compare to the dataset we generate in class using diagnostic tools
+
+```{r}
+```
+
+Explore what happens to the accuracy of the polls if you use different time windows than 14 days. Does the accuracy decrease as you include more polls that are farther away from the election? Or does it increase as we have more polls to work with, thus reducing error?
+
+```{r}
+
+```
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
