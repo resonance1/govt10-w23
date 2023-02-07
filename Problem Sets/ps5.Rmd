@@ -1,0 +1,152 @@
+---
+title: "Problem Set 5"
+author: ""
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# A: Voting for Fascism? Analysis of the 1933 German Election
+
+The Nazi party was voted into power in 1933. Although polling data is sparse, researchers have attempted to reconstruct who voted for the Nazis by analyzing aggregate election data. In this exercise, we will analyze a simplified version of the election outcome data, which records, for each precinct, the number of eligible voters as well as the number of votes for the Nazi party. In addition, the data set contains aggregate demographic indicators that describe the employment characteristics of voters in the precinct. The goal of analysis is to use regression to investigate which types of voters cast ballots in support of the Nazis.
+
+```{r}
+library(tidyverse)
+fascism <- read.csv("fascism.csv")
+```
+
+Name	            Description
+nunemployed       Employment demographics: Number of unemployed voters
+shareblue	        Employment demographics: Proportion of blue-collar voters
+sharewhite	      Employment demographics: Proportion of white-collar voters
+sharedomestic	    Employment demographics: Proportion of domestically employed voters
+nvoter          	Number of voters
+nazivote	        Number of votes for Nazis
+
+1. Create a new variable, which measures the share of votes in a precinct which supported the Nazis (your new variable should range from 0 to 1)
+
+```{r}
+
+
+```
+
+2. Find which of the demographic characteristics regarding employment are most predictive of higher support for the Nazis. To do this, fit four regression models. The dependent variable is the variable you created in #1, while the independent variable should be an employment variable which represents the proportion of voters meeting each demographic criteria (you will need to rescale one of the variables). Which _two_ demographic factors are most strongly linked with Nazi party support? _Interpret the coefficients for these two regressions._ 
+
+```{r}
+
+
+```
+
+[ Full sentences here ]
+
+3. Create a scatter plot of the share of white collar voters vs. the share of votes for the Nazi party, and superimpose the regression line. 
+
+```{r}
+
+```
+
+4. Regression can be affected by outliers. To reduce the influence of outliers, create new versions of each of the 4 employment variables, transformed to the logarithmic scale. Next, refit the regression models from #2 using the log-transformed variables. Have the two most predictive variables changed? You do not need to reinterpret the coefficients.  
+
+```{r}
+
+```
+
+[1 Sentence Here]
+
+
+# B: Data Wrangling and Election Predictions 
+
+We will evaluate data from the 2016 Presidential Election, which featured Trump vs. Clinton. The election date was the 8th of November, 2016.
+
+```{r}
+library(tidyverse)
+library(lubridate)
+polls16 <- read.csv("polls16.csv") 
+pres16 <- read.csv("pres16.csv")
+```
+
+1.1 In the polls16 dataset, create two variables that measure the polling margin (Trump - Clinton), and the time until the election date (days.until). In the pres16 dataset, create a variable that measures the actual margin.
+
+```{r}
+
+```
+
+1.2 Filter the polls16 dataset to only include those measuring the population of "likelyvoters". Then, further filter the dataset to contain only polls conducted within 30 days of the last poll within each state. For instance, if the last poll in State A was conducted 3 days prior to the election, your dataset should include all polls conducted on days 33 through 3 for State A. If the last poll in State B was conducted 5 days prior to the election, your polls from this state should be drawn from days 5 through 35, etc.
+
+Possible coding steps:
+
+1. Create a new dataset that contains the latest poll in each state, and use select() to extract just the state name and _days.until_ value for the most recent poll.
+2. Use rename() on the results from #1 to rename _days.until_ into a new column called _lastpoll_
+3. Merge the results of #2 back into the polls16 dataset, using the state name as a key
+4. Filter the dataset from #3 to contain only polls within 30 days of _lastpoll_
+
+_Note: This task might seem overwhelming at first. However, you've previously completed all necessary steps. Just take it a step at a time, checking your code along the way. If you are unable to complete this, use the dataset named 'latest' (step #1 above) as the dataset for the subsequent questions_
+
+```{r}
+
+
+```
+
+1.3 Start with your dataset containing all polls conducted within 30 days of the last poll, which you created in the previous question. Now, extract the average of the polls within each state, and save it as a new dataset called _averaged_polls_ . Merge the _averaged_polls_ and the _pres16_ dataset together into a new dataset called _merged16_. 
+
+```{r}
+
+```
+
+1.4 Using the _merged16_ dataset, assess the relationship between Trump's actual margin of victory (y) and Trump's predicted margin of victory using a bivariate regression model. Obtain and interpret the regression coefficients. What do they tell you about the relationship of the polls to the actual election results in 2016? 
+
+```{r}
+
+```
+
+[Full sentences here]
+
+2.1 Let's examine whether other variables can potentially improve our prediction and reduce polling bias. The following dataset contains state-level demographic data:
+
+```{r}
+demographics <- read.csv("demographics.csv")
+```
+
+Filter the demographics dataset to 2016 only. Then create a new variable in the dataset called _age45plus_ that contains the proportion of residents who are 45 years or older. Next, merge this dataset with your existing _merged16_ dataset: 
+
+```{r}
+
+```
+
+2.2 Using the master dataset, regress Trump's actual margin of victory in each state (y) on the `Male' variable, which measures the share of residents who are Male (0 to 100 scale). Interpret the coefficient and the R^2. 
+
+```{r}
+
+```
+
+2.3 Now fit a multivariate regression model using two independent variables: Male, and Trump's 30-day poll margin according to the most recent state poll(s) _to do this use the syntax lm(y~x1 + x2)_ Compare the R^2 between the multivariate model and the bivariate model calculated in 1.4. Does adding this additional piece of information improve the predictive power of the model? 
+
+```{r}
+
+```
+
+[1-2 sentences]
+
+2.4  Next, fit a multivariate regression model with three independent variables: Male, age45plus,  and Trump's 30-day poll margin according to the most recent state poll(s). Compare the predictive power of this model to 2.3. How much polling bias is still present after correcting for these particular demographic factors? 
+
+```{r}
+
+```
+
+[1-2 sentences]
+
+2.5. Finally, how does the R^2 and the coefficient on the average poll variable change if you remove polls with a small sample size (less than 300 respondents?). Note: to answer this, you will have to start with the polls dataset filtered by date, repeat step 1.3, and then remerge the demographics dataset. 
+
+```{r}
+
+
+```
+
+[1-2 sentences]
+
+Please submit as a .PDF using Canvas
