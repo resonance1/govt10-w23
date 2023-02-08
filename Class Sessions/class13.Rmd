@@ -1,0 +1,111 @@
+---
+title: "Class 13"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Review of Merging
+* More Diagnostics
+* Intro to Regression (Lecture)
+* Regression in R
+
+# Merging
+
+How did the latest available poll in each state compare to the average of the last two weeks?
+
+```{r}
+library(tidyverse)
+library(lubridate)
+
+polls08 <- read.csv("data/polls08.csv")
+polls08 <- polls08 %>% mutate(days.until=mdy("11/4/08") - mdy(middate))
+polls08 <- polls08 %>% mutate(poll.margin = Obama - McCain)
+
+pres08 <- read.csv("data/pres08.csv")
+pres08 <- pres08 %>% mutate(act.margin = Obama - McCain)
+```
+
+Modify the code to average across all polls conducted _within the last two weeks_ before the election. Does the accuracy increase or decrease compared to looking at the most recent poll?
+
+```{r}
+
+```
+
+## More Diagnostics 
+
+Scatter Plot
+
+```{r}
+x<-
+y<-
+plot(x,y, xlab = "Poll Results", ylab = "Actual Election Results")
+```
+
+Add text:
+
+```{r}
+x<-
+y<-
+  
+plot(type="n",x =  x , y = u, xlab = "Poll Results", ylab = "Actual Election Results")
+text(x = x  , y = y, 
+     labels = , 
+     col = "blue",
+     cex=.5)
+
+# Diagnosis Lines
+abline(0, 1, lty = "dashed")
+abline(v=0)
+abline(h=0)
+```
+
+
+# Regression (lecture)
+
+## Regression in R
+
+Load the Danish crime data:
+
+```{r}
+denmark <- read.csv("data/denmark.csv")
+```
+
+Fitting regressions in R is straightforward: we can use the function lm()
+
+```{r}
+y <- denmark$violentcrime_rate
+x <- denmark$percap_spending_educ
+lm()
+```
+
+To visualize, we can superimpose the regression line on the data using abline():
+
+```{r}
+
+```
+
+Other regressions:
+
+```{r}
+
+```
+
+
+
+# Remember to complete the survey (link posted in Slack)
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
