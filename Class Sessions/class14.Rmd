@@ -1,0 +1,160 @@
+---
+title: "Class 14"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Group Work 1 - Interpretation of regression coefficients
+* Regression and Model Fit (lecture)
+* Group Work 2 - Polling models and R^2
+
+# Group Work 1
+
+We will begin by briefly practicing interpreting bivariate regression coefficients, using different datasets you have encountered before.
+
+```{r}
+denmark <- read.csv("data/denmark.csv")
+afghan <- read.csv("data/afghan.csv")
+```
+
+Denmark Variables:
+
+violentcrime_rate               Violent crime rate per 1000 people
+pctforeign                      The % of residents who are non-citizens. Ranges from 0 to 1
+lowincome_rate                  The % of residents who have low income. Ranges from 0 to 1
+
+1. Regress _lowincome_rate_ (x) on _violentcrime_rate_ (y), and interpret the coefficients in real-world terms. 
+
+For instance: "the intercept indicates that the expected level of violent crime if X is 0 is ? violent crimes per 1000 people. The slope ceofficient indicates that for every increase of ? in X, Y is expected to increase by ?. " (fill in ?,X,Y)
+
+```{r}
+x <- 
+y <- 
+lm(y ~ x)
+
+```
+
+[Sentences Here]
+
+2. Let's visualize this regression. Run the following code:
+
+```{r}
+plot(x,y,ylab="Violent Crime Rate")
+result <- lm(y ~ x)
+abline(result)
+```
+
+How accurate do you think predictions from this regression would be? Does it look like a good fit?
+
+[Sentences]
+
+
+Afghan Variables:
+
+educ.years                        Respodents' years of education
+employed                          If respondents are employed (1) or not (0)
+income                            Respondents' income range 
+
+3.  Code a new binary variable in the afghan dataset called _nonresponse_ that receives a 1 if income is missing, and 0 otherwise --- remember the function for this: is.na() . Then regress _educ.years_ (x) on _nonresponse_ (y) and interpret the coefficients in real-world terms.
+
+```{r}
+
+
+```
+[Sentences here]
+
+4. Repeat by regressing _employed_ on _nonresponse_. Interpret the coefficients.
+
+```{r}
+
+```
+
+[Sentences here]
+
+
+
+
+# Lecture: Regression and Model Fit
+
+Viewing R^2 in R:
+
+```{r}
+
+
+
+
+```
+
+
+
+# Group Work 2
+
+In this group assignment, we will practice working with polling datasets, using the 2008 election. 
+
+The code below pulls in 3 datasets:
+
+polls08       Poll margins
+intrade08     Betting margins
+votes08       Actual results
+
+Some researchers and observers argue that the public market is more effective at estimating likely winners of states. They argue that individuals betting on election results have to place their own money on the line, which incentivizes careful analysis (i.e. "you can't beat the house in Vegas"). In this exercie, we will compare the predictive power of these betting markets to polling results. 
+
+```{r}
+# No need to modify this code. It produces the variables "days.until" in polls08, "margin" in polls08, "actual.margin" in votes08, and "betting_margin" in intrade08
+
+library(tidyverse)
+polls08 <- read.csv("polls08.csv")
+polls08$margin <- polls08$Obama - polls08$McCain
+polls08$middate <- as.Date(polls08$middate, "%m/%d/%y")
+polls08$days.until <- as.Date("2008-11-04") - polls08$middate 
+
+votes08 <- read.csv("pres08.csv")
+votes08$actual.margin <- votes08$Obama - votes08$McCain
+
+intrade08 <- read.csv("intrade08.csv")
+intrade08$betting_margin <- intrade08$PriceD - intrade08$PriceR
+intrade08$daysleft <- as.Date("2008-11-04") - as.Date(intrade08$day, "%m/%d/%y")
+intrade08 <- intrade08 %>% filter(daysleft == 1)  # Filter to the day before the election
+```
+
+1. Test which approach provides the best R^2: averaging together state polls within 30 days of the election, vs. examining betting margins the day before the election.
+
+To do this:
+1. Create a subset of polls08 containing all polls with days.until <= 30
+2. Use %>%group_by() %>% summarise() to average polls together by state
+3. Join the dataframe from #2 to the votes08 dataset. 
+4. With the dataframe from #3, fit a regression, where y is the actual margin of victory, and x is the polling average. Record the R^2
+5. Merge the intrade08 dataset to your dataframe from #3, and run a regression, where y is the actual margin of victory, and x is the betting margin. Record the R^2. Are the betting margins less or more predictive than the polling margins?
+
+
+```{r}
+
+
+```
+
+2. Now let's combine both pieces of information. Regress the actual margin on the average poll margin as well as the betting margin. In other words, run:  actualmargin ~ avg.poll + betting_margin (with your variable names substituted as needed). How does the R^2 of this multivariate regression model compare to the best R^2 you produced in #1? Did adding betting margins improve or reduce accuracy?
+
+```{r}
+
+
+```
+
+
+_If time_
+Work on PSET 5 or Feel free to leave clas
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
