@@ -113,15 +113,15 @@ Some researchers and observers argue that the public market is more effective at
 # No need to modify this code. It produces the variables "days.until" in polls08, "margin" in polls08, "actual.margin" in votes08, and "betting_margin" in intrade08
 
 library(tidyverse)
-polls08 <- read.csv("polls08.csv")
+polls08 <- read.csv("data/polls08.csv")
 polls08$margin <- polls08$Obama - polls08$McCain
 polls08$middate <- as.Date(polls08$middate, "%m/%d/%y")
 polls08$days.until <- as.Date("2008-11-04") - polls08$middate 
 
-votes08 <- read.csv("pres08.csv")
+votes08 <- read.csv("data/pres08.csv")
 votes08$actual.margin <- votes08$Obama - votes08$McCain
 
-intrade08 <- read.csv("intrade08.csv")
+intrade08 <- read.csv("data/intrade08.csv")
 intrade08$betting_margin <- intrade08$PriceD - intrade08$PriceR
 intrade08$daysleft <- as.Date("2008-11-04") - as.Date(intrade08$day, "%m/%d/%y")
 intrade08 <- intrade08 %>% filter(daysleft == 1)  # Filter to the day before the election
