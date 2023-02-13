@@ -1,0 +1,204 @@
+---
+title: "Class 15"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Pset Review
+* Multivariate Regression (lecture)
+* Interpreting multivariate regression coefficients
+
+# Pset Review
+
+```{r}
+library(tidyverse)
+library(lubridate)
+polls16 <- read.csv("data/polls16.csv") 
+pres16 <- read.csv("data/pres16.csv")
+demographics <- read.csv("data/demographics.csv")
+polls16 <- polls16 %>% mutate(poll.margin = trump - clinton,days.until=mdy("11/8/16") - mdy(middate))
+pres16 <- pres16 %>% mutate(act.margin = trump - clinton)
+```
+
+1.2 Filter the polls16 dataset to only include those measuring the population of "likelyvoters". Then, further filter the dataset to contain only polls conducted within 30 days of the last poll within each state. For instance, if the last poll in State A was conducted 3 days prior to the election, your dataset should include all polls conducted on days 33 through 3 for State A. If the last poll in State B was conducted 5 days prior to the election, your polls from this state should be drawn from days 5 through 35, etc.
+
+Possible coding steps:
+
+1. Create a new dataset that contains the latest poll in each state, and use select() to extract just the state name and _days.until_ value for the most recent poll.
+2. Use rename() on the results from #1 to rename _days.until_ into a new column called _lastpoll_
+3. Merge the results of #2 back into the polls16 dataset, using the state name as a key
+4. Filter the dataset from #3 to contain only polls within 30 days of _lastpoll_
+
+```{r}
+
+polls16f <- polls16  %>% filter(population == "likelyvoters")
+
+# Option 1
+latest <- polls16f %>% group_by(state) %>%
+  arrange() %>% slice() %>% select() %>% rename()
+
+out <- polls16f %>% left_join()
+  
+  
+# Option 2
+latest <- polls16f %>% group_by(state) %>%
+ filter() %>% select() %>% rename()
+
+out <- polls16f %>% left_join()
+  
+
+# Option 3
+latest <- polls16 %>% group_by(state) %>%
+  summarize() %>% rename()
+
+out <- polls16f %>% left_join()
+  
+  
+# Option 4
+
+out <- polls16 %>% filter(population == "likelyvoters") %>%
+  group_by(state) %>% filter()
+
+
+```
+
+Start with your dataset containing all polls conducted within 30 days of the last poll, which you created in the previous question. Now, extract the average of the polls within each state, and save it as a new dataset called _averaged_polls_ . Merge the _averaged_polls_ and the _pres16_ dataset together into a new dataset called _merged16_. 
+
+Using the _merged16_ dataset, assess the relationship between Trump's actual margin of victory (y) and Trump's predicted margin of victory using a bivariate regression model. Obtain and interpret the regression coefficients. What do they tell you about the relationship of the polls to the actual election results in 2016? 
+ 
+```{r}
+averaged_polls <- out %>% group_by(state) %>% summarize(avg=mean(poll.margin,na.rm=T))
+merged16 <- averaged_polls %>% left_join(pres16,by="state")
+merged16 <- merged16 %>% left_join(demographics,by="state")
+
+
+summary(lm(act.margin ~ avg,data=merged16))
+```
+ 
+ 
+# Lecture: Multivariate Regression
+
+
+# Multivariate Regression in R
+
+We can use multivariate regression to evaluate studies with more than 1 binary treatment. 
+
+Recall the 'GOTV' experiment, where researchers sent different types of mailers to voters.
+
+Load the data:
+
+```{r}
+gotv <- read.csv("data/social.csv")
+gotv$messages <- relevel(as.factor(gotv$messages),ref="Control")
+```
+
+The variables in the dataset are as follows:
+
+hhsize          household size of voter
+messages        GOTV messages voter received (Civic Duty, Control,Neighbors, Hawthorne)
+sex             sex of voter (female or male)
+yearofbirth     year of birth of voter
+primary2004     whether a voter voted in the 2004 Primary election (1=voted, 0=abstained)
+primary2008     whether a voter turned out in the 2008 Primary election (1=voted, 0=abstained)
+
+Let's fit a regression trying to explain whether individuals voted in the 2008 primary.
+
+Let's focus on the treatment people received (messages):
+
+```{r}
+
+
+```
+
+# Group Work 1
+
+1. Fit a model with messages and hhsize as the independent variables.  Interpret the coefficient of hhsize.
+
+```{r}
+
+
+
+```
+
+[Sentences]
+
+2. Fit a model with messages, hhsize and sex as the independent measures.  Interpret the coefficient of sex. How did the coefficient on hhsize change?
+
+```{r}
+
+
+```
+
+[Sentences]
+
+
+# Controlling for confounders
+
+Recall the Boston immigration experiment, where we found that the background variables were not well balanced between treatment and control groups. Let's assess how the coefficients change as we control for confounders.
+
+```{r}
+boston <- read.csv("data/boston.csv")
+
+boston$diff_imm <- boston$immigration_after - boston$immigration_before
+
+boston %>% group_by(treatment) %>% summarize(mean(usborn,na.rm=T))
+```
+
+
+First, let's recover the Average Treatment Effect:
+
+```{r}
+
+result <- lm(data=,)
+summary(result)
+```
+
+If we add a balanced variable the coefficient on treatment should not change very much. Let's try adding 'male'
+
+```{r}
+
+result <- lm(data=,)
+summary(result)
+```
+
+Now, let's add the usborn variable:
+
+```{r}
+
+result <- lm(data=,)
+summary(result)
+```
+
+Now, let's add all background characteristics
+
+```{r}
+result <- lm(data=,)
+summary(result)
+```
+
+
+
+# Group Work 2
+
+Now let's return to the data on the 2016 election (merged16). Add up to 4 additional demographic independent variables to the data to see if we can correct the polling bias. Since the theoretical relationship between poll margins and actual margins should be 1:1 (poll margins are trying to directly measure actual margins), the coefficient on the avg polls variable should approach 1 as bias is being removed. You should also check that you are not reducing the R^2 value when you add these additional independent variables to your model. Once your model is finalized, interpret the coefficients.
+
+```{r}
+
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
