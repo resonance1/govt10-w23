@@ -1,0 +1,195 @@
+---
+title: "Class 16"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Review of Multivariate Regression
+* Prediction and Forecasting (lecture)
+* Forecasting in R
+* Group Assignment
+
+# Review of Multivariate Regression
+
+### Concept 1:  Direct/Indirect Effects
+
+```{r}
+library(tidyverse)
+denmark <- read.csv("data/denmark.csv")
+```
+
+To further understand multivariate coefficients, let's look at 4 variables in the Danish crime dataset:
+
+violentcrime_rate
+pctforeign
+social_head
+unemp_rate
+
+First, let's examine the correlations between them:
+
+```{r}
+
+denmark %>% select(violentcrime_rate,pctforeign,unemp_rate,social_head) %>% cor(use="complete.obs")
+
+```
+
+Now let's regress pctforeign on violentcrime_rate, and sequentially add additional variables:
+
+```{r}
+
+result <- lm(violentcrime_rate ~ pctforeign,data=denmark)
+summary(result)
+
+result <- lm(violentcrime_rate ~ pctforeign + ,data=denmark)
+summary(result)
+
+
+```
+
+### Concept 2 : Why is a shift in the intercept the same as a difference in means? 
+
+```{r}
+
+gotv <- read.csv("data/social.csv")
+gotv$messages <- relevel(as.factor(gotv$messages),ref="Control")
+
+result <- lm(primary2008 ~ messages, data=gotv)
+summary(result)
+
+```
+
+### Concept 3 : Why does adding controls not significantly change the average treatment effect under randomization?
+
+```{r}
+
+result <- lm(primary2008 ~ messages + sex, data=gotv)
+summary(result)
+
+```
+
+
+# Group Work (10 mins)
+
+```{r}
+library(tidyverse)
+library(lubridate)
+polls16 <- read.csv("data/polls16.csv") 
+pres16 <- read.csv("data/pres16.csv")
+demographics <- read.csv("data/demographics.csv")
+polls16 <- polls16 %>% mutate(poll.margin = trump - clinton,days.until=mdy("11/8/16") - mdy(middate))
+pres16 <- pres16 %>% mutate(act.margin = trump - clinton)
+
+merged16  <- polls16 %>% filter(population == "likelyvoters") %>%
+  group_by(state) %>% filter(days.until <= (30 + min(days.until))) %>%
+  summarize(avg.poll = mean(poll.margin)) %>%
+  left_join(pres16,by="state") %>%
+  left_join(demographics,by="state")
+
+```
+
+Let's return to the data on the 2016 election (merged16). In addition to the polling variable (avg.poll), regress up to 3 additional demographic independent variables on the outcome (act.margin) to see how the polling bias changes. 
+
+Since the theoretical relationship between poll margins and actual margins should be 1:1 (poll margins are trying to directly measure actual margins), the coefficient on the avg polls variable should approach 1 as bias is being removed. You should also check that you are not increasing the R^2 value when you add these additional independent variables to your model. Once your model is finalized, interpret the coefficient on avg.poll.
+
+```{r}
+
+
+```
+
+
+# Prediction and Forecasting (brief lecture)
+
+# Prediction in R
+
+We can predict outcomes in R using predict()
+
+```{r}
+gotv <- read.csv("data/social.csv")
+result <- lm(data=gotv, primary2008 ~ sex + hhsize)
+#new <- data.frame(oldvariablename = newdata)
+new <- data.frame(sex = "male",hhsize=1)
+predict(result, newdata=new)
+  
+```
+
+## Out of Sample Prediction (Forecasting)
+
+Imagine that it is the day before the election in 2012. We want to use polling data to predict the outcome of the _upcoming_ election.
+
+In this situation, we would have to use historic data (2008) to forecast 2012 outcomes.
+
+```{r}
+votes08 <- read.csv("data/pres08.csv")
+votes08$actual.margin <- votes08$Obama - votes08$McCain
+polls08 <- read.csv("data/polls08.csv")
+polls08$days.until <- as.Date("2008-11-04") - as.Date(polls08$middate, "%m/%d/%y")
+polls08$margin <- polls08$Obama - polls08$McCain
+```
+
+*Step 1: Fit the training model*
+
+A: Save the most recent poll within each state within a new dataframe called _polls08_latest_
+
+```{r}
+polls08_latest <- polls08 %>% group_by(state) %>% arrange(days.until) %>% slice(1)
+
+```
+
+B: Merge to the actual outcomes in 2008, and fit a bivariate model. Important: use the following lm() syntax: lm(y~x,data=dataframename)
+
+```{r}
+merged08 <- polls08_latest  %>% left_join(votes08,by="state")
+result <- lm(actual.margin ~ margin,data=merged08)
+summary(result)
+
+```
+
+*Step 2: Predict using test data*
+
+Now, to predict outcomes in 2012, we need a similar set of independent variables from 2012:
+
+```{r}
+polls12 <- read.csv("data/polls12.csv")
+polls12$margin <- polls12$Obama - polls12$Romney
+polls12$daysleft <- as.Date("2012-11-06") - as.Date(polls12$middate)
+polls12 <- polls12 %>% group_by(state) %>% arrange(daysleft) %>% slice(1)
+```
+
+Create a new dataframe containing just the new independent variable(s). _We need give the variables the same name as in the original regression_
+
+```{r}
+# <- data.frame(#oldvariablename = newdata)
+  
+```
+
+Now, let's predict outcomes in 2012 using the predict() function. Syntax: predict(#regression result vector, newdata = #newdataframe)
+
+```{r}
+
+```
+
+We can relabel vectors using names():
+
+```{r}
+
+```
+
+
+# Group assignment
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
