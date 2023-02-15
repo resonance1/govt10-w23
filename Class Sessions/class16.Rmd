@@ -161,8 +161,7 @@ Now, to predict outcomes in 2012, we need a similar set of independent variables
 ```{r}
 polls12 <- read.csv("data/polls12.csv")
 polls12$margin <- polls12$Obama - polls12$Romney
-polls12$daysleft <- as.Date("2012-11-06") - as.Date(polls12$middate)
-polls12 <- polls12 %>% group_by(state) %>% arrange(daysleft) %>% slice(1)
+polls12 <- polls12 %>% group_by(state) %>% arrange(days.until) %>% slice(1)
 ```
 
 Create a new dataframe containing just the new independent variable(s). _We need give the variables the same name as in the original regression_
