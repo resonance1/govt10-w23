@@ -1,0 +1,1966 @@
+"","state","state.name","middate","pollster","pollster_id","poll_grade","samplesize","population","clinton","trump","days.until"
+"1","AK","Alaska","10/17/16","Google Consumer Surveys",73,"B",111,"likelyvoters",28.07,36.9,22
+"2","AK","Alaska","10/12/16","CVOTER International",192,"C+",304,"likelyvoters",41.3,54.1,27
+"3","AK","Alaska","10/12/16","Lake Research Partners",42,"B+",500,"likelyvoters",36,37,27
+"4","AK","Alaska","10/12/16","Google Consumer Surveys",73,"B",71,"likelyvoters",34.6,29.98,27
+"5","AK","Alaska","10/6/16","Google Consumer Surveys",73,"B",60,"likelyvoters",29.97,27.17,33
+"6","AK","Alaska","10/5/16","Moore Information",99,"B",500,"likelyvoters",34,37,34
+"7","AK","Alaska","10/5/16","CVOTER International",192,"C+",305,"likelyvoters",41.3,53.4,34
+"8","AK","Alaska","9/30/16","Ivan Moore Research",313,"C",660,"registeredvoters",30.6,36.1,39
+"9","AK","Alaska","9/30/16","Google Consumer Surveys",73,"B",65,"likelyvoters",47.46,36.7,39
+"10","AK","Alaska","9/25/16","CVOTER International",192,"C+",457,"likelyvoters",40.3,55.2,44
+"11","AK","Alaska","9/23/16","Google Consumer Surveys",73,"B",67,"likelyvoters",28.37,37.74,46
+"12","AK","Alaska","9/18/16","CVOTER International",192,"C+",460,"likelyvoters",40.1,54.9,51
+"13","AK","Alaska","9/17/16","Google Consumer Surveys",73,"B",56,"likelyvoters",20.82,39.24,52
+"14","AK","Alaska","9/14/16","Moore Information",99,"B",500,"likelyvoters",31,39,55
+"15","AK","Alaska","9/10/16","Google Consumer Surveys",73,"B",51,"likelyvoters",23.35,41.15,59
+"16","AK","Alaska","9/3/16","Google Consumer Surveys",73,"B",86,"likelyvoters",18.06,44.22,66
+"17","AK","Alaska","8/28/16","Moore Information",99,"B",500,"likelyvoters",29,39,72
+"18","AK","Alaska","8/27/16","Google Consumer Surveys",73,"B",87,"likelyvoters",30.84,29.36,73
+"19","AK","Alaska","8/20/16","SurveyMonkey",352,"C-",989,"registeredvoters",31,38,80
+"20","AK","Alaska","8/20/16","Google Consumer Surveys",73,"B",87,"likelyvoters",29.51,37.98,80
+"21","AK","Alaska","8/13/16","Google Consumer Surveys",73,"B",88,"likelyvoters",31.73,28.39,87
+"22","AK","Alaska","8/11/16","Lake Research Partners",42,"B+",500,"likelyvoters",30,38,89
+"23","AK","Alaska","6/18/16","Ivan Moore Research",313,"C",670,"registeredvoters",30,39,143
+"24","AK","Alaska","1/8/16","Ivan Moore Research",313,"C",651,"registeredvoters",44.1,49.3,305
+"25","AL","Alabama","10/17/16","Google Consumer Surveys",73,"B",445,"likelyvoters",23.68,53.37,22
+"26","AL","Alabama","10/12/16","CVOTER International",192,"C+",327,"likelyvoters",37.8,57.1,27
+"27","AL","Alabama","10/12/16","Google Consumer Surveys",73,"B",373,"likelyvoters",19.61,54.78,27
+"28","AL","Alabama","10/10/16","Ipsos",25,"A-",482,"likelyvoters",38.4,52.39,29
+"29","AL","Alabama","10/6/16","Google Consumer Surveys",73,"B",379,"likelyvoters",22.51,53.8,33
+"30","AL","Alabama","10/6/16","Ipsos",25,"A-",341,"likelyvoters",38.3,53.84,33
+"31","AL","Alabama","10/5/16","CVOTER International",192,"C+",332,"likelyvoters",38,56.3,34
+"32","AL","Alabama","9/30/16","Google Consumer Surveys",73,"B",357,"likelyvoters",19.45,56.59,39
+"33","AL","Alabama","9/29/16","Ipsos",25,"A-",353,"likelyvoters",36.51,56.76,40
+"34","AL","Alabama","9/25/16","CVOTER International",192,"C+",545,"likelyvoters",36,59.4,44
+"35","AL","Alabama","9/23/16","Google Consumer Surveys",73,"B",361,"likelyvoters",29.18,48.39,46
+"36","AL","Alabama","9/22/16","Ipsos",25,"A-",312,"likelyvoters",37.02,55.52,47
+"37","AL","Alabama","9/18/16","CVOTER International",192,"C+",558,"likelyvoters",36.1,58.4,51
+"38","AL","Alabama","9/17/16","Google Consumer Surveys",73,"B",413,"likelyvoters",18.35,55.11,52
+"39","AL","Alabama","9/12/16","Ipsos",25,"A-",403,"likelyvoters",39.35,53.12,57
+"40","AL","Alabama","9/10/16","Google Consumer Surveys",73,"B",425,"likelyvoters",19.02,56.78,59
+"41","AL","Alabama","9/5/16","Ipsos",25,"A-",392,"likelyvoters",40.11,52.94,64
+"42","AL","Alabama","9/3/16","Google Consumer Surveys",73,"B",358,"likelyvoters",21.28,55.58,66
+"43","AL","Alabama","8/29/16","Ipsos",25,"A-",367,"likelyvoters",42.33,50.6,71
+"44","AL","Alabama","8/27/16","Google Consumer Surveys",73,"B",455,"likelyvoters",17.11,56.17,73
+"45","AL","Alabama","8/22/16","Ipsos",25,"A-",367,"likelyvoters",39.39,51.54,78
+"46","AL","Alabama","8/20/16","SurveyMonkey",352,"C-",958,"registeredvoters",31,53,80
+"47","AL","Alabama","8/20/16","Google Consumer Surveys",73,"B",414,"likelyvoters",17.97,56.78,80
+"48","AL","Alabama","8/15/16","Ipsos",25,"A-",385,"likelyvoters",42.06,48.14,85
+"49","AL","Alabama","8/13/16","Google Consumer Surveys",73,"B",407,"likelyvoters",19.55,54.53,87
+"50","AL","Alabama","8/8/16","Ipsos",25,"A-",380,"likelyvoters",36.3,54.53,92
+"51","AL","Alabama","7/19/16","Strategy Research",NA,"",4100,"registeredvoters",33,57,112
+"52","AL","Alabama","1/12/16","Strategy Research",NA,"",2700,"registeredvoters",32,68,301
+"53","AR","Arkansas","10/17/16","Google Consumer Surveys",73,"B",238,"likelyvoters",27.32,44.58,22
+"54","AR","Arkansas","10/12/16","CVOTER International",192,"C+",323,"likelyvoters",37.4,56.7,27
+"55","AR","Arkansas","10/12/16","Google Consumer Surveys",73,"B",189,"likelyvoters",34.43,38.13,27
+"56","AR","Arkansas","10/10/16","Ipsos",25,"A-",283,"likelyvoters",34.43,52.7,29
+"57","AR","Arkansas","10/6/16","Google Consumer Surveys",73,"B",180,"likelyvoters",34.69,40.24,33
+"58","AR","Arkansas","10/5/16","CVOTER International",192,"C+",319,"likelyvoters",37.2,56.1,34
+"59","AR","Arkansas","10/3/16","Ipsos",25,"A-",314,"likelyvoters",35.6,52.44,36
+"60","AR","Arkansas","9/30/16","Google Consumer Surveys",73,"B",150,"likelyvoters",29.66,45.44,39
+"61","AR","Arkansas","9/26/16","Ipsos",25,"A-",309,"likelyvoters",37.87,53.01,43
+"62","AR","Arkansas","9/25/16","CVOTER International",192,"C+",483,"likelyvoters",35.8,58.6,44
+"63","AR","Arkansas","9/23/16","Google Consumer Surveys",73,"B",131,"likelyvoters",28.09,45.52,46
+"64","AR","Arkansas","9/19/16","Ipsos",25,"A-",306,"likelyvoters",41.3,49.92,50
+"65","AR","Arkansas","9/18/16","CVOTER International",192,"C+",483,"likelyvoters",36,57.5,51
+"66","AR","Arkansas","9/17/16","Google Consumer Surveys",73,"B",179,"likelyvoters",36.41,35.42,52
+"67","AR","Arkansas","9/16/16","Hendrix College",207,"C+",831,"likelyvoters",34,55,53
+"68","AR","Arkansas","9/12/16","Ipsos",25,"A-",280,"likelyvoters",41.08,49.15,57
+"69","AR","Arkansas","9/11/16","Emerson College",119,"B",600,"likelyvoters",29,57,58
+"70","AR","Arkansas","9/10/16","Google Consumer Surveys",73,"B",175,"likelyvoters",34.5,35.13,59
+"71","AR","Arkansas","9/5/16","Ipsos",25,"A-",286,"likelyvoters",41.34,51.28,64
+"72","AR","Arkansas","9/3/16","Google Consumer Surveys",73,"B",189,"likelyvoters",33.78,40.6,66
+"73","AR","Arkansas","8/29/16","Ipsos",25,"A-",266,"likelyvoters",41.42,49.8,71
+"74","AR","Arkansas","8/27/16","Google Consumer Surveys",73,"B",179,"likelyvoters",31.74,42.42,73
+"75","AR","Arkansas","8/22/16","Ipsos",25,"A-",243,"likelyvoters",42.2,47.62,78
+"76","AR","Arkansas","8/20/16","SurveyMonkey",352,"C-",765,"registeredvoters",37,46,80
+"77","AR","Arkansas","8/20/16","Google Consumer Surveys",73,"B",196,"likelyvoters",27.6,39.6,80
+"78","AR","Arkansas","8/15/16","Ipsos",25,"A-",250,"likelyvoters",39.49,47.65,85
+"79","AR","Arkansas","8/13/16","Google Consumer Surveys",73,"B",151,"likelyvoters",23.56,40.99,87
+"80","AR","Arkansas","8/8/16","Ipsos",25,"A-",290,"likelyvoters",39.83,44.73,92
+"81","AR","Arkansas","6/21/16","Hendrix College",207,"C+",751,"registeredvoters",36,47,140
+"82","AZ","Arizona","10/17/16","Data Orbital",NA,"",550,"likelyvoters",41,41,22
+"83","AZ","Arizona","10/17/16","Google Consumer Surveys",73,"B",629,"likelyvoters",41.78,31.4,22
+"84","AZ","Arizona","10/17/16","Ipsos",25,"A-",300,"likelyvoters",42.59,44.59,22
+"85","AZ","Arizona","10/14/16","HighGround",NA,"",400,"likelyvoters",38.5,36.5,25
+"86","AZ","Arizona","10/12/16","Arizona State University",240,"C+",713,"likelyvoters",43.4,37.8,27
+"87","AZ","Arizona","10/12/16","CVOTER International",192,"C+",355,"likelyvoters",44,50.6,27
+"88","AZ","Arizona","10/12/16","SurveyMonkey",352,"C-",1028,"likelyvoters",41,44,27
+"89","AZ","Arizona","10/12/16","Google Consumer Surveys",73,"B",519,"likelyvoters",40.02,30.69,27
+"90","AZ","Arizona","10/11/16","Data Orbital",NA,"",550,"likelyvoters",43,42,28
+"91","AZ","Arizona","10/10/16","Ipsos",25,"A-",883,"likelyvoters",38.92,44.56,29
+"92","AZ","Arizona","10/6/16","Google Consumer Surveys",73,"B",562,"likelyvoters",38.24,35.87,33
+"93","AZ","Arizona","10/5/16","CVOTER International",192,"C+",358,"likelyvoters",43.8,49.9,34
+"94","AZ","Arizona","10/3/16","Emerson College",119,"B",600,"likelyvoters",44,42,36
+"95","AZ","Arizona","9/30/16","Google Consumer Surveys",73,"B",579,"likelyvoters",38.76,32.92,39
+"96","AZ","Arizona","9/29/16","Ipsos",25,"A-",617,"likelyvoters",42.22,49.06,40
+"97","AZ","Arizona","9/29/16","MBQF",222,"C+",718,"likelyvoters",42,42,40
+"98","AZ","Arizona","9/25/16","CVOTER International",192,"C+",556,"likelyvoters",42,52.3,44
+"99","AZ","Arizona","9/23/16","Google Consumer Surveys",73,"B",494,"likelyvoters",37.8,33.82,46
+"100","AZ","Arizona","9/22/16","Ipsos",25,"A-",533,"likelyvoters",44.13,45.74,47
+"101","AZ","Arizona","9/21/16","Data Orbital",NA,"",550,"likelyvoters",38,40,48
+"102","AZ","Arizona","9/18/16","CVOTER International",192,"C+",554,"likelyvoters",41.7,51.8,51
+"103","AZ","Arizona","9/17/16","Google Consumer Surveys",73,"B",572,"likelyvoters",37.46,32.1,52
+"104","AZ","Arizona","9/15/16","Ipsos",25,"A-",428,"likelyvoters",41.65,47.86,54
+"105","AZ","Arizona","9/13/16","Insights West",NA,"",484,"likelyvoters",33,37,56
+"106","AZ","Arizona","9/10/16","Google Consumer Surveys",73,"B",601,"likelyvoters",33.95,34.56,59
+"107","AZ","Arizona","9/8/16","Ipsos",25,"A-",467,"likelyvoters",39.48,46.11,61
+"108","AZ","Arizona","9/7/16","Marist College",8,"A",649,"likelyvoters",38,40,62
+"109","AZ","Arizona","9/3/16","Google Consumer Surveys",73,"B",635,"likelyvoters",34.87,34.6,66
+"110","AZ","Arizona","9/1/16","Ipsos",25,"A-",458,"likelyvoters",39.57,45.89,68
+"111","AZ","Arizona","8/27/16","Public Policy Polling",60,"B+",837,"likelyvoters",43,46,73
+"112","AZ","Arizona","8/27/16","Gravis Marketing",181,"B-",1244,"likelyvoters",40,44,73
+"113","AZ","Arizona","8/27/16","Google Consumer Surveys",73,"B",533,"likelyvoters",37.2,32.28,73
+"114","AZ","Arizona","8/26/16","MBQF",222,"C+",728,"likelyvoters",40,39,74
+"115","AZ","Arizona","8/25/16","Ipsos",25,"A-",365,"likelyvoters",41.38,44.56,75
+"116","AZ","Arizona","8/24/16","Arizona State University",240,"C+",704,"likelyvoters",39.9,36.8,76
+"117","AZ","Arizona","8/20/16","CNN/Opinion Research Corp.",30,"A-",809,"likelyvoters",38,45,80
+"118","AZ","Arizona","8/20/16","SurveyMonkey",352,"C-",2026,"registeredvoters",37,39,80
+"119","AZ","Arizona","8/20/16","Google Consumer Surveys",73,"B",530,"likelyvoters",35.06,26.9,80
+"120","AZ","Arizona","8/18/16","Ipsos",25,"A-",362,"likelyvoters",43.18,46.01,82
+"121","AZ","Arizona","8/13/16","Google Consumer Surveys",73,"B",544,"likelyvoters",37.14,32.91,87
+"122","AZ","Arizona","8/11/16","Ipsos",25,"A-",438,"likelyvoters",39,47.03,89
+"123","AZ","Arizona","8/3/16","YouGov",81,"B",1095,"likelyvoters",42,44,97
+"124","AZ","Arizona","8/1/16","MBQF",222,"C+",996,"likelyvoters",45,42,99
+"125","AZ","Arizona","7/29/16","Integrated Web Strategy",NA,"",679,"likelyvoters",41.3,48.8,102
+"126","AZ","Arizona","6/20/16","MBQF",222,"C+",1060,"likelyvoters",46.5,42.2,141
+"127","AZ","Arizona","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",39,45,146
+"128","AZ","Arizona","4/7/16","Behavior Research Center (Rocky Mountain)",19,"A",564,"registeredvoters",42,35,215
+"129","AZ","Arizona","3/9/16","Merrill Poll",112,"B",701,"likelyvoters",38,38,244
+"130","AZ","Arizona","12/6/15","Strategies 360",70,"B",504,"likelyvoters",42,44,338
+"131","CA","California","10/17/16","Google Consumer Surveys",73,"B",1384,"likelyvoters",47.95,26.85,22
+"132","CA","California","10/17/16","Ipsos",25,"A-",503,"likelyvoters",63.82,25.62,22
+"133","CA","California","10/14/16","SurveyUSA",12,"A",725,"likelyvoters",56,30,25
+"134","CA","California","10/12/16","CVOTER International",192,"C+",483,"likelyvoters",58.3,37.4,27
+"135","CA","California","10/12/16","Google Consumer Surveys",73,"B",1166,"likelyvoters",48.27,26.89,27
+"136","CA","California","10/10/16","Ipsos",25,"A-",553,"likelyvoters",65.89,22.37,29
+"137","CA","California","10/6/16","Google Consumer Surveys",73,"B",1234,"likelyvoters",47.55,27.38,33
+"138","CA","California","10/5/16","CVOTER International",192,"C+",474,"likelyvoters",58.2,37,34
+"139","CA","California","10/3/16","Ipsos",25,"A-",974,"likelyvoters",61.26,27.86,36
+"140","CA","California","9/30/16","Google Consumer Surveys",73,"B",1463,"likelyvoters",46.59,28.33,39
+"141","CA","California","9/27/16","SurveyUSA",12,"A",723,"likelyvoters",59,33,42
+"142","CA","California","9/26/16","Ipsos",25,"A-",787,"likelyvoters",63.67,23.74,43
+"143","CA","California","9/25/16","CVOTER International",192,"C+",992,"likelyvoters",56.8,39,44
+"144","CA","California","9/23/16","Google Consumer Surveys",73,"B",1311,"likelyvoters",45.47,30.35,46
+"145","CA","California","9/19/16","Ipsos",25,"A-",705,"likelyvoters",60.01,28.38,50
+"146","CA","California","9/18/16","CVOTER International",192,"C+",951,"likelyvoters",57.2,38.1,51
+"147","CA","California","9/17/16","Google Consumer Surveys",73,"B",1374,"likelyvoters",46.39,28.05,52
+"148","CA","California","9/13/16","Public Policy Institute of California",11,"A",1055,"likelyvoters",47,31,56
+"149","CA","California","9/13/16","Insights West",NA,"",515,"likelyvoters",57,30,56
+"150","CA","California","9/12/16","Ipsos",25,"A-",577,"likelyvoters",62.5,24.22,57
+"151","CA","California","9/10/16","YouGov",81,"B",1426,"likelyvoters",50,33,59
+"152","CA","California","9/10/16","Google Consumer Surveys",73,"B",1544,"likelyvoters",43.37,26.36,59
+"153","CA","California","9/9/16","SurveyUSA",12,"A",678,"likelyvoters",57,32,60
+"154","CA","California","9/5/16","Ipsos",25,"A-",751,"likelyvoters",59.58,32.19,64
+"155","CA","California","9/4/16","SurveyMonkey",352,"C-",4212,"registeredvoters",49,29,65
+"156","CA","California","9/3/16","Google Consumer Surveys",73,"B",1457,"likelyvoters",43.85,27.51,66
+"157","CA","California","8/29/16","Ipsos",25,"A-",534,"likelyvoters",62.67,24.2,71
+"158","CA","California","8/27/16","Google Consumer Surveys",73,"B",1584,"likelyvoters",43.75,26.11,73
+"159","CA","California","8/26/16","Tulchin Research",93,"B",601,"registeredvoters",52,31,74
+"160","CA","California","8/26/16","Tulchin Research",93,"B",601,"registeredvoters",49,35,74
+"161","CA","California","8/22/16","Ipsos",25,"A-",518,"likelyvoters",60.74,25.03,78
+"162","CA","California","8/20/16","SurveyMonkey",352,"C-",2574,"registeredvoters",49,28,80
+"163","CA","California","8/20/16","Google Consumer Surveys",73,"B",1668,"likelyvoters",40.62,27.65,80
+"164","CA","California","8/15/16","Ipsos",25,"A-",1203,"likelyvoters",63.14,26.06,85
+"165","CA","California","8/13/16","Google Consumer Surveys",73,"B",1633,"likelyvoters",43.63,25.43,87
+"166","CA","California","7/14/16","Public Policy Institute of California",11,"A",1056,"likelyvoters",46,30,117
+"167","CA","California","6/20/16","Field Research Corporation (Field Poll)",2,"A+",495,"likelyvoters",50,26,141
+"168","CA","California","6/9/16","SurveyMonkey",352,"C-",1264,"likelyvoters",54,28,152
+"169","CA","California","6/1/16","YouGov",81,"B",1187,"likelyvoters",48,33,160
+"170","CA","California","5/30/16","Marist College",8,"A",1833,"registeredvoters",55,31,162
+"171","CA","California","5/28/16","Field Research Corporation (Field Poll)",2,"A+",1002,"likelyvoters",53,34,164
+"172","CA","California","5/25/16","Greenberg Quinlan Rosner/American Viewpoint",61,"B+",1150,"likelyvoters",54,33,167
+"173","CA","California","5/20/16","SurveyUSA",12,"A",1383,"likelyvoters",52,38,172
+"174","CA","California","5/17/16","Public Policy Institute of California",11,"A",996,"likelyvoters",49,39,175
+"175","CA","California","5/10/16","YouGov",81,"B",1196,"likelyvoters",45,33,182
+"176","CA","California","4/28/16","SurveyUSA",12,"A",2011,"registeredvoters",56,34,194
+"177","CA","California","4/1/16","SurveyUSA",12,"A",1507,"likelyvoters",60,26,221
+"178","CA","California","3/29/16","Field Research Corporation (Field Poll)",2,"A+",1400,"registeredvoters",59,31,224
+"179","CA","California","3/19/16","Greenberg Quinlan Rosner/American Viewpoint",61,"B+",1202,"likelyvoters",57,30,234
+"180","CO","Colorado","10/17/16","Google Consumer Surveys",73,"B",600,"likelyvoters",44.08,25.6,22
+"181","CO","Colorado","10/13/16","Ipsos",25,"A-",445,"likelyvoters",45.01,41.24,26
+"182","CO","Colorado","10/13/16","Quinnipiac University",26,"A-",685,"likelyvoters",45,37,26
+"183","CO","Colorado","10/12/16","Gravis Marketing",181,"B-",1226,"registeredvoters",44,39,27
+"184","CO","Colorado","10/12/16","Magellan Strategies",302,"C",500,"likelyvoters",40,35,27
+"185","CO","Colorado","10/12/16","CVOTER International",192,"C+",336,"likelyvoters",49.7,45.1,27
+"186","CO","Colorado","10/12/16","SurveyMonkey",352,"C-",956,"likelyvoters",44,37,27
+"187","CO","Colorado","10/12/16","Google Consumer Surveys",73,"B",496,"likelyvoters",42.95,23.66,27
+"188","CO","Colorado","10/6/16","Ipsos",25,"A-",561,"likelyvoters",46.61,40.89,33
+"189","CO","Colorado","10/6/16","Google Consumer Surveys",73,"B",529,"likelyvoters",41.46,25.52,33
+"190","CO","Colorado","10/5/16","CVOTER International",192,"C+",338,"likelyvoters",49.8,44.3,34
+"191","CO","Colorado","10/3/16","Gravis Marketing",181,"B-",1246,"registeredvoters",40,40,36
+"192","CO","Colorado","9/30/16","Monmouth University",1,"A+",400,"likelyvoters",49,38,39
+"193","CO","Colorado","9/30/16","Google Consumer Surveys",73,"B",558,"likelyvoters",38.58,28.19,39
+"194","CO","Colorado","9/29/16","Ipsos",25,"A-",552,"likelyvoters",44.77,44.86,40
+"195","CO","Colorado","9/28/16","Keating Research, Inc.",76,"B",602,"likelyvoters",44,33,41
+"196","CO","Colorado","9/27/16","Public Policy Polling",60,"B+",694,"likelyvoters",46,40,42
+"197","CO","Colorado","9/25/16","CVOTER International",192,"C+",553,"likelyvoters",48.3,46.6,44
+"198","CO","Colorado","9/23/16","Google Consumer Surveys",73,"B",530,"likelyvoters",36.67,31.48,46
+"199","CO","Colorado","9/22/16","CNN/Opinion Research Corp.",30,"A-",784,"likelyvoters",41,42,47
+"200","CO","Colorado","9/22/16","Gravis Marketing",181,"B-",799,"registeredvoters",37,41,47
+"201","CO","Colorado","9/22/16","Ipsos",25,"A-",463,"likelyvoters",43.25,45.22,47
+"202","CO","Colorado","9/22/16","YouGov",81,"B",991,"likelyvoters",40,39,47
+"203","CO","Colorado","9/18/16","CVOTER International",192,"C+",538,"likelyvoters",48.9,45.4,51
+"204","CO","Colorado","9/17/16","Quinnipiac University",26,"A-",644,"likelyvoters",44,42,52
+"205","CO","Colorado","9/17/16","Google Consumer Surveys",73,"B",550,"likelyvoters",40.6,28.49,52
+"206","CO","Colorado","9/16/16","Franklin & Marshall College",45,"B+",350,"likelyvoters",41,34,53
+"207","CO","Colorado","9/15/16","Ipsos",25,"A-",391,"likelyvoters",42.05,43.82,54
+"208","CO","Colorado","9/11/16","Emerson College",119,"B",600,"likelyvoters",38,42,58
+"209","CO","Colorado","9/10/16","Google Consumer Surveys",73,"B",603,"likelyvoters",36.23,28.93,59
+"210","CO","Colorado","9/8/16","Ipsos",25,"A-",421,"likelyvoters",40.11,43.13,61
+"211","CO","Colorado","9/3/16","Google Consumer Surveys",73,"B",626,"likelyvoters",37.36,28.53,66
+"212","CO","Colorado","9/1/16","Ipsos",25,"A-",417,"likelyvoters",40.5,43.29,68
+"213","CO","Colorado","8/30/16","Magellan Strategies",302,"C",500,"likelyvoters",41,36,70
+"214","CO","Colorado","8/27/16","Google Consumer Surveys",73,"B",549,"likelyvoters",38.94,23.91,73
+"215","CO","Colorado","8/22/16","Ipsos",25,"A-",495,"likelyvoters",44.57,38.55,78
+"216","CO","Colorado","8/20/16","SurveyMonkey",352,"C-",2428,"registeredvoters",37,37,80
+"217","CO","Colorado","8/20/16","Google Consumer Surveys",73,"B",512,"likelyvoters",40.49,23.95,80
+"218","CO","Colorado","8/15/16","Ipsos",25,"A-",568,"likelyvoters",43.04,39.74,85
+"219","CO","Colorado","8/13/16","Google Consumer Surveys",73,"B",552,"likelyvoters",36.77,27.97,87
+"220","CO","Colorado","8/12/16","Quinnipiac University",26,"A-",830,"likelyvoters",41,33,88
+"221","CO","Colorado","8/8/16","Ipsos",25,"A-",420,"likelyvoters",42.39,38.74,92
+"222","CO","Colorado","8/7/16","Marist College",8,"A",899,"registeredvoters",41,29,93
+"223","CO","Colorado","7/10/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",600,"registeredvoters",37,28,121
+"224","CO","Colorado","7/10/16","Monmouth University",1,"A+",404,"likelyvoters",48,35,121
+"225","CO","Colorado","7/8/16","Marist College",8,"A",794,"registeredvoters",39,33,123
+"226","CO","Colorado","7/8/16","Harper Polling",148,"B-",500,"likelyvoters",45,38,123
+"227","CO","Colorado","6/22/16","YouGov",81,"B",996,"likelyvoters",40,39,139
+"228","CO","Colorado","2/27/16","Keating Research, Inc.",76,"B",450,"likelyvoters",49,39,255
+"229","CO","Colorado","11/13/15","Quinnipiac University",26,"A-",1262,"registeredvoters",37,48,361
+"230","CT","Connecticut","10/17/16","Google Consumer Surveys",73,"B",344,"likelyvoters",40.38,33.37,22
+"231","CT","Connecticut","10/12/16","CVOTER International",192,"C+",326,"likelyvoters",54.7,41.7,27
+"232","CT","Connecticut","10/12/16","Google Consumer Surveys",73,"B",262,"likelyvoters",48.96,27.69,27
+"233","CT","Connecticut","10/10/16","Ipsos",25,"A-",437,"likelyvoters",52.56,34.83,29
+"234","CT","Connecticut","10/6/16","Google Consumer Surveys",73,"B",300,"likelyvoters",44.26,26.17,33
+"235","CT","Connecticut","10/5/16","CVOTER International",192,"C+",331,"likelyvoters",54.4,41.6,34
+"236","CT","Connecticut","10/3/16","Ipsos",25,"A-",505,"likelyvoters",53,36.07,36
+"237","CT","Connecticut","9/30/16","Google Consumer Surveys",73,"B",312,"likelyvoters",44.46,26.58,39
+"238","CT","Connecticut","9/29/16","Ipsos",25,"A-",352,"likelyvoters",53.48,35.23,40
+"239","CT","Connecticut","9/25/16","CVOTER International",192,"C+",520,"likelyvoters",53.6,42.8,44
+"240","CT","Connecticut","9/23/16","Google Consumer Surveys",73,"B",291,"likelyvoters",37.53,31.5,46
+"241","CT","Connecticut","9/19/16","Ipsos",25,"A-",455,"likelyvoters",52.01,34.09,50
+"242","CT","Connecticut","9/18/16","CVOTER International",192,"C+",512,"likelyvoters",53.7,41.9,51
+"243","CT","Connecticut","9/17/16","Google Consumer Surveys",73,"B",307,"likelyvoters",39,31.8,52
+"244","CT","Connecticut","9/12/16","Ipsos",25,"A-",440,"likelyvoters",47.33,37.36,57
+"245","CT","Connecticut","9/10/16","Google Consumer Surveys",73,"B",304,"likelyvoters",41.81,26.44,59
+"246","CT","Connecticut","9/5/16","Ipsos",25,"A-",456,"likelyvoters",47.21,37.48,64
+"247","CT","Connecticut","9/3/16","Emerson College",119,"B",1000,"likelyvoters",50,35,66
+"248","CT","Connecticut","9/3/16","Google Consumer Surveys",73,"B",310,"likelyvoters",38.56,26.41,66
+"249","CT","Connecticut","8/29/16","Ipsos",25,"A-",428,"likelyvoters",45.75,40.14,71
+"250","CT","Connecticut","8/27/16","Google Consumer Surveys",73,"B",309,"likelyvoters",40.68,25.54,73
+"251","CT","Connecticut","8/22/16","Ipsos",25,"A-",358,"likelyvoters",47.04,39.13,78
+"252","CT","Connecticut","8/20/16","SurveyMonkey",352,"C-",1053,"registeredvoters",44,33,80
+"253","CT","Connecticut","8/20/16","Google Consumer Surveys",73,"B",327,"likelyvoters",43.88,26.51,80
+"254","CT","Connecticut","8/15/16","Ipsos",25,"A-",387,"likelyvoters",49.91,37.43,85
+"255","CT","Connecticut","8/13/16","Google Consumer Surveys",73,"B",301,"likelyvoters",41.81,26.61,87
+"256","CT","Connecticut","8/8/16","Ipsos",25,"A-",358,"likelyvoters",49.73,36.71,92
+"257","CT","Connecticut","6/3/16","Quinnipiac University",26,"A-",1330,"registeredvoters",41,36,158
+"258","CT","Connecticut","4/10/16","Emerson College",119,"B",1043,"likelyvoters",48,40,212
+"259","DC","District of Columbia","10/17/16","Google Consumer Surveys",73,"B",66,"likelyvoters",65.81,7.06,22
+"260","DC","District of Columbia","10/12/16","CVOTER International",192,"C+",313,"likelyvoters",80.9,13.1,27
+"261","DC","District of Columbia","10/12/16","Google Consumer Surveys",73,"B",62,"likelyvoters",58.06,21.25,27
+"262","DC","District of Columbia","10/6/16","Google Consumer Surveys",73,"B",61,"likelyvoters",57.9,15.1,33
+"263","DC","District of Columbia","10/5/16","CVOTER International",192,"C+",316,"likelyvoters",80.3,13.9,34
+"264","DC","District of Columbia","9/30/16","Google Consumer Surveys",73,"B",64,"likelyvoters",62.21,9.8,39
+"265","DC","District of Columbia","9/25/16","CVOTER International",192,"C+",488,"likelyvoters",78.9,14.4,44
+"266","DC","District of Columbia","9/23/16","Google Consumer Surveys",73,"B",52,"likelyvoters",66.53,15.3,46
+"267","DC","District of Columbia","9/18/16","CVOTER International",192,"C+",486,"likelyvoters",80.5,14.3,51
+"268","DC","District of Columbia","9/17/16","Google Consumer Surveys",73,"B",73,"likelyvoters",43.22,28.46,52
+"269","DC","District of Columbia","9/10/16","Google Consumer Surveys",73,"B",73,"likelyvoters",38.8,32.39,59
+"270","DC","District of Columbia","9/3/16","Google Consumer Surveys",73,"B",66,"likelyvoters",47.85,21.78,66
+"271","DC","District of Columbia","8/27/16","Google Consumer Surveys",73,"B",67,"likelyvoters",44.27,25.62,73
+"272","DC","District of Columbia","8/20/16","Google Consumer Surveys",73,"B",58,"likelyvoters",54.01,22.16,80
+"273","DC","District of Columbia","8/13/16","Google Consumer Surveys",73,"B",54,"likelyvoters",44.16,24.78,87
+"274","DE","Delaware","10/17/16","Google Consumer Surveys",73,"B",113,"likelyvoters",37.21,28.18,22
+"275","DE","Delaware","10/12/16","CVOTER International",192,"C+",315,"likelyvoters",55.5,41.6,27
+"276","DE","Delaware","10/12/16","Google Consumer Surveys",73,"B",93,"likelyvoters",41.18,28.45,27
+"277","DE","Delaware","10/10/16","Ipsos",25,"A-",121,"likelyvoters",47.83,33.89,29
+"278","DE","Delaware","10/6/16","Google Consumer Surveys",73,"B",103,"likelyvoters",40.37,28.34,33
+"279","DE","Delaware","10/5/16","CVOTER International",192,"C+",312,"likelyvoters",55.2,41.4,34
+"280","DE","Delaware","10/3/16","Ipsos",25,"A-",135,"likelyvoters",46.96,39.29,36
+"281","DE","Delaware","9/30/16","Google Consumer Surveys",73,"B",78,"likelyvoters",47.37,18.2,39
+"282","DE","Delaware","9/26/16","Ipsos",25,"A-",131,"likelyvoters",46.26,35.62,43
+"283","DE","Delaware","9/25/16","CVOTER International",192,"C+",475,"likelyvoters",54.2,42.9,44
+"284","DE","Delaware","9/23/16","Google Consumer Surveys",73,"B",90,"likelyvoters",25.92,23.36,46
+"285","DE","Delaware","9/22/16","University of Delaware",NA,"",762,"likelyvoters",51,30,47
+"286","DE","Delaware","9/19/16","Ipsos",25,"A-",124,"likelyvoters",43.16,35.28,50
+"287","DE","Delaware","9/18/16","CVOTER International",192,"C+",479,"likelyvoters",54.2,42.4,51
+"288","DE","Delaware","9/17/16","Google Consumer Surveys",73,"B",85,"likelyvoters",41.23,30.04,52
+"289","DE","Delaware","9/12/16","Ipsos",25,"A-",116,"likelyvoters",40.04,32.95,57
+"290","DE","Delaware","9/10/16","Google Consumer Surveys",73,"B",103,"likelyvoters",33.9,28.33,59
+"291","DE","Delaware","9/5/16","Ipsos",25,"A-",115,"likelyvoters",43.33,28.07,64
+"292","DE","Delaware","9/3/16","Google Consumer Surveys",73,"B",123,"likelyvoters",37.37,30.62,66
+"293","DE","Delaware","8/29/16","Ipsos",25,"A-",101,"likelyvoters",45.64,23.53,71
+"294","DE","Delaware","8/27/16","Google Consumer Surveys",73,"B",99,"likelyvoters",34.1,31.69,73
+"295","DE","Delaware","8/20/16","SurveyMonkey",352,"C-",637,"registeredvoters",43,33,80
+"296","DE","Delaware","8/20/16","Google Consumer Surveys",73,"B",101,"likelyvoters",35.71,23.01,80
+"297","DE","Delaware","8/13/16","Google Consumer Surveys",73,"B",94,"likelyvoters",34.47,32.29,87
+"298","DE","Delaware","8/8/16","Ipsos",25,"A-",117,"likelyvoters",44.1,22.13,92
+"299","DE","Delaware","7/22/16","Fairleigh Dickinson University (PublicMind)",15,"A",715,"registeredvoters",42,32,109
+"300","FL","Florida","10/20/16","Opinion Savvy/InsiderAdvantage",338,"C-",538,"likelyvoters",49,45,19
+"301","FL","Florida","10/17/16","Cherry Communications",303,"C",507,"likelyvoters",46,42,22
+"302","FL","Florida","10/17/16","Ipsos",25,"A-",631,"likelyvoters",48.01,44.38,22
+"303","FL","Florida","10/17/16","Google Consumer Surveys",73,"B",987,"likelyvoters",38.49,38.56,22
+"304","FL","Florida","10/16/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",875,"likelyvoters",47,41,23
+"305","FL","Florida","10/13/16","Quinnipiac University",26,"A-",660,"likelyvoters",48,44,26
+"306","FL","Florida","10/12/16","Public Policy Polling",60,"B+",985,"likelyvoters",46,42,27
+"307","FL","Florida","10/12/16","CVOTER International",192,"C+",401,"likelyvoters",48.7,46.3,27
+"308","FL","Florida","10/12/16","Gravis Marketing",181,"B-",1799,"registeredvoters",46,42,27
+"309","FL","Florida","10/12/16","SurveyMonkey",352,"C-",1702,"likelyvoters",43,45,27
+"310","FL","Florida","10/12/16","Google Consumer Surveys",73,"B",964,"likelyvoters",36.93,39.19,27
+"311","FL","Florida","10/10/16","Opinion Savvy/InsiderAdvantage",338,"C-",533,"likelyvoters",46.9,44.1,29
+"312","FL","Florida","10/10/16","Ipsos",25,"A-",1019,"likelyvoters",47.57,41.81,29
+"313","FL","Florida","10/7/16","Florida Atlantic University",206,"C+",400,"likelyvoters",48.6,42.9,32
+"314","FL","Florida","10/6/16","Google Consumer Surveys",73,"B",893,"likelyvoters",36.85,37.09,33
+"315","FL","Florida","10/5/16","CVOTER International",192,"C+",398,"likelyvoters",47.6,46.7,34
+"316","FL","Florida","10/4/16","Marist College",8,"A",700,"likelyvoters",45,42,35
+"317","FL","Florida","10/4/16","Gravis Marketing",181,"B-",821,"registeredvoters",47,45,35
+"318","FL","Florida","10/3/16","Associated Industries of Florida",NA,"",1000,"likelyvoters",44,41,36
+"319","FL","Florida","10/3/16","Emerson College",119,"B",600,"likelyvoters",44,45,36
+"320","FL","Florida","10/3/16","Ipsos",25,"A-",979,"likelyvoters",48.55,43.74,36
+"321","FL","Florida","9/30/16","University of North Florida",36,"B+",686,"likelyvoters",41,38,39
+"322","FL","Florida","9/30/16","Google Consumer Surveys",73,"B",1270,"likelyvoters",34.54,42.36,39
+"323","FL","Florida","9/29/16","Quinnipiac University",26,"A-",545,"likelyvoters",46,41,40
+"324","FL","Florida","9/28/16","Opinion Savvy/InsiderAdvantage",338,"C-",619,"likelyvoters",46.6,46.3,41
+"325","FL","Florida","9/28/16","Mason-Dixon Polling & Research, Inc.",49,"B+",820,"likelyvoters",46,42,41
+"326","FL","Florida","9/27/16","Public Policy Polling",60,"B+",826,"likelyvoters",45,43,42
+"327","FL","Florida","9/26/16","Ipsos",25,"A-",701,"likelyvoters",47.55,46.4,43
+"328","FL","Florida","9/25/16","CVOTER International",192,"C+",785,"likelyvoters",46.3,48.9,44
+"329","FL","Florida","9/23/16","Google Consumer Surveys",73,"B",956,"likelyvoters",34.29,41.33,46
+"330","FL","Florida","9/20/16","Suffolk University",65,"B+",500,"likelyvoters",44,45,49
+"331","FL","Florida","9/19/16","Ipsos",25,"A-",811,"likelyvoters",49.08,45.16,50
+"332","FL","Florida","9/18/16","CVOTER International",192,"C+",764,"likelyvoters",46.4,48.2,51
+"333","FL","Florida","9/17/16","Monmouth University",1,"A+",400,"likelyvoters",46,41,52
+"334","FL","Florida","9/17/16","Cherry Communications",303,"C",617,"likelyvoters",43,41,52
+"335","FL","Florida","9/17/16","Google Consumer Surveys",73,"B",1125,"likelyvoters",30.25,43.12,52
+"336","FL","Florida","9/13/16","Saint Leo University",257,"C+",475,"likelyvoters",49.4,43.6,56
+"337","FL","Florida","9/12/16","Siena College",14,"A",867,"likelyvoters",41,40,57
+"338","FL","Florida","9/12/16","Ipsos",25,"A-",722,"likelyvoters",46.33,49.84,57
+"339","FL","Florida","9/10/16","Google Consumer Surveys",73,"B",1347,"likelyvoters",30.85,41.04,59
+"340","FL","Florida","9/9/16","CNN/Opinion Research Corp.",30,"A-",788,"likelyvoters",44,47,60
+"341","FL","Florida","9/8/16","Global Strategy Group",275,"C+",800,"likelyvoters",46,43,61
+"342","FL","Florida","9/8/16","YouGov",81,"B",1193,"likelyvoters",44,42,61
+"343","FL","Florida","9/7/16","JMC Enterprises",294,"C",781,"likelyvoters",42,46,62
+"344","FL","Florida","9/5/16","Public Policy Polling",60,"B+",744,"likelyvoters",43,44,64
+"345","FL","Florida","9/5/16","Ipsos",25,"A-",616,"likelyvoters",46.88,47.17,64
+"346","FL","Florida","9/3/16","Google Consumer Surveys",73,"B",1195,"likelyvoters",31.35,39.97,66
+"347","FL","Florida","9/2/16","Quinnipiac University",26,"A-",761,"likelyvoters",43,43,67
+"348","FL","Florida","8/29/16","Ipsos",25,"A-",605,"likelyvoters",48.23,44.6,71
+"349","FL","Florida","8/27/16","Google Consumer Surveys",73,"B",1360,"likelyvoters",30.85,39.89,73
+"350","FL","Florida","8/23/16","Mason-Dixon Polling & Research, Inc.",49,"B+",625,"likelyvoters",44,42,77
+"351","FL","Florida","8/22/16","Ipsos",25,"A-",666,"likelyvoters",49.05,41.88,78
+"352","FL","Florida","8/21/16","icitizen",NA,"",600,"registeredvoters",42,37,79
+"353","FL","Florida","8/20/16","Florida Atlantic University",206,"C+",1200,"likelyvoters",41,43,80
+"354","FL","Florida","8/20/16","SurveyMonkey",352,"C-",3287,"registeredvoters",42,40,80
+"355","FL","Florida","8/20/16","Google Consumer Surveys",73,"B",1288,"likelyvoters",32.58,40.47,80
+"356","FL","Florida","8/19/16","Cherry Communications",303,"C",608,"likelyvoters",41,44,81
+"357","FL","Florida","8/16/16","Saint Leo University",257,"C+",1380,"likelyvoters",51.7,37.7,84
+"358","FL","Florida","8/15/16","Ipsos",25,"A-",1216,"likelyvoters",48.52,41.41,85
+"359","FL","Florida","8/13/16","Monmouth University",1,"A+",402,"likelyvoters",48,39,87
+"360","FL","Florida","8/13/16","Google Consumer Surveys",73,"B",1341,"likelyvoters",34.48,38.4,87
+"361","FL","Florida","8/11/16","YouGov",81,"B",1194,"likelyvoters",45,40,89
+"362","FL","Florida","8/10/16","Opinion Savvy/InsiderAdvantage",338,"C-",622,"likelyvoters",45.2,44.3,90
+"363","FL","Florida","8/7/16","Marist College",8,"A",862,"registeredvoters",41,36,93
+"364","FL","Florida","8/3/16","Quinnipiac University",26,"A-",1056,"likelyvoters",43,43,97
+"365","FL","Florida","8/2/16","Suffolk University",65,"B+",500,"likelyvoters",43.2,38.8,98
+"366","FL","Florida","7/9/16","JMC Enterprises",294,"C",700,"likelyvoters",42,47,122
+"367","FL","Florida","7/8/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",1100,"likelyvoters",45,40,123
+"368","FL","Florida","7/8/16","Marist College",8,"A",871,"registeredvoters",41,36,123
+"369","FL","Florida","7/5/16","Quinnipiac University",26,"A-",1015,"registeredvoters",36,41,126
+"370","FL","Florida","6/27/16","Gravis Marketing",181,"B-",1619,"registeredvoters",48.5,48.5,134
+"371","FL","Florida","6/27/16","OnMessage Inc.",237,"C+",800,"likelyvoters",45,47,134
+"372","FL","Florida","6/26/16","SurveyUSA",12,"A",1678,"likelyvoters",46,42,135
+"373","FL","Florida","6/22/16","YouGov",81,"B",1192,"likelyvoters",44,41,139
+"374","FL","Florida","6/16/16","Evolving Strategies",NA,"",596,"likelyvoters",47,34,145
+"375","FL","Florida","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",49,38,146
+"376","FL","Florida","6/13/16","Quinnipiac University",26,"A-",975,"registeredvoters",42,36,148
+"377","FL","Florida","6/13/16","Saint Leo University",257,"C+",459,"likelyvoters",45.8,33.1,148
+"378","FL","Florida","6/1/16","Mason-Dixon Polling & Research, Inc.",49,"B+",625,"likelyvoters",45,42,160
+"379","FL","Florida","5/17/16","Gravis Marketing",181,"B-",2542,"registeredvoters",46,42,175
+"380","FL","Florida","5/17/16","YouGov",81,"B",995,"likelyvoters",43,42,175
+"381","FL","Florida","5/2/16","Quinnipiac University",26,"A-",1051,"registeredvoters",43,42,190
+"382","FL","Florida","4/26/16","Associated Industries of Florida",NA,"",604,"likelyvoters",49,36,196
+"383","FL","Florida","3/15/16","Saint Leo University",257,"C+",540,"likelyvoters",51.7,34.2,238
+"384","FL","Florida","3/7/16","Marist College",8,"A",2422,"registeredvoters",49,41,246
+"385","FL","Florida","3/5/16","SurveyUSA",12,"A",1961,"likelyvoters",44,45,248
+"386","FL","Florida","3/4/16","CNN/Opinion Research Corp.",30,"A-",854,"registeredvoters",50,43,249
+"387","FL","Florida","2/2/16","Florida Southern College",NA,"",608,"registeredvoters",45,38,280
+"388","FL","Florida","1/16/16","Florida Atlantic University",206,"C+",1008,"registeredvoters",44,47,297
+"389","FL","Florida","12/1/15","Saint Leo University",257,"C+",404,"likelyvoters",49,41,343
+"390","FL","Florida","11/15/15","Florida Atlantic University",206,"C+",829,"registeredvoters",41,49,359
+"391","GA","Georgia","10/20/16","Landmark Communications",100,"B",600,"likelyvoters",43,47,19
+"392","GA","Georgia","10/20/16","Opinion Savvy/InsiderAdvantage",338,"C-",570,"likelyvoters",46.1,50.1,19
+"393","GA","Georgia","10/18/16","Time/Abt SRBI",23,"A-",839,"likelyvoters",42,44,21
+"394","GA","Georgia","10/17/16","Google Consumer Surveys",73,"B",551,"likelyvoters",33.26,42.1,22
+"395","GA","Georgia","10/16/16","Clout Research/Wenzel Strategies",354,"C-",627,"likelyvoters",43.1,45.8,23
+"396","GA","Georgia","10/13/16","Ipsos",25,"A-",523,"likelyvoters",40.91,49.4,26
+"397","GA","Georgia","10/12/16","CVOTER International",192,"C+",351,"likelyvoters",45.1,48.8,27
+"398","GA","Georgia","10/12/16","SurveyMonkey",352,"C-",886,"likelyvoters",45,41,27
+"399","GA","Georgia","10/12/16","Google Consumer Surveys",73,"B",489,"likelyvoters",30.22,41.25,27
+"400","GA","Georgia","10/11/16","Landmark Communications",100,"B",1400,"likelyvoters",42.3,47.8,28
+"401","GA","Georgia","10/6/16","Ipsos",25,"A-",645,"likelyvoters",41.51,50.04,33
+"402","GA","Georgia","10/6/16","Google Consumer Surveys",73,"B",456,"likelyvoters",30.76,42.67,33
+"403","GA","Georgia","10/5/16","CVOTER International",192,"C+",360,"likelyvoters",44.8,48.6,34
+"404","GA","Georgia","10/3/16","Ipsos",25,"A-",392,"likelyvoters",43.1,48.05,36
+"405","GA","Georgia","9/30/16","Google Consumer Surveys",73,"B",599,"likelyvoters",28.89,43.74,39
+"406","GA","Georgia","9/26/16","Ipsos",25,"A-",317,"likelyvoters",38.11,50.98,43
+"407","GA","Georgia","9/25/16","CVOTER International",192,"C+",626,"likelyvoters",42.5,51.7,44
+"408","GA","Georgia","9/23/16","Google Consumer Surveys",73,"B",441,"likelyvoters",31.5,39.2,46
+"409","GA","Georgia","9/21/16","Landmark Communications",100,"B",600,"likelyvoters",42.9,46.5,48
+"410","GA","Georgia","9/21/16","JMC Enterprises",294,"C",600,"likelyvoters",38,44,48
+"411","GA","Georgia","9/18/16","CVOTER International",192,"C+",639,"likelyvoters",42.8,50.6,51
+"412","GA","Georgia","9/17/16","Quinnipiac University",26,"A-",638,"likelyvoters",40,47,52
+"413","GA","Georgia","9/17/16","Google Consumer Surveys",73,"B",543,"likelyvoters",30.02,44.88,52
+"414","GA","Georgia","9/16/16","Monmouth University",1,"A+",401,"likelyvoters",42,45,53
+"415","GA","Georgia","9/15/16","Ipsos",25,"A-",613,"likelyvoters",42.71,46.04,54
+"416","GA","Georgia","9/14/16","Opinion Savvy/InsiderAdvantage",338,"C-",568,"likelyvoters",42,46.3,55
+"417","GA","Georgia","9/11/16","Emerson College",119,"B",600,"likelyvoters",39,45,58
+"418","GA","Georgia","9/10/16","Google Consumer Surveys",73,"B",542,"likelyvoters",31.01,39.72,59
+"419","GA","Georgia","9/8/16","Ipsos",25,"A-",539,"likelyvoters",39.99,47.77,61
+"420","GA","Georgia","9/7/16","Marist College",8,"A",625,"likelyvoters",42,44,62
+"421","GA","Georgia","9/3/16","Google Consumer Surveys",73,"B",573,"likelyvoters",31.85,40.74,66
+"422","GA","Georgia","9/1/16","Ipsos",25,"A-",529,"likelyvoters",37.89,48.39,68
+"423","GA","Georgia","8/27/16","Google Consumer Surveys",73,"B",568,"likelyvoters",25.87,43.94,73
+"424","GA","Georgia","8/25/16","Ipsos",25,"A-",525,"likelyvoters",41.1,47.01,75
+"425","GA","Georgia","8/20/16","SurveyMonkey",352,"C-",2034,"registeredvoters",39,40,80
+"426","GA","Georgia","8/20/16","Google Consumer Surveys",73,"B",636,"likelyvoters",27.58,44.61,80
+"427","GA","Georgia","8/18/16","Ipsos",25,"A-",498,"likelyvoters",43.33,46.33,82
+"428","GA","Georgia","8/17/16","Opinion Savvy/InsiderAdvantage",338,"C-",730,"likelyvoters",42.8,43,83
+"429","GA","Georgia","8/13/16","Google Consumer Surveys",73,"B",546,"likelyvoters",27.63,41.69,87
+"430","GA","Georgia","8/11/16","Ipsos",25,"A-",522,"likelyvoters",41.99,46.04,89
+"431","GA","Georgia","8/11/16","YouGov",81,"B",988,"likelyvoters",41,45,89
+"432","GA","Georgia","8/6/16","JMC Enterprises",294,"C",615,"likelyvoters",44,37,94
+"433","GA","Georgia","8/6/16","Gravis Marketing",181,"B-",1604,"registeredvoters",39,43,94
+"434","GA","Georgia","8/2/16","Time/Abt SRBI",23,"A-",847,"registeredvoters",41,38,98
+"435","GA","Georgia","7/31/16","Landmark Communications",100,"B",787,"likelyvoters",46,46,100
+"436","GA","Georgia","7/30/16","SurveyUSA",12,"A",628,"likelyvoters",42,46,101
+"437","GA","Georgia","7/24/16","Landmark Communications",100,"B",500,"likelyvoters",44.2,45.5,107
+"438","GA","Georgia","7/3/16","Lake Research Partners",42,"B+",600,"likelyvoters",41,40,128
+"439","GA","Georgia","5/15/16","Opinion Savvy/InsiderAdvantage",338,"C-",587,"likelyvoters",41,44,177
+"440","GA","Georgia","5/10/16","Time/Abt SRBI",23,"A-",822,"registeredvoters",41,45,182
+"441","GA","Georgia","5/5/16","Landmark Communications",100,"B",570,"likelyvoters",41,42,187
+"442","GA","Georgia","4/1/16","Lake Research Partners",42,"B+",400,"likelyvoters",50,37,221
+"443","GA","Georgia","2/22/16","SurveyUSA",12,"A",1261,"likelyvoters",41,50,260
+"444","HI","Hawaii","10/17/16","Google Consumer Surveys",73,"B",94,"likelyvoters",49.02,27.28,22
+"445","HI","Hawaii","10/12/16","CVOTER International",192,"C+",312,"likelyvoters",64.7,32.5,27
+"446","HI","Hawaii","10/12/16","Google Consumer Surveys",73,"B",66,"likelyvoters",51.35,20.4,27
+"447","HI","Hawaii","10/6/16","Google Consumer Surveys",73,"B",67,"likelyvoters",49.42,29.17,33
+"448","HI","Hawaii","10/5/16","CVOTER International",192,"C+",304,"likelyvoters",64.4,32.4,34
+"449","HI","Hawaii","9/30/16","Google Consumer Surveys",73,"B",59,"likelyvoters",62.08,16.96,39
+"450","HI","Hawaii","9/25/16","CVOTER International",192,"C+",461,"likelyvoters",63.6,33.5,44
+"451","HI","Hawaii","9/23/16","Google Consumer Surveys",73,"B",82,"likelyvoters",42.4,21.69,46
+"452","HI","Hawaii","9/18/16","CVOTER International",192,"C+",460,"likelyvoters",64,32.5,51
+"453","HI","Hawaii","9/17/16","Google Consumer Surveys",73,"B",42,"likelyvoters",43.2,31.59,52
+"454","HI","Hawaii","9/10/16","Google Consumer Surveys",73,"B",90,"likelyvoters",40.16,21.25,59
+"455","HI","Hawaii","9/3/16","Google Consumer Surveys",73,"B",90,"likelyvoters",47.31,27.69,66
+"456","HI","Hawaii","8/27/16","Google Consumer Surveys",73,"B",85,"likelyvoters",41.35,23.55,73
+"457","HI","Hawaii","8/20/16","SurveyMonkey",352,"C-",546,"registeredvoters",51,25,80
+"458","HI","Hawaii","8/20/16","Google Consumer Surveys",73,"B",87,"likelyvoters",42.98,22.49,80
+"459","HI","Hawaii","8/13/16","Google Consumer Surveys",73,"B",76,"likelyvoters",53.27,22.95,87
+"460","IA","Iowa","10/17/16","Google Consumer Surveys",73,"B",424,"likelyvoters",34.22,32.63,22
+"461","IA","Iowa","10/12/16","CVOTER International",192,"C+",328,"likelyvoters",48.6,47.7,27
+"462","IA","Iowa","10/12/16","SurveyMonkey",352,"C-",1135,"likelyvoters",40,45,27
+"463","IA","Iowa","10/12/16","Google Consumer Surveys",73,"B",359,"likelyvoters",32.59,35.59,27
+"464","IA","Iowa","10/10/16","Ipsos",25,"A-",363,"likelyvoters",45.62,42.61,29
+"465","IA","Iowa","10/8/16","The Times-Picayune/Lucid",NA,"",917,"likelyvoters",41,37,31
+"466","IA","Iowa","10/6/16","Google Consumer Surveys",73,"B",360,"likelyvoters",36.61,27.19,33
+"467","IA","Iowa","10/5/16","CVOTER International",192,"C+",322,"likelyvoters",48.7,47.1,34
+"468","IA","Iowa","10/4/16","Selzer & Company",3,"A+",642,"likelyvoters",39,43,35
+"469","IA","Iowa","10/3/16","Ipsos",25,"A-",382,"likelyvoters",44.74,44.49,36
+"470","IA","Iowa","9/30/16","Google Consumer Surveys",73,"B",411,"likelyvoters",38.14,29.27,39
+"471","IA","Iowa","9/26/16","Ipsos",25,"A-",359,"likelyvoters",44.43,46.18,43
+"472","IA","Iowa","9/25/16","CVOTER International",192,"C+",491,"likelyvoters",47.5,49,44
+"473","IA","Iowa","9/23/16","Google Consumer Surveys",73,"B",362,"likelyvoters",36.2,29.81,46
+"474","IA","Iowa","9/21/16","Loras College",170,"B-",491,"likelyvoters",37.7,38.3,48
+"475","IA","Iowa","9/19/16","Ipsos",25,"A-",343,"likelyvoters",42.15,48.82,50
+"476","IA","Iowa","9/18/16","CVOTER International",192,"C+",481,"likelyvoters",46.9,48.9,51
+"477","IA","Iowa","9/17/16","Quinnipiac University",26,"A-",612,"likelyvoters",37,44,52
+"478","IA","Iowa","9/17/16","Google Consumer Surveys",73,"B",387,"likelyvoters",29.97,30.86,52
+"479","IA","Iowa","9/13/16","Monmouth University",1,"A+",404,"likelyvoters",37,45,56
+"480","IA","Iowa","9/12/16","Ipsos",25,"A-",344,"likelyvoters",40.51,50.74,57
+"481","IA","Iowa","9/10/16","Google Consumer Surveys",73,"B",411,"likelyvoters",30.38,35.27,59
+"482","IA","Iowa","9/7/16","RABA Research",252,"C+",1054,"likelyvoters",39,40,62
+"483","IA","Iowa","9/5/16","Ipsos",25,"A-",347,"likelyvoters",40.55,49.46,64
+"484","IA","Iowa","9/3/16","Google Consumer Surveys",73,"B",402,"likelyvoters",36.29,30.31,66
+"485","IA","Iowa","8/31/16","Emerson College",119,"B",600,"likelyvoters",39,44,69
+"486","IA","Iowa","8/30/16","Public Policy Polling",60,"B+",827,"likelyvoters",45,43,70
+"487","IA","Iowa","8/29/16","Ipsos",25,"A-",327,"likelyvoters",41.39,43.91,71
+"488","IA","Iowa","8/27/16","Google Consumer Surveys",73,"B",325,"likelyvoters",33.58,32.81,73
+"489","IA","Iowa","8/22/16","Ipsos",25,"A-",282,"likelyvoters",41.18,44.18,78
+"490","IA","Iowa","8/20/16","SurveyMonkey",352,"C-",1875,"registeredvoters",36,40,80
+"491","IA","Iowa","8/20/16","Google Consumer Surveys",73,"B",308,"likelyvoters",40.4,33.02,80
+"492","IA","Iowa","8/18/16","YouGov",81,"B",987,"likelyvoters",40,40,82
+"493","IA","Iowa","8/15/16","Ipsos",25,"A-",288,"likelyvoters",43.05,39.52,85
+"494","IA","Iowa","8/13/16","Google Consumer Surveys",73,"B",323,"likelyvoters",37.83,28.17,87
+"495","IA","Iowa","8/12/16","Quinnipiac University",26,"A-",846,"likelyvoters",41,39,88
+"496","IA","Iowa","8/9/16","Suffolk University",65,"B+",500,"likelyvoters",36,37,91
+"497","IA","Iowa","8/8/16","Ipsos",25,"A-",369,"likelyvoters",41.22,41.45,92
+"498","IA","Iowa","8/5/16","Marist College",8,"A",899,"registeredvoters",35,35,95
+"499","IA","Iowa","7/14/16","YouGov",81,"B",998,"likelyvoters",39,40,117
+"500","IA","Iowa","7/9/16","Monmouth University",1,"A+",401,"likelyvoters",42,44,122
+"501","IA","Iowa","7/7/16","Marist College",8,"A",822,"registeredvoters",37,37,124
+"502","IA","Iowa","6/26/16","Loras College",170,"B-",600,"likelyvoters",44,31,135
+"503","IA","Iowa","6/16/16","Evolving Strategies",NA,"",601,"likelyvoters",38,36,145
+"504","IA","Iowa","1/4/16","Marist College",8,"A",1470,"registeredvoters",48,40,309
+"505","IA","Iowa","11/13/15","Morning Consult",NA,"",641,"registeredvoters",41,40,361
+"506","ID","Idaho","10/17/16","Google Consumer Surveys",73,"B",182,"likelyvoters",26.63,38.39,22
+"507","ID","Idaho","10/12/16","CVOTER International",192,"C+",316,"likelyvoters",34,60,27
+"508","ID","Idaho","10/12/16","Google Consumer Surveys",73,"B",161,"likelyvoters",23.38,33.65,27
+"509","ID","Idaho","10/10/16","Ipsos",25,"A-",171,"likelyvoters",35.13,50.7,29
+"510","ID","Idaho","10/6/16","Google Consumer Surveys",73,"B",150,"likelyvoters",24.82,32.89,33
+"511","ID","Idaho","10/5/16","CVOTER International",192,"C+",330,"likelyvoters",33.5,59.9,34
+"512","ID","Idaho","10/3/16","Dan Jones & Associates",273,"C+",608,"likelyvoters",30,40,36
+"513","ID","Idaho","10/3/16","Ipsos",25,"A-",199,"likelyvoters",31.26,54.18,36
+"514","ID","Idaho","9/30/16","Google Consumer Surveys",73,"B",158,"likelyvoters",27.19,42.68,39
+"515","ID","Idaho","9/26/16","Ipsos",25,"A-",197,"likelyvoters",31.01,55.22,43
+"516","ID","Idaho","9/25/16","CVOTER International",192,"C+",487,"likelyvoters",31.9,62.3,44
+"517","ID","Idaho","9/23/16","Google Consumer Surveys",73,"B",144,"likelyvoters",22.61,46.46,46
+"518","ID","Idaho","9/19/16","Ipsos",25,"A-",175,"likelyvoters",27.39,59.62,50
+"519","ID","Idaho","9/18/16","CVOTER International",192,"C+",479,"likelyvoters",33,60.6,51
+"520","ID","Idaho","9/17/16","Google Consumer Surveys",73,"B",144,"likelyvoters",18.72,43.51,52
+"521","ID","Idaho","9/12/16","Ipsos",25,"A-",178,"likelyvoters",32.19,54.9,57
+"522","ID","Idaho","9/10/16","Google Consumer Surveys",73,"B",165,"likelyvoters",11.78,42.37,59
+"523","ID","Idaho","9/5/16","Ipsos",25,"A-",176,"likelyvoters",31.94,56.14,64
+"524","ID","Idaho","9/3/16","Google Consumer Surveys",73,"B",187,"likelyvoters",24.67,35.73,66
+"525","ID","Idaho","8/29/16","Ipsos",25,"A-",167,"likelyvoters",30.1,55.85,71
+"526","ID","Idaho","8/27/16","Google Consumer Surveys",73,"B",168,"likelyvoters",25.17,35.94,73
+"527","ID","Idaho","8/24/16","Dan Jones & Associates",273,"C+",602,"likelyvoters",23,44,76
+"528","ID","Idaho","8/22/16","Ipsos",25,"A-",126,"likelyvoters",27.92,58.08,78
+"529","ID","Idaho","8/20/16","SurveyMonkey",352,"C-",716,"registeredvoters",25,44,80
+"530","ID","Idaho","8/20/16","Google Consumer Surveys",73,"B",164,"likelyvoters",25.88,36.13,80
+"531","ID","Idaho","8/15/16","Ipsos",25,"A-",144,"likelyvoters",29.2,49.24,85
+"532","ID","Idaho","8/13/16","Google Consumer Surveys",73,"B",166,"likelyvoters",24.07,40.41,87
+"533","ID","Idaho","8/8/16","Ipsos",25,"A-",186,"likelyvoters",30.39,44.22,92
+"534","ID","Idaho","7/10/16","Dan Jones & Associates",273,"C+",601,"likelyvoters",23,44,121
+"535","IL","Illinois","10/17/16","Google Consumer Surveys",73,"B",1105,"likelyvoters",38.96,29.27,22
+"536","IL","Illinois","10/17/16","Ipsos",25,"A-",371,"likelyvoters",57.33,27.64,22
+"537","IL","Illinois","10/13/16","Illinois Public Opinion Strategies",NA,"",644,"likelyvoters",50,31.5,26
+"538","IL","Illinois","10/12/16","CVOTER International",192,"C+",398,"likelyvoters",55.5,40.2,27
+"539","IL","Illinois","10/12/16","Google Consumer Surveys",73,"B",930,"likelyvoters",36.05,32.23,27
+"540","IL","Illinois","10/10/16","Ipsos",25,"A-",409,"likelyvoters",60.31,27.44,29
+"541","IL","Illinois","10/6/16","Google Consumer Surveys",73,"B",1025,"likelyvoters",39.07,29.52,33
+"542","IL","Illinois","10/5/16","CVOTER International",192,"C+",397,"likelyvoters",55.4,39.9,34
+"543","IL","Illinois","10/4/16","Global Strategy Group",275,"C+",600,"likelyvoters",50,33,35
+"544","IL","Illinois","10/3/16","Ipsos",25,"A-",601,"likelyvoters",57.49,31.29,36
+"545","IL","Illinois","9/30/16","Google Consumer Surveys",73,"B",1116,"likelyvoters",42.41,25.35,39
+"546","IL","Illinois","9/29/16","Southern Illinois University",NA,"",865,"likelyvoters",53.2,28.4,40
+"547","IL","Illinois","9/26/16","Ipsos",25,"A-",422,"likelyvoters",52.71,33.37,43
+"548","IL","Illinois","9/25/16","CVOTER International",192,"C+",682,"likelyvoters",53.5,42.1,44
+"549","IL","Illinois","9/23/16","Google Consumer Surveys",73,"B",933,"likelyvoters",36.79,30.29,46
+"550","IL","Illinois","9/22/16","Victory Research",NA,"",1200,"likelyvoters",48.6,35.1,47
+"551","IL","Illinois","9/20/16","Emerson College",119,"B",700,"likelyvoters",44.5,38.7,49
+"552","IL","Illinois","9/19/16","Ipsos",25,"A-",426,"likelyvoters",53.43,30.81,50
+"553","IL","Illinois","9/18/16","CVOTER International",192,"C+",657,"likelyvoters",54.2,40.7,51
+"554","IL","Illinois","9/17/16","Google Consumer Surveys",73,"B",1027,"likelyvoters",39.01,29.4,52
+"555","IL","Illinois","9/14/16","Loras College",170,"B-",600,"likelyvoters",43,30,55
+"556","IL","Illinois","9/12/16","We Ask America",336,"C",955,"registeredvoters",51.24,32.71,57
+"557","IL","Illinois","9/12/16","Ipsos",25,"A-",432,"likelyvoters",51.5,36.18,57
+"558","IL","Illinois","9/10/16","Google Consumer Surveys",73,"B",1226,"likelyvoters",37.79,29.41,59
+"559","IL","Illinois","9/5/16","Ipsos",25,"A-",460,"likelyvoters",51.65,33.86,64
+"560","IL","Illinois","9/3/16","Google Consumer Surveys",73,"B",1185,"likelyvoters",34.91,29.27,66
+"561","IL","Illinois","8/29/16","Ipsos",25,"A-",359,"likelyvoters",49.97,36.68,71
+"562","IL","Illinois","8/27/16","Google Consumer Surveys",73,"B",1040,"likelyvoters",34.63,28.61,73
+"563","IL","Illinois","8/22/16","Ipsos",25,"A-",366,"likelyvoters",52.63,26.24,78
+"564","IL","Illinois","8/20/16","SurveyMonkey",352,"C-",2599,"registeredvoters",45,31,80
+"565","IL","Illinois","8/20/16","Google Consumer Surveys",73,"B",1047,"likelyvoters",35.37,28.77,80
+"566","IL","Illinois","8/15/16","Ipsos",25,"A-",788,"likelyvoters",56.22,29.58,85
+"567","IL","Illinois","8/13/16","Google Consumer Surveys",73,"B",1007,"likelyvoters",37.04,26.64,87
+"568","IL","Illinois","8/2/16","Normington, Petts & Associates",280,"C+",800,"likelyvoters",51,32,98
+"569","IL","Illinois","7/26/16","Illinois Public Opinion Strategies",NA,"",824,"likelyvoters",49.2,35.6,105
+"570","IL","Illinois","7/15/16","Victory Research",NA,"",1200,"likelyvoters",51,34,116
+"571","IL","Illinois","7/12/16","Normington, Petts & Associates",280,"C+",800,"likelyvoters",51,32,119
+"572","IL","Illinois","7/11/16","Basswood Research",268,"C+",NA,"likelyvoters",46.4,32.5,120
+"573","IL","Illinois","6/7/16","Political Callers, Inc.",NA,"",732,"likelyvoters",48.3,29.5,154
+"574","IL","Illinois","6/5/16","We Ask America",336,"C",1231,"registeredvoters",47,35,156
+"575","IL","Illinois","3/7/16","Marist College",8,"A",1968,"registeredvoters",57,32,246
+"576","IL","Illinois","1/9/16","Ogden & Fry",NA,"",502,"likelyvoters",36.5,27.5,304
+"577","IN","Indiana","10/17/16","Google Consumer Surveys",73,"B",717,"likelyvoters",35.95,33.04,22
+"578","IN","Indiana","10/13/16","Ipsos",25,"A-",354,"likelyvoters",38.42,49.04,26
+"579","IN","Indiana","10/13/16","Ball State University",NA,"",544,"likelyvoters",37,43,26
+"580","IN","Indiana","10/12/16","CVOTER International",192,"C+",330,"likelyvoters",43.1,52.7,27
+"581","IN","Indiana","10/12/16","Monmouth University",1,"A+",402,"likelyvoters",41,45,27
+"582","IN","Indiana","10/12/16","Google Consumer Surveys",73,"B",665,"likelyvoters",38.24,32.72,27
+"583","IN","Indiana","10/8/16","The Times-Picayune/Lucid",NA,"",1123,"likelyvoters",37,43,31
+"584","IN","Indiana","10/6/16","Ipsos",25,"A-",434,"likelyvoters",38.27,47.14,33
+"585","IN","Indiana","10/6/16","Google Consumer Surveys",73,"B",653,"likelyvoters",36.04,35.07,33
+"586","IN","Indiana","10/5/16","CVOTER International",192,"C+",329,"likelyvoters",42.8,52.4,34
+"587","IN","Indiana","10/4/16","Public Opinion Strategies",87,"B",600,"likelyvoters",38,43,35
+"588","IN","Indiana","9/30/16","Google Consumer Surveys",73,"B",616,"likelyvoters",35.1,32.52,39
+"589","IN","Indiana","9/29/16","Ipsos",25,"A-",430,"likelyvoters",37.21,50.31,40
+"590","IN","Indiana","9/25/16","CVOTER International",192,"C+",533,"likelyvoters",40.6,55.4,44
+"591","IN","Indiana","9/23/16","Google Consumer Surveys",73,"B",568,"likelyvoters",36.14,33.29,46
+"592","IN","Indiana","9/22/16","Ipsos",25,"A-",340,"likelyvoters",35.88,53.16,47
+"593","IN","Indiana","9/18/16","CVOTER International",192,"C+",532,"likelyvoters",40.9,54.4,51
+"594","IN","Indiana","9/17/16","Google Consumer Surveys",73,"B",607,"likelyvoters",31.89,32.25,52
+"595","IN","Indiana","9/15/16","Ipsos",25,"A-",367,"likelyvoters",34.92,53.53,54
+"596","IN","Indiana","9/10/16","Google Consumer Surveys",73,"B",667,"likelyvoters",30.92,31.52,59
+"597","IN","Indiana","9/8/16","Ipsos",25,"A-",372,"likelyvoters",33.33,53.13,61
+"598","IN","Indiana","9/7/16","Public Opinion Strategies",87,"B",600,"likelyvoters",36,43,62
+"599","IN","Indiana","9/3/16","Google Consumer Surveys",73,"B",715,"likelyvoters",29.21,35.57,66
+"600","IN","Indiana","9/1/16","Ipsos",25,"A-",351,"likelyvoters",32.07,55.94,68
+"601","IN","Indiana","8/27/16","Google Consumer Surveys",73,"B",598,"likelyvoters",34.59,30.45,73
+"602","IN","Indiana","8/25/16","Ipsos",25,"A-",303,"likelyvoters",32.08,55.66,75
+"603","IN","Indiana","8/20/16","SurveyMonkey",352,"C-",2294,"registeredvoters",30,46,80
+"604","IN","Indiana","8/20/16","Google Consumer Surveys",73,"B",631,"likelyvoters",31.81,35.98,80
+"605","IN","Indiana","8/18/16","Ipsos",25,"A-",283,"likelyvoters",34.06,55.4,82
+"606","IN","Indiana","8/14/16","Monmouth University",1,"A+",403,"likelyvoters",36,47,86
+"607","IN","Indiana","8/13/16","Google Consumer Surveys",73,"B",617,"likelyvoters",31.62,35.74,87
+"608","IN","Indiana","8/11/16","Ipsos",25,"A-",335,"likelyvoters",36.31,54.13,89
+"609","IN","Indiana","8/2/16","Expedition Strategies",NA,"",600,"likelyvoters",44,44,98
+"610","IN","Indiana","7/20/16","Tarrance Group",86,"B",503,"registeredvoters",36,50,111
+"611","IN","Indiana","5/13/16","Bellwether Research & Consulting",NA,"",600,"registeredvoters",31,40,179
+"612","IN","Indiana","4/27/16","Marist College",8,"A",2149,"registeredvoters",41,48,195
+"613","IN","Indiana","4/19/16","Public Opinion Strategies",87,"B",500,"likelyvoters",39,47,203
+"614","KS","Kansas","10/17/16","Google Consumer Surveys",73,"B",286,"likelyvoters",38.59,29.67,22
+"615","KS","Kansas","10/13/16","SurveyUSA",12,"A",581,"likelyvoters",36,47,26
+"616","KS","Kansas","10/12/16","CVOTER International",192,"C+",332,"likelyvoters",39.5,55.5,27
+"617","KS","Kansas","10/12/16","Google Consumer Surveys",73,"B",264,"likelyvoters",45.87,26.74,27
+"618","KS","Kansas","10/10/16","Ipsos",25,"A-",349,"likelyvoters",37.87,50.29,29
+"619","KS","Kansas","10/6/16","Google Consumer Surveys",73,"B",250,"likelyvoters",40.37,30.72,33
+"620","KS","Kansas","10/5/16","CVOTER International",192,"C+",332,"likelyvoters",39.5,54.8,34
+"621","KS","Kansas","10/3/16","Ipsos",25,"A-",382,"likelyvoters",37.9,50.27,36
+"622","KS","Kansas","9/30/16","Google Consumer Surveys",73,"B",294,"likelyvoters",36.39,28.62,39
+"623","KS","Kansas","9/26/16","Ipsos",25,"A-",374,"likelyvoters",34.85,55.3,43
+"624","KS","Kansas","9/25/16","CVOTER International",192,"C+",535,"likelyvoters",38.3,57.8,44
+"625","KS","Kansas","9/23/16","Google Consumer Surveys",73,"B",252,"likelyvoters",42.95,30.92,46
+"626","KS","Kansas","9/19/16","Ipsos",25,"A-",336,"likelyvoters",34.4,53.56,50
+"627","KS","Kansas","9/18/16","CVOTER International",192,"C+",518,"likelyvoters",38.3,57.2,51
+"628","KS","Kansas","9/17/16","Google Consumer Surveys",73,"B",246,"likelyvoters",41.3,29.59,52
+"629","KS","Kansas","9/12/16","Ipsos",25,"A-",314,"likelyvoters",35.91,50.8,57
+"630","KS","Kansas","9/10/16","Google Consumer Surveys",73,"B",283,"likelyvoters",37.26,28.56,59
+"631","KS","Kansas","9/8/16","SurveyUSA",12,"A",595,"likelyvoters",36,48,61
+"632","KS","Kansas","9/5/16","Ipsos",25,"A-",309,"likelyvoters",38.88,49.42,64
+"633","KS","Kansas","9/3/16","Google Consumer Surveys",73,"B",297,"likelyvoters",36.4,33.94,66
+"634","KS","Kansas","8/29/16","Ipsos",25,"A-",294,"likelyvoters",38.27,51.62,71
+"635","KS","Kansas","8/27/16","Google Consumer Surveys",73,"B",217,"likelyvoters",43.82,26.61,73
+"636","KS","Kansas","8/22/16","Remington",NA,"",7769,"likelyvoters",37,44,78
+"637","KS","Kansas","8/22/16","Ipsos",25,"A-",254,"likelyvoters",37.02,52.45,78
+"638","KS","Kansas","8/20/16","SurveyMonkey",352,"C-",741,"registeredvoters",30,43,80
+"639","KS","Kansas","8/20/16","Google Consumer Surveys",73,"B",275,"likelyvoters",40.04,26.88,80
+"640","KS","Kansas","8/15/16","Ipsos",25,"A-",274,"likelyvoters",37.35,47.97,85
+"641","KS","Kansas","8/13/16","Google Consumer Surveys",73,"B",244,"likelyvoters",34.98,30.11,87
+"642","KS","Kansas","8/8/16","Ipsos",25,"A-",333,"likelyvoters",37.04,47.54,92
+"643","KS","Kansas","8/5/16","SurveyUSA",12,"A",566,"likelyvoters",39,44,95
+"644","KS","Kansas","7/16/16","Fort Hays State University",357,"C-",542,"likelyvoters",27,44,115
+"645","KS","Kansas","7/9/16","SurveyUSA",12,"A",559,"likelyvoters",36,47,122
+"646","KS","Kansas","6/5/16","Zogby Interactive/JZ Analytics",344,"C-",433,"registeredvoters",43,36,156
+"647","KY","Kentucky","10/17/16","Google Consumer Surveys",73,"B",398,"likelyvoters",33.15,43.68,22
+"648","KY","Kentucky","10/12/16","CVOTER International",192,"C+",324,"likelyvoters",38.1,57.6,27
+"649","KY","Kentucky","10/12/16","Google Consumer Surveys",73,"B",328,"likelyvoters",29.49,41.89,27
+"650","KY","Kentucky","10/10/16","Ipsos",25,"A-",458,"likelyvoters",41.04,51.6,29
+"651","KY","Kentucky","10/6/16","Google Consumer Surveys",73,"B",196,"likelyvoters",35.39,34,33
+"652","KY","Kentucky","10/6/16","Ipsos",25,"A-",336,"likelyvoters",39.38,53.08,33
+"653","KY","Kentucky","10/5/16","CVOTER International",192,"C+",327,"likelyvoters",38.2,56.9,34
+"654","KY","Kentucky","9/30/16","Google Consumer Surveys",73,"B",384,"likelyvoters",36.44,36.64,39
+"655","KY","Kentucky","9/29/16","Ipsos",25,"A-",370,"likelyvoters",37.27,57.06,40
+"656","KY","Kentucky","9/25/16","CVOTER International",192,"C+",537,"likelyvoters",36.6,59.3,44
+"657","KY","Kentucky","9/23/16","Google Consumer Surveys",73,"B",320,"likelyvoters",32.6,35.16,46
+"658","KY","Kentucky","9/22/16","Ipsos",25,"A-",361,"likelyvoters",37.76,56.38,47
+"659","KY","Kentucky","9/18/16","CVOTER International",192,"C+",523,"likelyvoters",36.1,59.1,51
+"660","KY","Kentucky","9/17/16","Google Consumer Surveys",73,"B",366,"likelyvoters",29.61,40.67,52
+"661","KY","Kentucky","9/15/16","Ipsos",25,"A-",322,"likelyvoters",37.31,53.57,54
+"662","KY","Kentucky","9/10/16","Google Consumer Surveys",73,"B",368,"likelyvoters",32.16,43.82,59
+"663","KY","Kentucky","9/5/16","Ipsos",25,"A-",437,"likelyvoters",35.33,53.99,64
+"664","KY","Kentucky","9/3/16","Google Consumer Surveys",73,"B",405,"likelyvoters",29.48,40.03,66
+"665","KY","Kentucky","8/29/16","Ipsos",25,"A-",409,"likelyvoters",37.01,53.27,71
+"666","KY","Kentucky","8/27/16","Google Consumer Surveys",73,"B",380,"likelyvoters",36.67,32.51,73
+"667","KY","Kentucky","8/22/16","Ipsos",25,"A-",404,"likelyvoters",41.76,46.34,78
+"668","KY","Kentucky","8/20/16","SurveyMonkey",352,"C-",732,"registeredvoters",29,52,80
+"669","KY","Kentucky","8/20/16","Google Consumer Surveys",73,"B",383,"likelyvoters",34.88,39.74,80
+"670","KY","Kentucky","8/15/16","Ipsos",25,"A-",413,"likelyvoters",43.04,45.34,85
+"671","KY","Kentucky","8/13/16","Google Consumer Surveys",73,"B",407,"likelyvoters",33.42,34.87,87
+"672","KY","Kentucky","8/8/16","Ipsos",25,"A-",375,"likelyvoters",41.02,47.01,92
+"673","KY","Kentucky","7/31/16","Harper Polling",148,"B-",500,"registeredvoters",36,49,100
+"674","LA","Louisiana","10/18/16","Mason-Dixon Polling & Research, Inc.",49,"B+",625,"likelyvoters",34,54,21
+"675","LA","Louisiana","10/17/16","Google Consumer Surveys",73,"B",312,"likelyvoters",25.88,51.95,22
+"676","LA","Louisiana","10/13/16","JMC Enterprises",294,"C",800,"registeredvoters",38,45,26
+"677","LA","Louisiana","10/12/16","CVOTER International",192,"C+",314,"likelyvoters",40.8,54.7,27
+"678","LA","Louisiana","10/12/16","Google Consumer Surveys",73,"B",280,"likelyvoters",25.82,49.54,27
+"679","LA","Louisiana","10/10/16","Ipsos",25,"A-",459,"likelyvoters",35.5,51.46,29
+"680","LA","Louisiana","10/6/16","Google Consumer Surveys",73,"B",223,"likelyvoters",22.83,49.2,33
+"681","LA","Louisiana","10/5/16","CVOTER International",192,"C+",320,"likelyvoters",40.4,54.5,34
+"682","LA","Louisiana","10/3/16","Ipsos",25,"A-",473,"likelyvoters",35.98,49.16,36
+"683","LA","Louisiana","9/30/16","Google Consumer Surveys",73,"B",259,"likelyvoters",31.23,45.71,39
+"684","LA","Louisiana","9/28/16","Market Research Insight",54,"B+",600,"likelyvoters",35,52,41
+"685","LA","Louisiana","9/26/16","Ipsos",25,"A-",463,"likelyvoters",35.53,50.88,43
+"686","LA","Louisiana","9/25/16","CVOTER International",192,"C+",531,"likelyvoters",38.6,57.2,44
+"687","LA","Louisiana","9/23/16","Google Consumer Surveys",73,"B",221,"likelyvoters",30.6,45.73,46
+"688","LA","Louisiana","9/23/16","JMC Enterprises",294,"C",905,"likelyvoters",35,45,46
+"689","LA","Louisiana","9/19/16","Ipsos",25,"A-",427,"likelyvoters",37.53,49.56,50
+"690","LA","Louisiana","9/18/16","CVOTER International",192,"C+",533,"likelyvoters",38.9,56.4,51
+"691","LA","Louisiana","9/17/16","Google Consumer Surveys",73,"B",259,"likelyvoters",25.28,53.54,52
+"692","LA","Louisiana","9/16/16","Southern Media & Opinion Research",142,"B-",500,"likelyvoters",32.6,48.9,53
+"693","LA","Louisiana","9/12/16","Ipsos",25,"A-",369,"likelyvoters",35.79,51.87,57
+"694","LA","Louisiana","9/10/16","Google Consumer Surveys",73,"B",258,"likelyvoters",26.43,45.38,59
+"695","LA","Louisiana","9/5/16","Ipsos",25,"A-",374,"likelyvoters",34.25,54.2,64
+"696","LA","Louisiana","9/3/16","Google Consumer Surveys",73,"B",273,"likelyvoters",23.88,50.15,66
+"697","LA","Louisiana","8/30/16","Anzalone Liszt Grove Research",323,"C",605,"likelyvoters",40,46,70
+"698","LA","Louisiana","8/29/16","Ipsos",25,"A-",342,"likelyvoters",33.24,59.91,71
+"699","LA","Louisiana","8/27/16","Google Consumer Surveys",73,"B",294,"likelyvoters",23.53,49.56,73
+"700","LA","Louisiana","8/22/16","Ipsos",25,"A-",333,"likelyvoters",36.85,56.69,78
+"701","LA","Louisiana","8/20/16","SurveyMonkey",352,"C-",871,"registeredvoters",33,49,80
+"702","LA","Louisiana","8/20/16","Google Consumer Surveys",73,"B",286,"likelyvoters",21.03,51.78,80
+"703","LA","Louisiana","8/15/16","Ipsos",25,"A-",326,"likelyvoters",39.41,50.38,85
+"704","LA","Louisiana","8/13/16","Google Consumer Surveys",73,"B",280,"likelyvoters",27.03,46.2,87
+"705","LA","Louisiana","8/8/16","Ipsos",25,"A-",424,"likelyvoters",38.11,48.16,92
+"706","LA","Louisiana","5/5/16","JMC Enterprises",294,"C",624,"likelyvoters",36,52,187
+"707","MA","Massachusetts","10/17/16","Google Consumer Surveys",73,"B",485,"likelyvoters",48.34,23.72,22
+"708","MA","Massachusetts","10/14/16","MassINC Polling Group",32,"A-",502,"likelyvoters",54,28,25
+"709","MA","Massachusetts","10/13/16","Ipsos",25,"A-",476,"likelyvoters",57,25.36,26
+"710","MA","Massachusetts","10/12/16","CVOTER International",192,"C+",329,"likelyvoters",57.9,38.9,27
+"711","MA","Massachusetts","10/12/16","Google Consumer Surveys",73,"B",421,"likelyvoters",52.83,18.93,27
+"712","MA","Massachusetts","10/6/16","Ipsos",25,"A-",598,"likelyvoters",54.07,28.57,33
+"713","MA","Massachusetts","10/6/16","Google Consumer Surveys",73,"B",407,"likelyvoters",52.75,19.79,33
+"714","MA","Massachusetts","10/5/16","CVOTER International",192,"C+",328,"likelyvoters",57.6,38.7,34
+"715","MA","Massachusetts","9/30/16","Google Consumer Surveys",73,"B",465,"likelyvoters",50.2,22.82,39
+"716","MA","Massachusetts","9/29/16","Ipsos",25,"A-",671,"likelyvoters",48.99,29.85,40
+"717","MA","Massachusetts","9/28/16","Western New England University",35,"A-",403,"likelyvoters",58,26,41
+"718","MA","Massachusetts","9/25/16","CVOTER International",192,"C+",507,"likelyvoters",55.9,40.8,44
+"719","MA","Massachusetts","9/23/16","Google Consumer Surveys",73,"B",399,"likelyvoters",49.68,22.87,46
+"720","MA","Massachusetts","9/22/16","Ipsos",25,"A-",588,"likelyvoters",50.12,28.38,47
+"721","MA","Massachusetts","9/18/16","CVOTER International",192,"C+",501,"likelyvoters",56.2,40.1,51
+"722","MA","Massachusetts","9/17/16","YouGov",81,"B",700,"likelyvoters",47,34,52
+"723","MA","Massachusetts","9/17/16","Google Consumer Surveys",73,"B",435,"likelyvoters",50.03,23.57,52
+"724","MA","Massachusetts","9/15/16","Ipsos",25,"A-",509,"likelyvoters",53.52,30.28,54
+"725","MA","Massachusetts","9/10/16","Google Consumer Surveys",73,"B",481,"likelyvoters",42.9,28.07,59
+"726","MA","Massachusetts","9/8/16","MassINC Polling Group",32,"A-",506,"likelyvoters",54,28,61
+"727","MA","Massachusetts","9/8/16","Ipsos",25,"A-",488,"likelyvoters",53.07,31.09,61
+"728","MA","Massachusetts","9/4/16","Emerson College",119,"B",500,"likelyvoters",50,33,65
+"729","MA","Massachusetts","9/3/16","Google Consumer Surveys",73,"B",444,"likelyvoters",43.78,24.19,66
+"730","MA","Massachusetts","9/1/16","Ipsos",25,"A-",485,"likelyvoters",53.47,29.86,68
+"731","MA","Massachusetts","8/27/16","Google Consumer Surveys",73,"B",485,"likelyvoters",48.64,23.46,73
+"732","MA","Massachusetts","8/25/16","Ipsos",25,"A-",401,"likelyvoters",47.92,31.85,75
+"733","MA","Massachusetts","8/20/16","SurveyMonkey",352,"C-",1167,"registeredvoters",48,29,80
+"734","MA","Massachusetts","8/20/16","Google Consumer Surveys",73,"B",509,"likelyvoters",50.66,22,80
+"735","MA","Massachusetts","8/18/16","Ipsos",25,"A-",399,"likelyvoters",46.28,32.51,82
+"736","MA","Massachusetts","8/13/16","Google Consumer Surveys",73,"B",444,"likelyvoters",50.33,21.5,87
+"737","MA","Massachusetts","8/11/16","Ipsos",25,"A-",495,"likelyvoters",52.52,29.58,89
+"738","MA","Massachusetts","6/27/16","Hickman Analytics",NA,"",500,"registeredvoters",49,31,134
+"739","MA","Massachusetts","5/3/16","Suffolk University",65,"B+",500,"likelyvoters",55,31,189
+"740","MA","Massachusetts","4/5/16","Western New England University",35,"A-",497,"registeredvoters",62,26,217
+"741","MD","Maryland","10/17/16","Google Consumer Surveys",73,"B",414,"likelyvoters",49.12,25.44,22
+"742","MD","Maryland","10/13/16","Ipsos",25,"A-",369,"likelyvoters",53.03,28.62,26
+"743","MD","Maryland","10/12/16","CVOTER International",192,"C+",325,"likelyvoters",58.7,37.1,27
+"744","MD","Maryland","10/12/16","Google Consumer Surveys",73,"B",349,"likelyvoters",47.49,24.96,27
+"745","MD","Maryland","10/6/16","Ipsos",25,"A-",487,"likelyvoters",53.72,31.56,33
+"746","MD","Maryland","10/6/16","Google Consumer Surveys",73,"B",368,"likelyvoters",48.14,25.89,33
+"747","MD","Maryland","10/5/16","CVOTER International",192,"C+",331,"likelyvoters",58.2,37.2,34
+"748","MD","Maryland","9/30/16","Google Consumer Surveys",73,"B",461,"likelyvoters",48.83,23.09,39
+"749","MD","Maryland","9/29/16","Ipsos",25,"A-",508,"likelyvoters",53.07,31.74,40
+"750","MD","Maryland","9/28/16","ABC News/Washington Post",6,"A+",706,"likelyvoters",63,27,41
+"751","MD","Maryland","9/25/16","CVOTER International",192,"C+",527,"likelyvoters",57.6,38.7,44
+"752","MD","Maryland","9/23/16","Google Consumer Surveys",73,"B",349,"likelyvoters",40.59,28.62,46
+"753","MD","Maryland","9/22/16","Ipsos",25,"A-",466,"likelyvoters",51.84,32.73,47
+"754","MD","Maryland","9/18/16","Goucher College",NA,"",514,"likelyvoters",58,25,51
+"755","MD","Maryland","9/18/16","CVOTER International",192,"C+",531,"likelyvoters",57.6,37.9,51
+"756","MD","Maryland","9/17/16","Google Consumer Surveys",73,"B",355,"likelyvoters",43.47,26.86,52
+"757","MD","Maryland","9/15/16","Ipsos",25,"A-",435,"likelyvoters",50.27,33.88,54
+"758","MD","Maryland","9/10/16","Google Consumer Surveys",73,"B",454,"likelyvoters",43.81,25.98,59
+"759","MD","Maryland","9/8/16","Ipsos",25,"A-",361,"likelyvoters",53.13,29.03,61
+"760","MD","Maryland","9/3/16","Google Consumer Surveys",73,"B",447,"likelyvoters",46.95,23.56,66
+"761","MD","Maryland","9/1/16","Ipsos",25,"A-",364,"likelyvoters",53.93,29.58,68
+"762","MD","Maryland","8/27/16","Google Consumer Surveys",73,"B",483,"likelyvoters",45.83,24.29,73
+"763","MD","Maryland","8/24/16","OpinionWorks",151,"B-",754,"likelyvoters",54,25,76
+"764","MD","Maryland","8/22/16","Ipsos",25,"A-",526,"likelyvoters",52.18,32.11,78
+"765","MD","Maryland","8/20/16","SurveyMonkey",352,"C-",1199,"registeredvoters",54,27,80
+"766","MD","Maryland","8/20/16","Google Consumer Surveys",73,"B",439,"likelyvoters",44.15,25.86,80
+"767","MD","Maryland","8/15/16","Ipsos",25,"A-",525,"likelyvoters",53.02,30.47,85
+"768","MD","Maryland","8/13/16","Google Consumer Surveys",73,"B",437,"likelyvoters",48.93,21.31,87
+"769","MD","Maryland","8/8/16","Ipsos",25,"A-",475,"likelyvoters",52.87,29.37,92
+"770","MD","Maryland","4/7/16","Marist College",8,"A",2563,"registeredvoters",63,27,215
+"771","MD","Maryland","4/1/16","ABC News/Washington Post",6,"A+",752,"registeredvoters",63,28,221
+"772","ME","Maine","10/17/16","Google Consumer Surveys",73,"B",137,"likelyvoters",36.58,36.27,22
+"773","ME","Maine","10/14/16","Maine People's Resource Center",328,"C",890,"likelyvoters",42,36,25
+"774","ME","Maine CD-1","10/14/16","Maine People's Resource Center",328,"C",469,"likelyvoters",45.5,35.5,25
+"775","ME","Maine CD-2","10/14/16","Maine People's Resource Center",328,"C",420,"likelyvoters",38.2,37,25
+"776","ME","Maine","10/12/16","CVOTER International",192,"C+",313,"likelyvoters",55,41.6,27
+"777","ME","Maine","10/12/16","Google Consumer Surveys",73,"B",82,"likelyvoters",42.77,25.71,27
+"778","ME","Maine CD-2","10/10/16","Clarity Campaign Labs",115,"B",932,"likelyvoters",39,39,29
+"779","ME","Maine","10/10/16","Ipsos",25,"A-",202,"likelyvoters",47.76,38.69,29
+"780","ME","Maine CD-2","10/8/16","Maine People's Resource Center",328,"C",424,"likelyvoters",38.8,40.4,31
+"781","ME","Maine CD-1","10/8/16","Maine People's Resource Center",328,"C",468,"likelyvoters",48.7,32.3,31
+"782","ME","Maine","10/8/16","Maine People's Resource Center",328,"C",892,"likelyvoters",44,36.1,31
+"783","ME","Maine","10/6/16","Google Consumer Surveys",73,"B",37,"likelyvoters",42.82,41.51,33
+"784","ME","Maine","10/5/16","CVOTER International",192,"C+",305,"likelyvoters",55,41.2,34
+"785","ME","Maine","10/3/16","Ipsos",25,"A-",244,"likelyvoters",48.2,34.82,36
+"786","ME","Maine CD-2","10/2/16","Normington, Petts & Associates",280,"C+",400,"likelyvoters",44,40,37
+"787","ME","Maine","9/30/16","Google Consumer Surveys",73,"B",74,"likelyvoters",49.93,22.54,39
+"788","ME","Maine","9/26/16","Ipsos",25,"A-",266,"likelyvoters",45.94,33.06,43
+"789","ME","Maine","9/25/16","CVOTER International",192,"C+",462,"likelyvoters",53.7,43,44
+"790","ME","Maine","9/23/16","Google Consumer Surveys",73,"B",75,"likelyvoters",36.31,28.63,46
+"791","ME","Maine CD-2","9/21/16","Normington, Petts & Associates",280,"C+",400,"likelyvoters",40,44,48
+"792","ME","Maine","9/19/16","Ipsos",25,"A-",276,"likelyvoters",45.01,33.56,50
+"793","ME","Maine","9/18/16","CVOTER International",192,"C+",460,"likelyvoters",53.6,42.5,51
+"794","ME","Maine","9/17/16","University of New Hampshire",37,"B+",513,"likelyvoters",40,36,52
+"795","ME","Maine CD-2","9/17/16","University of New Hampshire",37,"B+",207,"likelyvoters",34,48,52
+"796","ME","Maine CD-1","9/17/16","University of New Hampshire",37,"B+",206,"likelyvoters",50,28,52
+"797","ME","Maine","9/17/16","Google Consumer Surveys",73,"B",59,"likelyvoters",33.3,35.15,52
+"798","ME","Maine CD-2","9/16/16","Maine People's Resource Center",328,"C",396,"likelyvoters",33.2,44.3,53
+"799","ME","Maine CD-1","9/16/16","Maine People's Resource Center",328,"C",440,"likelyvoters",40.5,29.8,53
+"800","ME","Maine","9/16/16","Maine People's Resource Center",328,"C",835,"likelyvoters",37,36.7,53
+"801","ME","Maine","9/12/16","Ipsos",25,"A-",247,"likelyvoters",39.71,38.19,57
+"802","ME","Maine","9/10/16","Google Consumer Surveys",73,"B",88,"likelyvoters",33.34,27.83,59
+"803","ME","Maine","9/7/16","SurveyUSA",12,"A",779,"likelyvoters",42,39,62
+"804","ME","Maine CD-2","9/7/16","SurveyUSA",12,"A",397,"likelyvoters",37,47,62
+"805","ME","Maine CD-1","9/7/16","SurveyUSA",12,"A",382,"likelyvoters",49,31,62
+"806","ME","Maine","9/5/16","Ipsos",25,"A-",213,"likelyvoters",41,39.71,64
+"807","ME","Maine","9/3/16","Emerson College",119,"B",800,"likelyvoters",44,35,66
+"808","ME","Maine CD-1","9/3/16","Emerson College",119,"B",400,"likelyvoters",52,30.1,66
+"809","ME","Maine CD-2","9/3/16","Emerson College",119,"B",400,"likelyvoters",36.2,40.7,66
+"810","ME","Maine","9/3/16","Google Consumer Surveys",73,"B",114,"likelyvoters",37.56,28.42,66
+"811","ME","Maine","8/29/16","Ipsos",25,"A-",189,"likelyvoters",52.06,32.89,71
+"812","ME","Maine","8/27/16","Google Consumer Surveys",73,"B",104,"likelyvoters",47.02,17.28,73
+"813","ME","Maine","8/22/16","Ipsos",25,"A-",160,"likelyvoters",42.22,41.65,78
+"814","ME","Maine","8/20/16","SurveyMonkey",352,"C-",715,"registeredvoters",37,34,80
+"815","ME","Maine","8/20/16","Google Consumer Surveys",73,"B",105,"likelyvoters",35.99,32.25,80
+"816","ME","Maine CD-2","8/18/16","Maine People's Resource Center",328,"C",399,"likelyvoters",37.8,33.6,82
+"817","ME","Maine CD-1","8/18/16","Maine People's Resource Center",328,"C",442,"likelyvoters",45.2,30.9,82
+"818","ME","Maine","8/18/16","Maine People's Resource Center",328,"C",841,"likelyvoters",42,32,82
+"819","ME","Maine","8/15/16","Ipsos",25,"A-",176,"likelyvoters",38.78,39.83,85
+"820","ME","Maine","8/13/16","Google Consumer Surveys",73,"B",121,"likelyvoters",45.25,17.56,87
+"821","ME","Maine","8/8/16","Ipsos",25,"A-",210,"likelyvoters",32.92,37.19,92
+"822","ME","Maine","8/6/16","Gravis Marketing",181,"B-",2046,"registeredvoters",43,33,94
+"823","ME","Maine","6/18/16","University of New Hampshire",37,"B+",475,"likelyvoters",42,35,143
+"824","ME","Maine CD-1","6/18/16","University of New Hampshire",37,"B+",247,"likelyvoters",48,33,143
+"825","ME","Maine CD-2","6/18/16","University of New Hampshire",37,"B+",222,"likelyvoters",36,37,143
+"826","ME","Maine","3/7/16","Critical Insights",331,"C",610,"likelyvoters",43,34,246
+"827","MI","Michigan","10/18/16","Mitchell Research & Communications",370,"D",1102,"likelyvoters",51,38,21
+"828","MI","Michigan","10/17/16","Marketing Resource Group (MRG)",188,"C+",600,"likelyvoters",41,36,22
+"829","MI","Michigan","10/17/16","Ipsos",25,"A-",441,"likelyvoters",45.18,40.82,22
+"830","MI","Michigan","10/17/16","Google Consumer Surveys",73,"B",637,"likelyvoters",37.41,28.49,22
+"831","MI","Michigan","10/12/16","CVOTER International",192,"C+",327,"likelyvoters",51.7,44.3,27
+"832","MI","Michigan","10/12/16","SurveyMonkey",352,"C-",1331,"likelyvoters",45,37,27
+"833","MI","Michigan","10/12/16","Google Consumer Surveys",73,"B",581,"likelyvoters",33.6,33.62,27
+"834","MI","Michigan","10/11/16","Mitchell Research & Communications",370,"D",1429,"likelyvoters",47,37,28
+"835","MI","Michigan","10/10/16","Glengariff Group, Inc.",102,"B",600,"likelyvoters",42.2,30.6,29
+"836","MI","Michigan","10/10/16","Ipsos",25,"A-",1168,"likelyvoters",43.78,37.33,29
+"837","MI","Michigan","10/6/16","Google Consumer Surveys",73,"B",587,"likelyvoters",39.75,28.98,33
+"838","MI","Michigan","10/5/16","CVOTER International",192,"C+",338,"likelyvoters",51.5,44,34
+"839","MI","Michigan","10/3/16","Ipsos",25,"A-",418,"likelyvoters",44.75,38.18,36
+"840","MI","Michigan","10/2/16","EPIC-MRA",34,"A-",600,"likelyvoters",43,32,37
+"841","MI","Michigan","9/30/16","Google Consumer Surveys",73,"B",657,"likelyvoters",37.61,30.85,39
+"842","MI","Michigan","9/27/16","Glengariff Group, Inc.",102,"B",600,"likelyvoters",42,35,42
+"843","MI","Michigan","9/27/16","Mitchell Research & Communications",370,"D",1956,"likelyvoters",46,41,42
+"844","MI","Michigan","9/26/16","Ipsos",25,"A-",375,"likelyvoters",39.35,39.05,43
+"845","MI","Michigan","9/25/16","CVOTER International",192,"C+",554,"likelyvoters",49.8,46.3,44
+"846","MI","Michigan","9/23/16","Google Consumer Surveys",73,"B",516,"likelyvoters",37.28,29.9,46
+"847","MI","Michigan","9/21/16","Target Insyght",307,"C",600,"registeredvoters",46,41,48
+"848","MI","Michigan","9/18/16","CVOTER International",192,"C+",549,"likelyvoters",49.9,45.5,51
+"849","MI","Michigan","9/17/16","Google Consumer Surveys",73,"B",613,"likelyvoters",34.85,33.58,52
+"850","MI","Michigan","9/15/16","Ipsos",25,"A-",632,"likelyvoters",42.97,41.67,54
+"851","MI","Michigan","9/11/16","EPIC-MRA",34,"A-",600,"likelyvoters",38,35,58
+"852","MI","Michigan","9/10/16","Google Consumer Surveys",73,"B",681,"likelyvoters",34.61,31.05,59
+"853","MI","Michigan","9/8/16","Ipsos",25,"A-",644,"likelyvoters",43.63,43.84,61
+"854","MI","Michigan","9/6/16","Mitchell Research & Communications",370,"D",940,"likelyvoters",45,39,63
+"855","MI","Michigan","9/3/16","Google Consumer Surveys",73,"B",615,"likelyvoters",35.17,29.24,66
+"856","MI","Michigan","9/1/16","Ipsos",25,"A-",613,"likelyvoters",42.74,41.32,68
+"857","MI","Michigan","8/27/16","Google Consumer Surveys",73,"B",578,"likelyvoters",34.69,30.08,73
+"858","MI","Michigan","8/26/16","Emerson College",119,"B",800,"likelyvoters",44.9,39.5,74
+"859","MI","Michigan","8/25/16","Ipsos",25,"A-",494,"likelyvoters",41.5,42.49,75
+"860","MI","Michigan","8/23/16","Suffolk University",65,"B+",500,"likelyvoters",43.6,37.2,77
+"861","MI","Michigan","8/20/16","SurveyMonkey",352,"C-",2428,"registeredvoters",39,38,80
+"862","MI","Michigan","8/20/16","Google Consumer Surveys",73,"B",542,"likelyvoters",33.34,33.02,80
+"863","MI","Michigan","8/18/16","Ipsos",25,"A-",542,"likelyvoters",43.25,43.78,82
+"864","MI","Michigan","8/13/16","Google Consumer Surveys",73,"B",682,"likelyvoters",37.13,29.03,87
+"865","MI","Michigan","8/11/16","Ipsos",25,"A-",630,"likelyvoters",43.97,42.89,89
+"866","MI","Michigan","8/9/16","Mitchell Research & Communications",370,"D",1314,"likelyvoters",44,33,91
+"867","MI","Michigan","8/1/16","EPIC-MRA",34,"A-",600,"likelyvoters",43,32,99
+"868","MI","Michigan","7/31/16","Glengariff Group, Inc.",102,"B",600,"likelyvoters",41,31.6,100
+"869","MI","Michigan","7/14/16","YouGov",81,"B",1201,"likelyvoters",42,39,117
+"870","MI","Michigan","7/13/16","Marketing Resource Group (MRG)",188,"C+",800,"likelyvoters",34,29,118
+"871","MI","Michigan","7/8/16","Mitchell Research & Communications",370,"D",600,"likelyvoters",40,34,123
+"872","MI","Michigan","6/16/16","Evolving Strategies",NA,"",612,"likelyvoters",47,30,145
+"873","MI","Michigan","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",48,33,146
+"874","MI","Michigan","5/25/16","Glengariff Group, Inc.",102,"B",600,"likelyvoters",36.8,32.7,167
+"875","MI","Michigan","3/23/16","SurveyUSA",12,"A",904,"likelyvoters",49,38,230
+"876","MI","Michigan","3/20/16","EPIC-MRA",34,"A-",600,"likelyvoters",47,37,233
+"877","MI","Michigan","3/2/16","Marist College",8,"A",2229,"registeredvoters",52,36,251
+"878","MI","Michigan","2/24/16","Marketing Resource Group (MRG)",188,"C+",600,"likelyvoters",44,39,258
+"879","MI","Michigan","1/24/16","EPIC-MRA",34,"A-",600,"likelyvoters",43,41,289
+"880","MN","Minnesota","10/17/16","Google Consumer Surveys",73,"B",596,"likelyvoters",35.95,28.73,22
+"881","MN","Minnesota","10/13/16","Ipsos",25,"A-",499,"likelyvoters",44.14,32.36,26
+"882","MN","Minnesota","10/12/16","CVOTER International",192,"C+",329,"likelyvoters",50.9,45.7,27
+"883","MN","Minnesota","10/12/16","Google Consumer Surveys",73,"B",597,"likelyvoters",35.74,30.31,27
+"884","MN","Minnesota","10/6/16","Ipsos",25,"A-",611,"likelyvoters",42.74,35.8,33
+"885","MN","Minnesota","10/6/16","Google Consumer Surveys",73,"B",580,"likelyvoters",39.04,25.42,33
+"886","MN","Minnesota","10/5/16","CVOTER International",192,"C+",322,"likelyvoters",50.6,45.3,34
+"887","MN","Minnesota","9/30/16","Google Consumer Surveys",73,"B",578,"likelyvoters",37.89,28.42,39
+"888","MN","Minnesota","9/29/16","Ipsos",25,"A-",645,"likelyvoters",42.03,37.57,40
+"889","MN","Minnesota","9/25/16","CVOTER International",192,"C+",497,"likelyvoters",49.4,47,44
+"890","MN","Minnesota","9/23/16","Google Consumer Surveys",73,"B",547,"likelyvoters",37.46,28.24,46
+"891","MN","Minnesota","9/23/16","Gravis Marketing",181,"B-",906,"likelyvoters",43,43,46
+"892","MN","Minnesota","9/22/16","Ipsos",25,"A-",551,"likelyvoters",42.8,34.63,47
+"893","MN","Minnesota","9/18/16","CVOTER International",192,"C+",488,"likelyvoters",50.1,46,51
+"894","MN","Minnesota","9/18/16","SurveyUSA",12,"A",625,"likelyvoters",46,39,51
+"895","MN","Minnesota","9/17/16","Google Consumer Surveys",73,"B",579,"likelyvoters",37.2,26.85,52
+"896","MN","Minnesota","9/15/16","Ipsos",25,"A-",510,"likelyvoters",42.86,35.94,54
+"897","MN","Minnesota","9/13/16","Mason-Dixon Polling & Research, Inc.",49,"B+",625,"registeredvoters",44,38,56
+"898","MN","Minnesota","9/10/16","Google Consumer Surveys",73,"B",426,"likelyvoters",34.49,25.54,59
+"899","MN","Minnesota","9/8/16","Ipsos",25,"A-",537,"likelyvoters",43.91,33.76,61
+"900","MN","Minnesota","9/3/16","Google Consumer Surveys",73,"B",632,"likelyvoters",34.61,26.85,66
+"901","MN","Minnesota","9/1/16","Ipsos",25,"A-",517,"likelyvoters",41.56,31.31,68
+"902","MN","Minnesota","8/27/16","Google Consumer Surveys",73,"B",524,"likelyvoters",38.29,24.77,73
+"903","MN","Minnesota","8/25/16","Ipsos",25,"A-",457,"likelyvoters",41.97,32.95,75
+"904","MN","Minnesota","8/20/16","SurveyMonkey",352,"C-",2054,"registeredvoters",41,34,80
+"905","MN","Minnesota","8/20/16","Google Consumer Surveys",73,"B",524,"likelyvoters",36.85,24.96,80
+"906","MN","Minnesota","8/18/16","Ipsos",25,"A-",523,"likelyvoters",43.51,34.62,82
+"907","MN","Minnesota","8/13/16","Google Consumer Surveys",73,"B",555,"likelyvoters",40.71,25.69,87
+"908","MN","Minnesota","8/11/16","Ipsos",25,"A-",541,"likelyvoters",42.1,33.97,89
+"909","MN","Minnesota","4/26/16","Mason-Dixon Polling & Research, Inc.",49,"B+",800,"registeredvoters",48,35,196
+"910","MN","Minnesota","1/19/16","Mason-Dixon Polling & Research, Inc.",49,"B+",800,"registeredvoters",43,38,294
+"911","MO","Missouri","10/18/16","Emerson College",119,"B",600,"likelyvoters",39,47,21
+"912","MO","Missouri","10/17/16","Google Consumer Surveys",73,"B",587,"likelyvoters",37.53,34.42,22
+"913","MO","Missouri","10/13/16","Ipsos",25,"A-",321,"likelyvoters",37.03,48.14,26
+"914","MO","Missouri","10/12/16","CVOTER International",192,"C+",359,"likelyvoters",44.5,51.4,27
+"915","MO","Missouri","10/12/16","Google Consumer Surveys",73,"B",608,"likelyvoters",37.93,26.95,27
+"916","MO","Missouri","10/10/16","Remington",NA,"",2171,"likelyvoters",42,47,29
+"917","MO","Missouri","10/10/16","Monmouth University",1,"A+",406,"likelyvoters",41,46,29
+"918","MO","Missouri","10/6/16","Ipsos",25,"A-",433,"likelyvoters",36.11,48.21,33
+"919","MO","Missouri","10/6/16","Google Consumer Surveys",73,"B",585,"likelyvoters",34.15,30.38,33
+"920","MO","Missouri","10/5/16","CVOTER International",192,"C+",378,"likelyvoters",44.7,50.7,34
+"921","MO","Missouri","9/30/16","Google Consumer Surveys",73,"B",611,"likelyvoters",38.49,29.66,39
+"922","MO","Missouri","9/29/16","Ipsos",25,"A-",478,"likelyvoters",37.05,48.7,40
+"923","MO","Missouri","9/26/16","Remington",NA,"",1279,"likelyvoters",39,49,43
+"924","MO","Missouri","9/25/16","CVOTER International",192,"C+",570,"likelyvoters",43.5,52.6,44
+"925","MO","Missouri","9/23/16","Google Consumer Surveys",73,"B",560,"likelyvoters",34.39,31.95,46
+"926","MO","Missouri","9/22/16","Ipsos",25,"A-",403,"likelyvoters",36.06,47.69,47
+"927","MO","Missouri","9/22/16","YouGov",81,"B",1087,"likelyvoters",37,46,47
+"928","MO","Missouri","9/18/16","CVOTER International",192,"C+",571,"likelyvoters",43.5,52,51
+"929","MO","Missouri","9/17/16","Google Consumer Surveys",73,"B",588,"likelyvoters",33.26,31.81,52
+"930","MO","Missouri","9/15/16","Ipsos",25,"A-",356,"likelyvoters",35.23,50.79,54
+"931","MO","Missouri","9/11/16","Emerson College",119,"B",600,"likelyvoters",34,47,58
+"932","MO","Missouri","9/10/16","Google Consumer Surveys",73,"B",636,"likelyvoters",34.37,33.32,59
+"933","MO","Missouri","9/8/16","Ipsos",25,"A-",351,"likelyvoters",35.77,53.43,61
+"934","MO","Missouri","9/3/16","Google Consumer Surveys",73,"B",637,"likelyvoters",35.45,31.19,66
+"935","MO","Missouri","9/1/16","Remington",NA,"",1275,"likelyvoters",38,47,68
+"936","MO","Missouri","9/1/16","Ipsos",25,"A-",361,"likelyvoters",33.97,52.69,68
+"937","MO","Missouri","8/27/16","Google Consumer Surveys",73,"B",584,"likelyvoters",37.17,32.83,73
+"938","MO","Missouri","8/26/16","Public Policy Polling",60,"B+",1055,"likelyvoters",41,47,74
+"939","MO","Missouri","8/25/16","Ipsos",25,"A-",297,"likelyvoters",35.46,50.78,75
+"940","MO","Missouri","8/20/16","SurveyMonkey",352,"C-",1801,"registeredvoters",34,43,80
+"941","MO","Missouri","8/20/16","Monmouth University",1,"A+",401,"likelyvoters",43,44,80
+"942","MO","Missouri","8/20/16","Google Consumer Surveys",73,"B",545,"likelyvoters",35.53,34.72,80
+"943","MO","Missouri","8/18/16","Ipsos",25,"A-",297,"likelyvoters",39.68,46.1,82
+"944","MO","Missouri","8/13/16","Google Consumer Surveys",73,"B",542,"likelyvoters",38.89,28.71,87
+"945","MO","Missouri","8/11/16","Ipsos",25,"A-",365,"likelyvoters",46.15,41.13,89
+"946","MO","Missouri","8/8/16","Public Policy Polling",60,"B+",947,"likelyvoters",42,45,92
+"947","MO","Missouri","8/5/16","Remington",NA,"",1280,"likelyvoters",42,44,95
+"948","MO","Missouri","7/23/16","Mason-Dixon Polling & Research, Inc.",49,"B+",625,"likelyvoters",41,40,108
+"949","MO","Missouri","7/22/16","SurveyUSA",12,"A",1943,"likelyvoters",37,47,109
+"950","MO","Missouri","3/20/16","DFM Research",135,"B-",674,"likelyvoters",42,40,233
+"951","MO","Missouri","3/3/16","Remington",NA,"",903,"likelyvoters",38,43,250
+"952","MS","Mississippi","10/17/16","Google Consumer Surveys",73,"B",237,"likelyvoters",31.1,45.01,22
+"953","MS","Mississippi","10/12/16","CVOTER International",192,"C+",322,"likelyvoters",41.9,53.9,27
+"954","MS","Mississippi","10/12/16","Google Consumer Surveys",73,"B",212,"likelyvoters",22.04,53.32,27
+"955","MS","Mississippi","10/10/16","Ipsos",25,"A-",171,"likelyvoters",37.3,52.08,29
+"956","MS","Mississippi","10/6/16","Google Consumer Surveys",73,"B",186,"likelyvoters",23.91,50.69,33
+"957","MS","Mississippi","10/5/16","CVOTER International",192,"C+",324,"likelyvoters",41.7,53.5,34
+"958","MS","Mississippi","10/3/16","Ipsos",25,"A-",196,"likelyvoters",41.16,48.59,36
+"959","MS","Mississippi","9/30/16","Google Consumer Surveys",73,"B",205,"likelyvoters",24.3,45.98,39
+"960","MS","Mississippi","9/26/16","Ipsos",25,"A-",198,"likelyvoters",39.96,51.09,43
+"961","MS","Mississippi","9/25/16","CVOTER International",192,"C+",528,"likelyvoters",39.7,56.5,44
+"962","MS","Mississippi","9/23/16","Google Consumer Surveys",73,"B",172,"likelyvoters",25.49,52.31,46
+"963","MS","Mississippi","9/19/16","Ipsos",25,"A-",202,"likelyvoters",38.2,49.22,50
+"964","MS","Mississippi","9/18/16","CVOTER International",192,"C+",512,"likelyvoters",40.6,55,51
+"965","MS","Mississippi","9/17/16","Google Consumer Surveys",73,"B",246,"likelyvoters",17.14,54.84,52
+"966","MS","Mississippi","9/12/16","Ipsos",25,"A-",185,"likelyvoters",37.59,49.94,57
+"967","MS","Mississippi","9/10/16","Google Consumer Surveys",73,"B",224,"likelyvoters",20.26,56.57,59
+"968","MS","Mississippi","9/5/16","Ipsos",25,"A-",173,"likelyvoters",37.2,51.15,64
+"969","MS","Mississippi","9/3/16","Google Consumer Surveys",73,"B",194,"likelyvoters",26.97,53.12,66
+"970","MS","Mississippi","8/29/16","Ipsos",25,"A-",155,"likelyvoters",35.29,58.25,71
+"971","MS","Mississippi","8/27/16","Google Consumer Surveys",73,"B",253,"likelyvoters",25.24,47.98,73
+"972","MS","Mississippi","8/22/16","Ipsos",25,"A-",150,"likelyvoters",30.33,58.52,78
+"973","MS","Mississippi","8/20/16","SurveyMonkey",352,"C-",823,"registeredvoters",43,46,80
+"974","MS","Mississippi","8/20/16","Google Consumer Surveys",73,"B",277,"likelyvoters",23.07,53.52,80
+"975","MS","Mississippi","8/15/16","Ipsos",25,"A-",161,"likelyvoters",36.54,53.49,85
+"976","MS","Mississippi","8/13/16","Google Consumer Surveys",73,"B",268,"likelyvoters",17.52,52.99,87
+"977","MS","Mississippi","8/11/16","Magellan Strategies",302,"C",1084,"likelyvoters",39,52,89
+"978","MS","Mississippi","8/8/16","Ipsos",25,"A-",214,"likelyvoters",38.33,51.86,92
+"979","MS","Mississippi","3/29/16","Mason-Dixon Polling & Research, Inc.",49,"B+",625,"registeredvoters",43,46,224
+"980","MT","Montana","10/17/16","Google Consumer Surveys",73,"B",125,"likelyvoters",38.19,34.88,22
+"981","MT","Montana","10/12/16","CVOTER International",192,"C+",329,"likelyvoters",40.6,54.5,27
+"982","MT","Montana","10/12/16","Google Consumer Surveys",73,"B",141,"likelyvoters",27.78,28.31,27
+"983","MT","Montana","10/11/16","Mason-Dixon Polling & Research, Inc.",49,"B+",1003,"likelyvoters",36,46,28
+"984","MT","Montana","10/10/16","Ipsos",25,"A-",109,"likelyvoters",31.74,50.8,29
+"985","MT","Montana","10/6/16","Google Consumer Surveys",73,"B",158,"likelyvoters",32.1,40.84,33
+"986","MT","Montana","10/5/16","CVOTER International",192,"C+",496,"likelyvoters",40.3,54.2,34
+"987","MT","Montana","10/3/16","Ipsos",25,"A-",139,"likelyvoters",33.91,54.15,36
+"988","MT","Montana","9/30/16","Google Consumer Surveys",73,"B",173,"likelyvoters",31.06,37.96,39
+"989","MT","Montana","9/26/16","Ipsos",25,"A-",149,"likelyvoters",34.26,57.98,43
+"990","MT","Montana","9/25/16","CVOTER International",192,"C+",647,"likelyvoters",38.8,57.2,44
+"991","MT","Montana","9/23/16","Google Consumer Surveys",73,"B",147,"likelyvoters",32.15,36.3,46
+"992","MT","Montana","9/19/16","Ipsos",25,"A-",144,"likelyvoters",39.76,53.47,50
+"993","MT","Montana","9/18/16","CVOTER International",192,"C+",493,"likelyvoters",37.7,57.7,51
+"994","MT","Montana","9/17/16","Google Consumer Surveys",73,"B",159,"likelyvoters",32.75,28.94,52
+"995","MT","Montana","9/12/16","Ipsos",25,"A-",130,"likelyvoters",36.29,53.6,57
+"996","MT","Montana","9/10/16","Google Consumer Surveys",73,"B",175,"likelyvoters",27.8,34.93,59
+"997","MT","Montana","9/5/16","Ipsos",25,"A-",113,"likelyvoters",39.04,52.31,64
+"998","MT","Montana","9/3/16","Google Consumer Surveys",73,"B",157,"likelyvoters",29.85,32.2,66
+"999","MT","Montana","8/29/16","Ipsos",25,"A-",114,"likelyvoters",29.77,60.2,71
+"1000","MT","Montana","8/27/16","Google Consumer Surveys",73,"B",128,"likelyvoters",32.36,33.33,73
+"1001","MT","Montana","8/20/16","SurveyMonkey",352,"C-",999,"registeredvoters",31,44,80
+"1002","MT","Montana","8/20/16","Google Consumer Surveys",73,"B",118,"likelyvoters",35.91,28.11,80
+"1003","MT","Montana","8/13/16","Google Consumer Surveys",73,"B",107,"likelyvoters",30.27,33.17,87
+"1004","MT","Montana","8/8/16","Ipsos",25,"A-",100,"likelyvoters",39.93,46.87,92
+"1005","NC","North Carolina","10/17/16","Google Consumer Surveys",73,"B",648,"likelyvoters",37.81,38.07,22
+"1006","NC","North Carolina","10/17/16","Ipsos",25,"A-",377,"likelyvoters",47.13,43.37,22
+"1007","NC","North Carolina","10/16/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",875,"likelyvoters",46,41,23
+"1008","NC","North Carolina","10/15/16","National Research, Inc.",51,"B+",600,"likelyvoters",44,42,24
+"1009","NC","North Carolina","10/15/16","SurveyUSA",12,"A",651,"likelyvoters",46,44,24
+"1010","NC","North Carolina","10/12/16","CNN/Opinion Research Corp.",30,"A-",788,"likelyvoters",48,47,27
+"1011","NC","North Carolina","10/12/16","CVOTER International",192,"C+",350,"likelyvoters",48,47.7,27
+"1012","NC","North Carolina","10/12/16","SurveyMonkey",352,"C-",1191,"likelyvoters",46,40,27
+"1013","NC","North Carolina","10/12/16","Google Consumer Surveys",73,"B",559,"likelyvoters",35.61,38.39,27
+"1014","NC","North Carolina","10/11/16","Marist College",8,"A",743,"likelyvoters",45,41,28
+"1015","NC","North Carolina","10/11/16","Emerson College",119,"B",600,"likelyvoters",46,42,28
+"1016","NC","North Carolina","10/11/16","Suffolk University",65,"B+",500,"likelyvoters",44.8,43.4,28
+"1017","NC","North Carolina","10/10/16","Ipsos",25,"A-",1056,"likelyvoters",46.33,42.42,29
+"1018","NC","North Carolina","10/6/16","Google Consumer Surveys",73,"B",618,"likelyvoters",35.04,36.78,33
+"1019","NC","North Carolina","10/5/16","CVOTER International",192,"C+",514,"likelyvoters",47.8,47.3,34
+"1020","NC","North Carolina","10/3/16","High Point University",38,"B+",479,"likelyvoters",43,42,36
+"1021","NC","North Carolina","10/3/16","Ipsos",25,"A-",326,"likelyvoters",44.16,43.09,36
+"1022","NC","North Carolina","10/1/16","SurveyUSA",12,"A",656,"likelyvoters",46,44,38
+"1023","NC","North Carolina","9/30/16","Selzer & Company",3,"A+",805,"likelyvoters",44,43,39
+"1024","NC","North Carolina","9/30/16","Google Consumer Surveys",73,"B",734,"likelyvoters",31.28,41.89,39
+"1025","NC","North Carolina","9/29/16","Quinnipiac University",26,"A-",507,"likelyvoters",46,43,40
+"1026","NC","North Carolina","9/28/16","Elon University",58,"B+",660,"likelyvoters",44.5,39,41
+"1027","NC","North Carolina","9/27/16","Public Policy Polling",60,"B+",861,"likelyvoters",44,42,42
+"1028","NC","North Carolina","9/25/16","CVOTER International",192,"C+",773,"likelyvoters",45.5,50,44
+"1029","NC","North Carolina","9/23/16","Google Consumer Surveys",73,"B",613,"likelyvoters",32.56,41.32,46
+"1030","NC","North Carolina","9/23/16","Gravis Marketing",181,"B-",694,"likelyvoters",44,43,46
+"1031","NC","North Carolina","9/22/16","Ipsos",25,"A-",520,"likelyvoters",48.07,43.58,47
+"1032","NC","North Carolina","9/20/16","Meredith College",NA,"",487,"registeredvoters",38,35,49
+"1033","NC","North Carolina","9/19/16","High Point University",38,"B+",404,"likelyvoters",43,42,50
+"1034","NC","North Carolina","9/19/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",734,"likelyvoters",40,45,50
+"1035","NC","North Carolina","9/19/16","Public Policy Polling",60,"B+",1024,"likelyvoters",43,45,50
+"1036","NC","North Carolina","9/19/16","Ipsos",25,"A-",264,"likelyvoters",48.98,43.4,50
+"1037","NC","North Carolina","9/18/16","CVOTER International",192,"C+",610,"likelyvoters",46.3,48.7,51
+"1038","NC","North Carolina","9/17/16","Siena College",14,"A",782,"likelyvoters",41,41,52
+"1039","NC","North Carolina","9/17/16","Google Consumer Surveys",73,"B",708,"likelyvoters",32.31,39.54,52
+"1040","NC","North Carolina","9/14/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",400,"likelyvoters",44,40,55
+"1041","NC","North Carolina","9/14/16","Elon University",58,"B+",644,"likelyvoters",43,44,55
+"1042","NC","North Carolina","9/11/16","National Research, Inc.",51,"B+",600,"likelyvoters",42,42,58
+"1043","NC","North Carolina","9/10/16","Google Consumer Surveys",73,"B",779,"likelyvoters",32.64,37.88,59
+"1044","NC","North Carolina","9/8/16","Ipsos",25,"A-",502,"likelyvoters",46.37,43.72,61
+"1045","NC","North Carolina","9/6/16","Suffolk University",65,"B+",500,"likelyvoters",41,44,63
+"1046","NC","North Carolina","9/3/16","Google Consumer Surveys",73,"B",738,"likelyvoters",30.2,39.03,66
+"1047","NC","North Carolina","9/2/16","Quinnipiac University",26,"A-",751,"likelyvoters",42,38,67
+"1048","NC","North Carolina","9/1/16","Ipsos",25,"A-",484,"likelyvoters",45.98,44.7,68
+"1049","NC","North Carolina","8/31/16","YouGov",81,"B",1088,"likelyvoters",46,42,69
+"1050","NC","North Carolina","8/28/16","Emerson College",119,"B",800,"likelyvoters",43.4,44.8,72
+"1051","NC","North Carolina","8/27/16","Google Consumer Surveys",73,"B",771,"likelyvoters",33.74,37.33,73
+"1052","NC","North Carolina","8/26/16","Public Policy Polling",60,"B+",1177,"likelyvoters",45,44,74
+"1053","NC","North Carolina","8/25/16","Ipsos",25,"A-",404,"likelyvoters",48.92,43.83,75
+"1054","NC","North Carolina","8/21/16","Monmouth University",1,"A+",401,"likelyvoters",44,42,79
+"1055","NC","North Carolina","8/20/16","CNN/Opinion Research Corp.",30,"A-",803,"likelyvoters",45,45,80
+"1056","NC","North Carolina","8/20/16","SurveyMonkey",352,"C-",2552,"registeredvoters",40,41,80
+"1057","NC","North Carolina","8/20/16","Google Consumer Surveys",73,"B",778,"likelyvoters",32.86,37.42,80
+"1058","NC","North Carolina","8/18/16","Ipsos",25,"A-",407,"likelyvoters",48.12,44.26,82
+"1059","NC","North Carolina","8/16/16","Gravis Marketing",181,"B-",723,"registeredvoters",38,39,84
+"1060","NC","North Carolina","8/13/16","Google Consumer Surveys",73,"B",742,"likelyvoters",33.51,35.36,87
+"1061","NC","North Carolina","8/11/16","Ipsos",25,"A-",438,"likelyvoters",47.24,45.25,89
+"1062","NC","North Carolina","8/7/16","Marist College",8,"A",921,"registeredvoters",45,36,93
+"1063","NC","North Carolina","8/6/16","Public Policy Polling",60,"B+",830,"likelyvoters",43,41,94
+"1064","NC","North Carolina","8/1/16","SurveyUSA",12,"A",400,"likelyvoters",42,46,99
+"1065","NC","North Carolina","7/8/16","Marist College",8,"A",907,"registeredvoters",42,36,123
+"1066","NC","North Carolina","6/22/16","YouGov",81,"B",988,"likelyvoters",44,42,139
+"1067","NC","North Carolina","6/22/16","National Research, Inc.",51,"B+",600,"likelyvoters",42,40,139
+"1068","NC","North Carolina","6/16/16","Evolving Strategies",NA,"",603,"likelyvoters",44,37,145
+"1069","NC","North Carolina","6/16/16","TargetPoint",333,"C",200,"likelyvoters",39,45,145
+"1070","NC","North Carolina","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",48,38,146
+"1071","NC","North Carolina","5/22/16","National Research, Inc.",51,"B+",600,"likelyvoters",36,39,170
+"1072","NC","North Carolina","4/24/16","National Research, Inc.",51,"B+",600,"likelyvoters",49,40,198
+"1073","NC","North Carolina","4/12/16","Elon University",58,"B+",621,"registeredvoters",45,39,210
+"1074","NC","North Carolina","3/9/16","SurveyUSA",12,"A",1576,"likelyvoters",42,49,244
+"1075","NC","North Carolina","2/17/16","Elon University",58,"B+",1530,"likelyvoters",47,41,265
+"1076","NC","North Carolina","2/15/16","SurveyUSA",12,"A",1250,"likelyvoters",43,45,267
+"1077","ND","North Dakota","10/17/16","Google Consumer Surveys",73,"B",66,"likelyvoters",27.46,37.9,22
+"1078","ND","North Dakota","10/12/16","CVOTER International",192,"C+",314,"likelyvoters",36.6,55.9,27
+"1079","ND","North Dakota","10/12/16","Google Consumer Surveys",73,"B",72,"likelyvoters",17.11,41.53,27
+"1080","ND","North Dakota","10/6/16","Google Consumer Surveys",73,"B",58,"likelyvoters",13.34,63.29,33
+"1081","ND","North Dakota","10/5/16","CVOTER International",192,"C+",314,"likelyvoters",36.5,55.4,34
+"1082","ND","North Dakota","10/3/16","Ipsos",25,"A-",105,"likelyvoters",34.67,44.9,36
+"1083","ND","North Dakota","9/30/16","Google Consumer Surveys",73,"B",49,"likelyvoters",22.78,45.48,39
+"1084","ND","North Dakota","9/26/16","Ipsos",25,"A-",100,"likelyvoters",30.32,43.17,43
+"1085","ND","North Dakota","9/25/16","CVOTER International",192,"C+",480,"likelyvoters",35.9,56.6,44
+"1086","ND","North Dakota","9/23/16","Google Consumer Surveys",73,"B",61,"likelyvoters",26.63,49.28,46
+"1087","ND","North Dakota","9/18/16","CVOTER International",192,"C+",487,"likelyvoters",35.5,56.6,51
+"1088","ND","North Dakota","9/17/16","Google Consumer Surveys",73,"B",63,"likelyvoters",17.44,39.19,52
+"1089","ND","North Dakota","9/14/16","DFM Research",135,"B-",400,"likelyvoters",32,43,55
+"1090","ND","North Dakota","9/10/16","Google Consumer Surveys",73,"B",71,"likelyvoters",26.31,45.08,59
+"1091","ND","North Dakota","9/3/16","Google Consumer Surveys",73,"B",84,"likelyvoters",23.8,45.58,66
+"1092","ND","North Dakota","8/27/16","Google Consumer Surveys",73,"B",63,"likelyvoters",21.39,48.83,73
+"1093","ND","North Dakota","8/20/16","SurveyMonkey",352,"C-",549,"registeredvoters",26,51,80
+"1094","ND","North Dakota","8/20/16","Google Consumer Surveys",73,"B",62,"likelyvoters",20.62,41.81,80
+"1095","ND","North Dakota","8/13/16","Google Consumer Surveys",73,"B",78,"likelyvoters",22.03,43.01,87
+"1096","NE","Nebraska","10/17/16","Google Consumer Surveys",73,"B",227,"likelyvoters",31.74,38.71,22
+"1097","NE","Nebraska","10/12/16","CVOTER International",192,"C+",333,"likelyvoters",38.7,57.2,27
+"1098","NE","Nebraska","10/12/16","Google Consumer Surveys",73,"B",217,"likelyvoters",27.82,40.76,27
+"1099","NE","Nebraska","10/10/16","Ipsos",25,"A-",207,"likelyvoters",34.73,46.81,29
+"1100","NE","Nebraska","10/6/16","Google Consumer Surveys",73,"B",233,"likelyvoters",26.88,39.06,33
+"1101","NE","Nebraska","10/5/16","CVOTER International",192,"C+",351,"likelyvoters",38.5,56.7,34
+"1102","NE","Nebraska","10/3/16","Ipsos",25,"A-",241,"likelyvoters",33.32,48.55,36
+"1103","NE","Nebraska","9/30/16","Google Consumer Surveys",73,"B",238,"likelyvoters",31.87,36.58,39
+"1104","NE","Nebraska","9/26/16","Ipsos",25,"A-",221,"likelyvoters",31.75,47.56,43
+"1105","NE","Nebraska CD-3","9/25/16","Emerson College",119,"B",700,"likelyvoters",20,65,44
+"1106","NE","Nebraska CD-2","9/25/16","Emerson College",119,"B",700,"likelyvoters",40,49,44
+"1107","NE","Nebraska CD-1","9/25/16","Emerson College",119,"B",700,"likelyvoters",29,53,44
+"1108","NE","Nebraska","9/25/16","Emerson College",119,"B",700,"likelyvoters",29.3,55.7,44
+"1109","NE","Nebraska","9/25/16","CVOTER International",192,"C+",541,"likelyvoters",36.9,59.3,44
+"1110","NE","Nebraska","9/23/16","Google Consumer Surveys",73,"B",207,"likelyvoters",29.03,38.05,46
+"1111","NE","Nebraska","9/19/16","Ipsos",25,"A-",197,"likelyvoters",32.71,51.19,50
+"1112","NE","Nebraska","9/18/16","CVOTER International",192,"C+",529,"likelyvoters",36.9,58.6,51
+"1113","NE","Nebraska","9/17/16","Google Consumer Surveys",73,"B",202,"likelyvoters",29.11,41.65,52
+"1114","NE","Nebraska","9/12/16","Ipsos",25,"A-",169,"likelyvoters",30.94,54.47,57
+"1115","NE","Nebraska","9/10/16","Google Consumer Surveys",73,"B",217,"likelyvoters",23.7,45.78,59
+"1116","NE","Nebraska","9/5/16","Ipsos",25,"A-",175,"likelyvoters",31.74,51.22,64
+"1117","NE","Nebraska","9/3/16","Google Consumer Surveys",73,"B",248,"likelyvoters",27.38,40.91,66
+"1118","NE","Nebraska","8/29/16","Ipsos",25,"A-",171,"likelyvoters",27.75,55.65,71
+"1119","NE","Nebraska","8/27/16","Google Consumer Surveys",73,"B",193,"likelyvoters",28.7,34.35,73
+"1120","NE","Nebraska","8/22/16","Ipsos",25,"A-",127,"likelyvoters",37.84,44.65,78
+"1121","NE","Nebraska","8/20/16","SurveyMonkey",352,"C-",983,"registeredvoters",32,42,80
+"1122","NE","Nebraska","8/20/16","Google Consumer Surveys",73,"B",174,"likelyvoters",24.5,38.25,80
+"1123","NE","Nebraska","8/15/16","Ipsos",25,"A-",136,"likelyvoters",45.02,41.5,85
+"1124","NE","Nebraska","8/13/16","Google Consumer Surveys",73,"B",180,"likelyvoters",32.71,30.16,87
+"1125","NE","Nebraska","8/8/16","Ipsos",25,"A-",185,"likelyvoters",34.72,49.39,92
+"1126","NH","New Hampshire","10/18/16","Emerson College",119,"B",900,"likelyvoters",44,36,21
+"1127","NH","New Hampshire","10/17/16","Google Consumer Surveys",73,"B",89,"likelyvoters",41.91,29.45,22
+"1128","NH","New Hampshire","10/14/16","University of New Hampshire",37,"B+",755,"likelyvoters",49,34,25
+"1129","NH","New Hampshire","10/12/16","CVOTER International",192,"C+",308,"likelyvoters",50.1,45.8,27
+"1130","NH","New Hampshire","10/12/16","SurveyMonkey",352,"C-",569,"likelyvoters",47,36,27
+"1131","NH","New Hampshire","10/12/16","Google Consumer Surveys",73,"B",71,"likelyvoters",47.86,23.29,27
+"1132","NH","New Hampshire","10/11/16","MassINC Polling Group",32,"A-",501,"likelyvoters",41,38,28
+"1133","NH","New Hampshire","10/10/16","Ipsos",25,"A-",179,"likelyvoters",45.11,39.21,29
+"1134","NH","New Hampshire","10/9/16","University of Massachusetts Lowell",80,"B",517,"likelyvoters",45,39,30
+"1135","NH","New Hampshire","10/8/16","Public Policy Polling",60,"B+",600,"likelyvoters",48,37,31
+"1136","NH","New Hampshire","10/6/16","Google Consumer Surveys",73,"B",76,"likelyvoters",56.62,17.43,33
+"1137","NH","New Hampshire","10/5/16","CVOTER International",192,"C+",309,"likelyvoters",49.9,45.4,34
+"1138","NH","New Hampshire","10/4/16","Suffolk University",65,"B+",500,"likelyvoters",44,42,35
+"1139","NH","New Hampshire","10/3/16","Ipsos",25,"A-",184,"likelyvoters",46.23,41.64,36
+"1140","NH","New Hampshire","9/30/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",500,"likelyvoters",46,38,39
+"1141","NH","New Hampshire","9/30/16","Google Consumer Surveys",73,"B",74,"likelyvoters",46.18,21.23,39
+"1142","NH","New Hampshire","9/28/16","MassINC Polling Group",32,"A-",502,"likelyvoters",42,35,41
+"1143","NH","New Hampshire","9/26/16","GBA Strategies",94,"B",600,"likelyvoters",43,37,43
+"1144","NH","New Hampshire","9/26/16","Ipsos",25,"A-",186,"likelyvoters",49.45,39.51,43
+"1145","NH","New Hampshire","9/25/16","CVOTER International",192,"C+",491,"likelyvoters",48.4,47.5,44
+"1146","NH","New Hampshire","9/23/16","Google Consumer Surveys",73,"B",39,"likelyvoters",40.36,38.63,46
+"1147","NH","New Hampshire","9/22/16","American Research Group",260,"C+",522,"registeredvoters",46,42,47
+"1148","NH","New Hampshire","9/19/16","Ipsos",25,"A-",170,"likelyvoters",47.21,41.25,50
+"1149","NH","New Hampshire","9/18/16","Monmouth University",1,"A+",400,"likelyvoters",47,38,51
+"1150","NH","New Hampshire","9/18/16","CVOTER International",192,"C+",493,"likelyvoters",48.1,47.2,51
+"1151","NH","New Hampshire","9/17/16","Google Consumer Surveys",73,"B",85,"likelyvoters",28.44,37.61,52
+"1152","NH","New Hampshire","9/12/16","Ipsos",25,"A-",179,"likelyvoters",51.19,36.28,57
+"1153","NH","New Hampshire","9/10/16","Google Consumer Surveys",73,"B",75,"likelyvoters",34.66,34.38,59
+"1154","NH","New Hampshire","9/7/16","Marist College",8,"A",737,"likelyvoters",39,37,62
+"1155","NH","New Hampshire","9/5/16","Ipsos",25,"A-",176,"likelyvoters",48.47,38.66,64
+"1156","NH","New Hampshire","9/4/16","Emerson College",119,"B",600,"likelyvoters",42,37,65
+"1157","NH","New Hampshire","9/3/16","Google Consumer Surveys",73,"B",78,"likelyvoters",34.78,20.7,66
+"1158","NH","New Hampshire","8/30/16","Public Policy Polling",60,"B+",585,"likelyvoters",46,41,70
+"1159","NH","New Hampshire","8/29/16","Ipsos",25,"A-",164,"likelyvoters",49.02,35.71,71
+"1160","NH","New Hampshire","8/27/16","Public Policy Polling",60,"B+",977,"likelyvoters",46,40,73
+"1161","NH","New Hampshire","8/27/16","Google Consumer Surveys",73,"B",73,"likelyvoters",32.92,22.15,73
+"1162","NH","New Hampshire","8/24/16","University of New Hampshire",37,"B+",417,"likelyvoters",43,32,76
+"1163","NH","New Hampshire","8/22/16","Ipsos",25,"A-",131,"likelyvoters",43.58,44.52,78
+"1164","NH","New Hampshire","8/20/16","SurveyMonkey",352,"C-",1218,"registeredvoters",40,34,80
+"1165","NH","New Hampshire","8/20/16","Google Consumer Surveys",73,"B",80,"likelyvoters",45.34,28.86,80
+"1166","NH","New Hampshire","8/15/16","Ipsos",25,"A-",133,"likelyvoters",33.7,47.86,85
+"1167","NH","New Hampshire","8/13/16","Google Consumer Surveys",73,"B",70,"likelyvoters",51.53,20.86,87
+"1168","NH","New Hampshire","8/11/16","YouGov",81,"B",990,"likelyvoters",45,36,89
+"1169","NH","New Hampshire","8/8/16","Ipsos",25,"A-",163,"likelyvoters",40.68,39.45,92
+"1170","NH","New Hampshire","8/7/16","Vox Populi Communications",108,"B",820,"registeredvoters",41,31,93
+"1171","NH","New Hampshire","7/30/16","MassINC Polling Group",32,"A-",609,"likelyvoters",47,32,101
+"1172","NH","New Hampshire","7/20/16","Praecones Analytica",NA,"",1166,"registeredvoters",38.5,47.9,111
+"1173","NH","New Hampshire","7/13/16","University of New Hampshire",37,"B+",469,"likelyvoters",37,37,118
+"1174","NH","New Hampshire","6/26/16","American Research Group",260,"C+",533,"registeredvoters",47,42,135
+"1175","NH","New Hampshire","6/16/16","TargetPoint",333,"C",200,"likelyvoters",44,40,145
+"1176","NH","New Hampshire","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",41,41,146
+"1177","NH","New Hampshire","5/26/16","RKM Research and Communications, Inc.",46,"B+",405,"likelyvoters",44,44,166
+"1178","NH","New Hampshire","5/13/16","MassINC Polling Group",32,"A-",501,"likelyvoters",44,42,179
+"1179","NH","New Hampshire","4/13/16","Dartmouth College",121,"B",362,"registeredvoters",34,29,209
+"1180","NH","New Hampshire","4/12/16","University of New Hampshire",37,"B+",553,"likelyvoters",50,31,210
+"1181","NH","New Hampshire","2/24/16","University of New Hampshire",37,"B+",628,"likelyvoters",47,39,258
+"1182","NH","New Hampshire","2/6/16","University of Massachusetts Lowell",80,"B",1411,"registeredvoters",45,40,276
+"1183","NH","New Hampshire","2/5/16","University of Massachusetts Lowell",80,"B",1413,"registeredvoters",45,39,277
+"1184","NH","New Hampshire","2/4/16","University of Massachusetts Lowell",80,"B",1417,"registeredvoters",46,39,278
+"1185","NH","New Hampshire","2/3/16","University of Massachusetts Lowell",80,"B",1417,"registeredvoters",44,40,279
+"1186","NH","New Hampshire","1/15/16","University of New Hampshire",37,"B+",839,"likelyvoters",48,39,298
+"1187","NH","New Hampshire","1/4/16","Marist College",8,"A",957,"registeredvoters",45,44,309
+"1188","NH","New Hampshire","11/16/15","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",804,"registeredvoters",47,40,358
+"1189","NH","New Hampshire","11/11/15","Morning Consult",NA,"",530,"registeredvoters",45,38,363
+"1190","NJ","New Jersey","10/17/16","Google Consumer Surveys",73,"B",792,"likelyvoters",41.22,32.52,22
+"1191","NJ","New Jersey","10/14/16","Fairleigh Dickinson University (PublicMind)",15,"A",293,"likelyvoters",49,35,25
+"1192","NJ","New Jersey","10/13/16","Ipsos",25,"A-",795,"likelyvoters",52.66,31.71,26
+"1193","NJ","New Jersey","10/12/16","CVOTER International",192,"C+",338,"likelyvoters",57.1,39.4,27
+"1194","NJ","New Jersey","10/12/16","Google Consumer Surveys",73,"B",658,"likelyvoters",39.82,32.04,27
+"1195","NJ","New Jersey","10/6/16","Ipsos",25,"A-",953,"likelyvoters",49.93,32.23,33
+"1196","NJ","New Jersey","10/6/16","Google Consumer Surveys",73,"B",618,"likelyvoters",40.3,34.19,33
+"1197","NJ","New Jersey","10/5/16","CVOTER International",192,"C+",339,"likelyvoters",56.9,39.1,34
+"1198","NJ","New Jersey","10/3/16","Ipsos",25,"A-",534,"likelyvoters",48.52,33.66,36
+"1199","NJ","New Jersey","9/30/16","Google Consumer Surveys",73,"B",701,"likelyvoters",41.69,32.62,39
+"1200","NJ","New Jersey","9/26/16","Ipsos",25,"A-",545,"likelyvoters",46.68,34.18,43
+"1201","NJ","New Jersey","9/25/16","Stockton College",95,"B",638,"likelyvoters",46.2,39.8,44
+"1202","NJ","New Jersey","9/25/16","CVOTER International",192,"C+",568,"likelyvoters",55.4,40.9,44
+"1203","NJ","New Jersey","9/23/16","Google Consumer Surveys",73,"B",605,"likelyvoters",37.55,35.87,46
+"1204","NJ","New Jersey","9/18/16","CVOTER International",192,"C+",560,"likelyvoters",56,39.9,51
+"1205","NJ","New Jersey","9/17/16","Google Consumer Surveys",73,"B",655,"likelyvoters",35.6,36.19,52
+"1206","NJ","New Jersey","9/15/16","Ipsos",25,"A-",853,"likelyvoters",50.49,32.22,54
+"1207","NJ","New Jersey","9/10/16","Google Consumer Surveys",73,"B",729,"likelyvoters",36.27,33.98,59
+"1208","NJ","New Jersey","9/8/16","Ipsos",25,"A-",880,"likelyvoters",48.91,33.46,61
+"1209","NJ","New Jersey","9/8/16","Rutgers University",152,"B-",726,"registeredvoters",50,29,61
+"1210","NJ","New Jersey","9/5/16","Ipsos",25,"A-",465,"likelyvoters",46.55,35.11,64
+"1211","NJ","New Jersey","9/3/16","Emerson College",119,"B",800,"likelyvoters",47,43,66
+"1212","NJ","New Jersey","9/3/16","Google Consumer Surveys",73,"B",742,"likelyvoters",35.95,33.11,66
+"1213","NJ","New Jersey","8/27/16","Google Consumer Surveys",73,"B",737,"likelyvoters",37.83,29.03,73
+"1214","NJ","New Jersey","8/25/16","Ipsos",25,"A-",666,"likelyvoters",47.4,36.24,75
+"1215","NJ","New Jersey","8/20/16","SurveyMonkey",352,"C-",912,"registeredvoters",49,34,80
+"1216","NJ","New Jersey","8/20/16","Google Consumer Surveys",73,"B",763,"likelyvoters",37.78,31.6,80
+"1217","NJ","New Jersey","8/18/16","Ipsos",25,"A-",678,"likelyvoters",48.08,33.54,82
+"1218","NJ","New Jersey","8/13/16","Google Consumer Surveys",73,"B",736,"likelyvoters",42.4,28.6,87
+"1219","NJ","New Jersey","8/11/16","Ipsos",25,"A-",765,"likelyvoters",46.14,32.85,89
+"1220","NJ","New Jersey","6/24/16","Fairleigh Dickinson University (PublicMind)",15,"A",349,"registeredvoters",44,32,137
+"1221","NJ","New Jersey","6/24/16","Fairleigh Dickinson University (PublicMind)",15,"A",363,"registeredvoters",52,31,137
+"1222","NJ","New Jersey","6/1/16","YouGov",81,"B",1194,"likelyvoters",49,34,160
+"1223","NJ","New Jersey","5/25/16","Monmouth University",1,"A+",703,"registeredvoters",37,31,167
+"1224","NJ","New Jersey","5/20/16","Fairleigh Dickinson University (PublicMind)",15,"A",702,"registeredvoters",48,37,172
+"1225","NJ","New Jersey","5/13/16","Quinnipiac University",26,"A-",1989,"registeredvoters",45,38,179
+"1226","NJ","New Jersey","4/4/16","Rutgers University",152,"B-",738,"registeredvoters",50,36,218
+"1227","NJ","New Jersey","2/26/16","Fairleigh Dickinson University (PublicMind)",15,"A",694,"registeredvoters",52,36,256
+"1228","NM","New Mexico","10/17/16","Google Consumer Surveys",73,"B",249,"likelyvoters",40.02,26.18,22
+"1229","NM","New Mexico","10/12/16","CVOTER International",192,"C+",324,"likelyvoters",50.5,43.8,27
+"1230","NM","New Mexico","10/12/16","SurveyMonkey",352,"C-",889,"likelyvoters",41,33,27
+"1231","NM","New Mexico","10/12/16","Google Consumer Surveys",73,"B",214,"likelyvoters",40.3,22.32,27
+"1232","NM","New Mexico","10/11/16","Zia Poll",NA,"",1536,"likelyvoters",46,36,28
+"1233","NM","New Mexico","10/10/16","Ipsos",25,"A-",150,"likelyvoters",51.28,35.11,29
+"1234","NM","New Mexico","10/6/16","Google Consumer Surveys",73,"B",174,"likelyvoters",35.4,28.14,33
+"1235","NM","New Mexico","10/5/16","CVOTER International",192,"C+",330,"likelyvoters",50.5,43.4,34
+"1236","NM","New Mexico","10/3/16","Ipsos",25,"A-",157,"likelyvoters",43.87,36.38,36
+"1237","NM","New Mexico","9/30/16","SurveyUSA",12,"A",594,"likelyvoters",46,33,39
+"1238","NM","New Mexico","9/30/16","Google Consumer Surveys",73,"B",202,"likelyvoters",43.05,22.73,39
+"1239","NM","New Mexico","9/28/16","Research & Polling, Inc.",16,"A",501,"likelyvoters",35,31,41
+"1240","NM","New Mexico","9/26/16","Ipsos",25,"A-",159,"likelyvoters",49.11,35.93,43
+"1241","NM","New Mexico","9/25/16","CVOTER International",192,"C+",507,"likelyvoters",49.9,44.9,44
+"1242","NM","New Mexico","9/24/16","Zia Poll",NA,"",1415,"likelyvoters",41.8,36.6,45
+"1243","NM","New Mexico","9/23/16","Google Consumer Surveys",73,"B",194,"likelyvoters",37.92,26.02,46
+"1244","NM","New Mexico","9/19/16","Ipsos",25,"A-",145,"likelyvoters",48.94,39.69,50
+"1245","NM","New Mexico","9/18/16","CVOTER International",192,"C+",488,"likelyvoters",49.6,44.5,51
+"1246","NM","New Mexico","9/17/16","Google Consumer Surveys",73,"B",216,"likelyvoters",30.14,29.76,52
+"1247","NM","New Mexico","9/12/16","Ipsos",25,"A-",137,"likelyvoters",46.94,37.92,57
+"1248","NM","New Mexico","9/10/16","Google Consumer Surveys",73,"B",219,"likelyvoters",42.32,28.46,59
+"1249","NM","New Mexico","9/5/16","Ipsos",25,"A-",141,"likelyvoters",37.79,43.19,64
+"1250","NM","New Mexico","9/3/16","Google Consumer Surveys",73,"B",215,"likelyvoters",27.25,29.96,66
+"1251","NM","New Mexico","8/29/16","Ipsos",25,"A-",106,"likelyvoters",38.01,47.6,71
+"1252","NM","New Mexico","8/27/16","Google Consumer Surveys",73,"B",184,"likelyvoters",36.08,27.95,73
+"1253","NM","New Mexico","8/20/16","SurveyMonkey",352,"C-",1788,"registeredvoters",37,29,80
+"1254","NM","New Mexico","8/20/16","Google Consumer Surveys",73,"B",201,"likelyvoters",41.65,25.13,80
+"1255","NM","New Mexico","8/13/16","Google Consumer Surveys",73,"B",181,"likelyvoters",37.35,25.97,87
+"1256","NM","New Mexico","8/8/16","Ipsos",25,"A-",115,"likelyvoters",43.98,41.45,92
+"1257","NM","New Mexico","5/14/16","Public Policy Polling",60,"B+",802,"likelyvoters",41,33,178
+"1258","NV","Nevada","10/17/16","Google Consumer Surveys",73,"B",259,"likelyvoters",36.7,35.81,22
+"1259","NV","Nevada","10/15/16","Monmouth University",1,"A+",413,"likelyvoters",47,40,24
+"1260","NV","Nevada","10/13/16","YouGov",81,"B",996,"likelyvoters",46,40,26
+"1261","NV","Nevada","10/12/16","CNN/Opinion Research Corp.",30,"A-",698,"likelyvoters",46,44,27
+"1262","NV","Nevada","10/12/16","CVOTER International",192,"C+",319,"likelyvoters",48.8,44.8,27
+"1263","NV","Nevada","10/12/16","SurveyMonkey",352,"C-",884,"likelyvoters",40,44,27
+"1264","NV","Nevada","10/12/16","Google Consumer Surveys",73,"B",253,"likelyvoters",33.6,35.34,27
+"1265","NV","Nevada","10/11/16","Public Opinion Strategies",87,"B",600,"likelyvoters",45,39,28
+"1266","NV","Nevada","10/11/16","JMC Enterprises",294,"C",600,"likelyvoters",43,41,28
+"1267","NV","Nevada","10/10/16","Public Policy Polling",60,"B+",986,"likelyvoters",47,43,29
+"1268","NV","Nevada","10/10/16","Clarity Campaign Labs",115,"B",1010,"likelyvoters",43,43,29
+"1269","NV","Nevada","10/10/16","Ipsos",25,"A-",292,"likelyvoters",47.68,43.43,29
+"1270","NV","Nevada","10/6/16","Google Consumer Surveys",73,"B",186,"likelyvoters",43.81,30.43,33
+"1271","NV","Nevada","10/5/16","CVOTER International",192,"C+",320,"likelyvoters",48.3,44.9,34
+"1272","NV","Nevada","10/3/16","Emerson College",119,"B",700,"likelyvoters",43,43,36
+"1273","NV","Nevada","10/3/16","Ipsos",25,"A-",347,"likelyvoters",40.77,38.73,36
+"1274","NV","Nevada","9/30/16","Google Consumer Surveys",73,"B",120,"likelyvoters",35.2,33.06,39
+"1275","NV","Nevada","9/29/16","Garin-Hart-Yang Research Group",44,"B+",700,"likelyvoters",44,41,40
+"1276","NV","Nevada","9/28/16","Bendixen & Amandi International",NA,"",800,"likelyvoters",45,44,41
+"1277","NV","Nevada","9/28/16","Suffolk University",65,"B+",500,"likelyvoters",44.2,38.2,41
+"1278","NV","Nevada","9/26/16","Ipsos",25,"A-",342,"likelyvoters",46.23,42.29,43
+"1279","NV","Nevada","9/25/16","CVOTER International",192,"C+",536,"likelyvoters",47.1,46.8,44
+"1280","NV","Nevada","9/23/16","Google Consumer Surveys",73,"B",173,"likelyvoters",33.96,34.44,46
+"1281","NV","Nevada","9/19/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",704,"likelyvoters",40,43,50
+"1282","NV","Nevada","9/19/16","Ipsos",25,"A-",333,"likelyvoters",42.38,43.73,50
+"1283","NV","Nevada","9/18/16","CVOTER International",192,"C+",540,"likelyvoters",46.8,46.1,51
+"1284","NV","Nevada","9/17/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",800,"likelyvoters",39,42,52
+"1285","NV","Nevada","9/17/16","Google Consumer Surveys",73,"B",236,"likelyvoters",32.23,33.54,52
+"1286","NV","Nevada","9/14/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",400,"likelyvoters",42,42,55
+"1287","NV","Nevada","9/13/16","Insights West",NA,"",398,"likelyvoters",40,42,56
+"1288","NV","Nevada","9/12/16","Monmouth University",1,"A+",406,"likelyvoters",42,44,57
+"1289","NV","Nevada","9/12/16","Ipsos",25,"A-",294,"likelyvoters",45.03,45.02,57
+"1290","NV","Nevada","9/10/16","Google Consumer Surveys",73,"B",207,"likelyvoters",27.78,35.62,59
+"1291","NV","Nevada","9/7/16","Marist College",8,"A",627,"likelyvoters",41,42,62
+"1292","NV","Nevada","9/6/16","Public Policy Polling",60,"B+",815,"likelyvoters",45,42,63
+"1293","NV","Nevada","9/5/16","Ipsos",25,"A-",293,"likelyvoters",37.63,41.48,64
+"1294","NV","Nevada","9/3/16","Google Consumer Surveys",73,"B",220,"likelyvoters",34.75,33.81,66
+"1295","NV","Nevada","8/29/16","Ipsos",25,"A-",273,"likelyvoters",43.35,40.55,71
+"1296","NV","Nevada","8/27/16","Google Consumer Surveys",73,"B",199,"likelyvoters",34.38,33.9,73
+"1297","NV","Nevada","8/22/16","Ipsos",25,"A-",225,"likelyvoters",42.89,34.94,78
+"1298","NV","Nevada","8/20/16","SurveyMonkey",352,"C-",2776,"registeredvoters",40,37,80
+"1299","NV","Nevada","8/20/16","Google Consumer Surveys",73,"B",242,"likelyvoters",30.03,41.46,80
+"1300","NV","Nevada","8/16/16","Suffolk University",65,"B+",500,"registeredvoters",43.8,41.6,84
+"1301","NV","Nevada","8/15/16","Ipsos",25,"A-",253,"likelyvoters",40.86,38.78,85
+"1302","NV","Nevada","8/13/16","Google Consumer Surveys",73,"B",282,"likelyvoters",31.76,35.73,87
+"1303","NV","Nevada","8/8/16","Ipsos",25,"A-",350,"likelyvoters",39.99,38.33,92
+"1304","NV","Nevada","8/3/16","YouGov",81,"B",993,"likelyvoters",43,41,97
+"1305","NV","Nevada","7/30/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",750,"likelyvoters",41,40,101
+"1306","NV","Nevada","7/23/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",750,"likelyvoters",38,43,108
+"1307","NV","Nevada","7/8/16","Monmouth University",1,"A+",408,"likelyvoters",45,41,123
+"1308","NV","Nevada","6/16/16","TargetPoint",333,"C",200,"likelyvoters",45,46,145
+"1309","NV","Nevada","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",44,44,146
+"1310","NV","Nevada","5/24/16","Gravis Marketing",181,"B-",1637,"registeredvoters",41,44,168
+"1311","NV","Nevada","11/13/15","Morning Consult",NA,"",628,"registeredvoters",41,44,361
+"1312","NY","New York","10/17/16","Google Consumer Surveys",73,"B",1165,"likelyvoters",44.04,28.96,22
+"1313","NY","New York","10/17/16","Ipsos",25,"A-",346,"likelyvoters",53.73,30.1,22
+"1314","NY","New York","10/15/16","Siena College",14,"A",611,"likelyvoters",54,30,24
+"1315","NY","New York","10/12/16","CVOTER International",192,"C+",404,"likelyvoters",58.7,37.5,27
+"1316","NY","New York","10/12/16","Google Consumer Surveys",73,"B",912,"likelyvoters",47.36,27.7,27
+"1317","NY","New York","10/10/16","Ipsos",25,"A-",434,"likelyvoters",52.61,26.67,29
+"1318","NY","New York","10/6/16","Google Consumer Surveys",73,"B",875,"likelyvoters",41.72,30.76,33
+"1319","NY","New York","10/5/16","CVOTER International",192,"C+",418,"likelyvoters",58.2,37.6,34
+"1320","NY","New York","10/3/16","Ipsos",25,"A-",714,"likelyvoters",54.76,31.07,36
+"1321","NY","New York","9/30/16","Google Consumer Surveys",73,"B",992,"likelyvoters",43.02,31.27,39
+"1322","NY","New York","9/26/16","Ipsos",25,"A-",651,"likelyvoters",49.34,29.05,43
+"1323","NY","New York","9/25/16","CVOTER International",192,"C+",701,"likelyvoters",57,39.5,44
+"1324","NY","New York","9/23/16","Google Consumer Surveys",73,"B",931,"likelyvoters",42.53,29.4,46
+"1325","NY","New York","9/22/16","Marist College",8,"A",676,"likelyvoters",52,31,47
+"1326","NY","New York","9/19/16","Ipsos",25,"A-",535,"likelyvoters",52.85,34.06,50
+"1327","NY","New York","9/18/16","CVOTER International",192,"C+",724,"likelyvoters",57,39,51
+"1328","NY","New York","9/17/16","Google Consumer Surveys",73,"B",844,"likelyvoters",41.56,28.23,52
+"1329","NY","New York","9/13/16","Siena College",14,"A",600,"likelyvoters",51,30,56
+"1330","NY","New York","9/12/16","Ipsos",25,"A-",544,"likelyvoters",53.44,29.97,57
+"1331","NY","New York","9/10/16","Google Consumer Surveys",73,"B",923,"likelyvoters",39.81,31.36,59
+"1332","NY","New York","9/5/16","Ipsos",25,"A-",631,"likelyvoters",51.83,30.11,64
+"1333","NY","New York","9/3/16","Google Consumer Surveys",73,"B",1033,"likelyvoters",37.34,28.83,66
+"1334","NY","New York","8/29/16","Emerson College",119,"B",800,"likelyvoters",52.1,34.2,71
+"1335","NY","New York","8/29/16","Ipsos",25,"A-",451,"likelyvoters",50,28.47,71
+"1336","NY","New York","8/27/16","Google Consumer Surveys",73,"B",1038,"likelyvoters",41.64,29.9,73
+"1337","NY","New York","8/22/16","Ipsos",25,"A-",500,"likelyvoters",53.3,31.38,78
+"1338","NY","New York","8/20/16","SurveyMonkey",352,"C-",1405,"registeredvoters",51,31,80
+"1339","NY","New York","8/20/16","Google Consumer Surveys",73,"B",947,"likelyvoters",39.08,27.65,80
+"1340","NY","New York","8/15/16","Ipsos",25,"A-",1006,"likelyvoters",51.99,29.64,85
+"1341","NY","New York","8/13/16","Google Consumer Surveys",73,"B",991,"likelyvoters",41.23,26.04,87
+"1342","NY","New York","8/8/16","Siena College",14,"A",717,"registeredvoters",50,25,92
+"1343","NY","New York","8/6/16","Gravis Marketing",181,"B-",1717,"registeredvoters",48,34,94
+"1344","NY","New York","7/15/16","Quinnipiac University",26,"A-",1104,"registeredvoters",45,33,116
+"1345","NY","New York","6/25/16","Siena College",14,"A",803,"registeredvoters",54,31,136
+"1346","NY","New York","5/24/16","Siena College",14,"A",825,"registeredvoters",52,31,168
+"1347","NY","New York","4/25/16","Siena College",14,"A",802,"registeredvoters",56,30,197
+"1348","NY","New York","4/16/16","Emerson College",119,"B",1047,"likelyvoters",55,36,206
+"1349","NY","New York","4/8/16","Marist College",8,"A",1987,"registeredvoters",61,32,214
+"1350","NY","New York","4/7/16","Baruch College",125,"B-",1306,"registeredvoters",51,35,215
+"1351","NY","New York","4/6/16","Emerson College",119,"B",864,"likelyvoters",54,36,216
+"1352","NY","New York","4/5/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",1403,"likelyvoters",53,37,217
+"1353","NY","New York","3/25/16","Quinnipiac University",26,"A-",1667,"registeredvoters",53,33,228
+"1354","NY","New York","3/15/16","Emerson College",119,"B",768,"likelyvoters",55,36,238
+"1355","NY","New York","3/1/16","Siena College",14,"A",800,"registeredvoters",57,34,252
+"1356","NY","New York","2/1/16","Siena College",14,"A",930,"registeredvoters",57,32,281
+"1357","OH","Ohio","10/18/16","Suffolk University",65,"B+",500,"likelyvoters",45,45,21
+"1358","OH","Ohio","10/17/16","Google Consumer Surveys",73,"B",865,"likelyvoters",33.83,38.97,22
+"1359","OH","Ohio","10/16/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",875,"likelyvoters",42,43,23
+"1360","OH","Ohio","10/13/16","Ipsos",25,"A-",1839,"likelyvoters",43.41,42.75,26
+"1361","OH","Ohio","10/13/16","Quinnipiac University",26,"A-",624,"likelyvoters",45,45,26
+"1362","OH","Ohio","10/12/16","CNN/Opinion Research Corp.",30,"A-",774,"likelyvoters",44,48,27
+"1363","OH","Ohio","10/12/16","CVOTER International",192,"C+",344,"likelyvoters",50.3,46.1,27
+"1364","OH","Ohio","10/12/16","SurveyMonkey",352,"C-",1307,"likelyvoters",41,44,27
+"1365","OH","Ohio","10/12/16","Google Consumer Surveys",73,"B",782,"likelyvoters",34.87,35.98,27
+"1366","OH","Ohio","10/11/16","Marist College",8,"A",724,"likelyvoters",41,42,28
+"1367","OH","Ohio","10/11/16","Emerson College",119,"B",600,"likelyvoters",45,43,28
+"1368","OH","Ohio","10/10/16","Baldwin Wallace University",NA,"",1152,"likelyvoters",43.2,34.4,29
+"1369","OH","Ohio","10/10/16","Ipsos",25,"A-",1490,"likelyvoters",42.15,42.98,29
+"1370","OH","Ohio","10/8/16","The Times-Picayune/Lucid",NA,"",1162,"likelyvoters",44,39,31
+"1371","OH","Ohio","10/6/16","Google Consumer Surveys",73,"B",794,"likelyvoters",32.41,35.84,33
+"1372","OH","Ohio","10/6/16","YouGov",81,"B",997,"likelyvoters",46,42,33
+"1373","OH","Ohio","10/5/16","Public Policy Polling",60,"B+",782,"likelyvoters",44,43,34
+"1374","OH","Ohio","10/5/16","CVOTER International",192,"C+",341,"likelyvoters",49.8,46,34
+"1375","OH","Ohio","10/4/16","TargetSmart/William & Mary",NA,"",812,"likelyvoters",43.2,40.3,35
+"1376","OH","Ohio","10/3/16","Ipsos",25,"A-",609,"likelyvoters",46.21,42.56,36
+"1377","OH","Ohio","10/2/16","Monmouth University",1,"A+",405,"likelyvoters",44,42,37
+"1378","OH","Ohio","10/2/16","University of Akron",NA,"",1004,"likelyvoters",41,38,37
+"1379","OH","Ohio","9/30/16","Google Consumer Surveys",73,"B",871,"likelyvoters",36.04,33.55,39
+"1380","OH","Ohio","9/29/16","Anzalone Liszt Grove Research",323,"C",800,"likelyvoters",44,42,40
+"1381","OH","Ohio","9/29/16","Quinnipiac University",26,"A-",497,"likelyvoters",42,47,40
+"1382","OH","Ohio","9/26/16","Ipsos",25,"A-",557,"likelyvoters",44.36,42.81,43
+"1383","OH","Ohio","9/25/16","CVOTER International",192,"C+",548,"likelyvoters",47.6,48.9,44
+"1384","OH","Ohio","9/23/16","Google Consumer Surveys",73,"B",737,"likelyvoters",31.94,35.09,46
+"1385","OH","Ohio","9/22/16","Gravis Marketing",181,"B-",850,"registeredvoters",42,43,47
+"1386","OH","Ohio","9/19/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",737,"likelyvoters",37,42,50
+"1387","OH","Ohio","9/19/16","Ipsos",25,"A-",407,"likelyvoters",46.34,42.88,50
+"1388","OH","Ohio","9/18/16","TargetSmart/William & Mary",NA,"",652,"likelyvoters",40,37,51
+"1389","OH","Ohio","9/18/16","CVOTER International",192,"C+",554,"likelyvoters",47.5,48.5,51
+"1390","OH","Ohio","9/17/16","Google Consumer Surveys",73,"B",846,"likelyvoters",33.76,32.71,52
+"1391","OH","Ohio","9/14/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",400,"likelyvoters",39,41,55
+"1392","OH","Ohio","9/13/16","Suffolk University",65,"B+",500,"likelyvoters",39,42,56
+"1393","OH","Ohio","9/12/16","Ipsos",25,"A-",450,"likelyvoters",47.21,43.52,57
+"1394","OH","Ohio","9/10/16","Selzer & Company",3,"A+",802,"likelyvoters",39,44,59
+"1395","OH","Ohio","9/10/16","Google Consumer Surveys",73,"B",828,"likelyvoters",31.14,34.34,59
+"1396","OH","Ohio","9/9/16","CNN/Opinion Research Corp.",30,"A-",769,"likelyvoters",41,46,60
+"1397","OH","Ohio","9/8/16","YouGov",81,"B",994,"likelyvoters",46,39,61
+"1398","OH","Ohio","9/5/16","Ipsos",25,"A-",458,"likelyvoters",47.39,45.5,64
+"1399","OH","Ohio","9/3/16","Google Consumer Surveys",73,"B",837,"likelyvoters",29.08,35.47,66
+"1400","OH","Ohio","9/2/16","Quinnipiac University",26,"A-",775,"likelyvoters",37,41,67
+"1401","OH","Ohio","8/29/16","Ipsos",25,"A-",375,"likelyvoters",43.1,45.95,71
+"1402","OH","Ohio","8/27/16","Google Consumer Surveys",73,"B",837,"likelyvoters",28.93,34.5,73
+"1403","OH","Ohio","8/26/16","Public Policy Polling",60,"B+",1134,"likelyvoters",46,42,74
+"1404","OH","Ohio","8/26/16","Emerson College",119,"B",800,"likelyvoters",42.5,43.4,74
+"1405","OH","Ohio","8/22/16","Ipsos",25,"A-",392,"likelyvoters",47.24,40.69,78
+"1406","OH","Ohio","8/20/16","SurveyMonkey",352,"C-",2543,"registeredvoters",37,40,80
+"1407","OH","Ohio","8/20/16","Google Consumer Surveys",73,"B",772,"likelyvoters",30.73,35.27,80
+"1408","OH","Ohio","8/19/16","Monmouth University",1,"A+",402,"likelyvoters",43,39,81
+"1409","OH","Ohio","8/18/16","YouGov",81,"B",997,"likelyvoters",46,40,82
+"1410","OH","Ohio","8/15/16","Ipsos",25,"A-",844,"likelyvoters",45.31,38.71,85
+"1411","OH","Ohio","8/13/16","Google Consumer Surveys",73,"B",810,"likelyvoters",29.53,33.7,87
+"1412","OH","Ohio","8/5/16","Marist College",8,"A",889,"registeredvoters",39,35,95
+"1413","OH","Ohio","8/3/16","Quinnipiac University",26,"A-",812,"likelyvoters",44,42,97
+"1414","OH","Ohio","7/19/16","Suffolk University",65,"B+",500,"likelyvoters",42.6,38.6,112
+"1415","OH","Ohio","7/14/16","YouGov",81,"B",1104,"likelyvoters",44,40,117
+"1416","OH","Ohio","7/7/16","Marist College",8,"A",848,"registeredvoters",38,35,124
+"1417","OH","Ohio","7/5/16","Quinnipiac University",26,"A-",955,"registeredvoters",36,37,126
+"1418","OH","Ohio","6/27/16","Gravis Marketing",181,"B-",1270,"registeredvoters",49,47.5,134
+"1419","OH","Ohio","6/25/16","RABA Research",252,"C+",599,"likelyvoters",41,38,136
+"1420","OH","Ohio","6/16/16","Evolving Strategies",NA,"",617,"likelyvoters",41,34,145
+"1421","OH","Ohio","6/16/16","TargetPoint",333,"C",200,"likelyvoters",46,43,145
+"1422","OH","Ohio","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",41,41,146
+"1423","OH","Ohio","6/13/16","Quinnipiac University",26,"A-",971,"registeredvoters",38,36,148
+"1424","OH","Ohio","5/20/16","Zogby Interactive/JZ Analytics",344,"C-",679,"likelyvoters",38,33,172
+"1425","OH","Ohio","5/17/16","YouGov",81,"B",992,"likelyvoters",44,39,175
+"1426","OH","Ohio","5/2/16","Quinnipiac University",26,"A-",1042,"registeredvoters",39,43,190
+"1427","OH","Ohio","3/7/16","Marist College",8,"A",2052,"registeredvoters",48,42,246
+"1428","OH","Ohio","3/4/16","CNN/Opinion Research Corp.",30,"A-",884,"registeredvoters",50,43,249
+"1429","OH","Ohio","2/18/16","Quinnipiac University",26,"A-",1539,"registeredvoters",42,44,264
+"1430","OH","Ohio","2/15/16","Baldwin Wallace University",NA,"",825,"likelyvoters",37,39,267
+"1431","OK","Oklahoma","10/17/16","Google Consumer Surveys",73,"B",249,"likelyvoters",27.45,41.34,22
+"1432","OK","Oklahoma","10/12/16","CVOTER International",192,"C+",317,"likelyvoters",33.5,62.6,27
+"1433","OK","Oklahoma","10/12/16","Google Consumer Surveys",73,"B",216,"likelyvoters",33.66,44.49,27
+"1434","OK","Oklahoma","10/10/16","Ipsos",25,"A-",381,"likelyvoters",36.08,51.27,29
+"1435","OK","Oklahoma","10/6/16","Google Consumer Surveys",73,"B",226,"likelyvoters",33.48,41.63,33
+"1436","OK","Oklahoma","10/5/16","CVOTER International",192,"C+",319,"likelyvoters",33.8,61.7,34
+"1437","OK","Oklahoma","10/3/16","Ipsos",25,"A-",432,"likelyvoters",36,51.26,36
+"1438","OK","Oklahoma","9/30/16","Google Consumer Surveys",73,"B",254,"likelyvoters",28.99,39.64,39
+"1439","OK","Oklahoma","9/26/16","Ipsos",25,"A-",419,"likelyvoters",33.22,53.2,43
+"1440","OK","Oklahoma","9/25/16","CVOTER International",192,"C+",508,"likelyvoters",32,64.5,44
+"1441","OK","Oklahoma","9/23/16","Google Consumer Surveys",73,"B",163,"likelyvoters",22.59,35.91,46
+"1442","OK","Oklahoma","9/19/16","Ipsos",25,"A-",370,"likelyvoters",31.34,53.86,50
+"1443","OK","Oklahoma","9/18/16","CVOTER International",192,"C+",506,"likelyvoters",32.1,63.7,51
+"1444","OK","Oklahoma","9/17/16","Google Consumer Surveys",73,"B",198,"likelyvoters",27.82,44.2,52
+"1445","OK","Oklahoma","9/14/16","SoonerPoll.com",83,"B",515,"likelyvoters",35.6,50.9,55
+"1446","OK","Oklahoma","9/12/16","Ipsos",25,"A-",332,"likelyvoters",29.57,54.94,57
+"1447","OK","Oklahoma","9/10/16","Google Consumer Surveys",73,"B",231,"likelyvoters",21.6,44.62,59
+"1448","OK","Oklahoma","9/5/16","Ipsos",25,"A-",313,"likelyvoters",32.12,53.18,64
+"1449","OK","Oklahoma","9/3/16","Google Consumer Surveys",73,"B",244,"likelyvoters",29.34,44.56,66
+"1450","OK","Oklahoma","8/29/16","Ipsos",25,"A-",313,"likelyvoters",33.33,52.43,71
+"1451","OK","Oklahoma","8/27/16","Google Consumer Surveys",73,"B",244,"likelyvoters",28.72,37.06,73
+"1452","OK","Oklahoma","8/22/16","Ipsos",25,"A-",288,"likelyvoters",36.51,48.41,78
+"1453","OK","Oklahoma","8/20/16","SurveyMonkey",352,"C-",1041,"registeredvoters",26,49,80
+"1454","OK","Oklahoma","8/20/16","Google Consumer Surveys",73,"B",245,"likelyvoters",24.4,42.18,80
+"1455","OK","Oklahoma","8/15/16","Ipsos",25,"A-",320,"likelyvoters",31.99,54.42,85
+"1456","OK","Oklahoma","8/13/16","Google Consumer Surveys",73,"B",240,"likelyvoters",27.28,39.25,87
+"1457","OK","Oklahoma","8/8/16","Ipsos",25,"A-",386,"likelyvoters",29.21,58.44,92
+"1458","OK","Oklahoma","7/22/16","SoonerPoll.com",83,"B",298,"likelyvoters",28.6,53,109
+"1459","OK","Oklahoma","5/3/16","Cole Hargrave Snodgrass & Associates",79,"B",500,"registeredvoters",28,48,189
+"1460","OR","Oregon","10/17/16","Google Consumer Surveys",73,"B",470,"likelyvoters",47.73,23.55,22
+"1461","OR","Oregon","10/12/16","CVOTER International",192,"C+",324,"likelyvoters",51.1,42.5,27
+"1462","OR","Oregon","10/12/16","Google Consumer Surveys",73,"B",358,"likelyvoters",43.67,24.5,27
+"1463","OR","Oregon","10/11/16","SurveyUSA",12,"A",654,"likelyvoters",48,38,28
+"1464","OR","Oregon","10/10/16","Ipsos",25,"A-",644,"likelyvoters",46.28,37.24,29
+"1465","OR","Oregon","10/9/16","Davis, Hibbitts & Midghall, Inc.",71,"B",600,"likelyvoters",43,36,30
+"1466","OR","Oregon","10/9/16","Riley Research Associates",56,"B+",608,"likelyvoters",46,36,30
+"1467","OR","Oregon","10/6/16","Google Consumer Surveys",73,"B",382,"likelyvoters",48.54,23.82,33
+"1468","OR","Oregon","10/6/16","Ipsos",25,"A-",490,"likelyvoters",46.96,37.05,33
+"1469","OR","Oregon","10/5/16","CVOTER International",192,"C+",320,"likelyvoters",50.6,42.5,34
+"1470","OR","Oregon","10/4/16","Gravis Marketing",181,"B-",1248,"registeredvoters",47,39,35
+"1471","OR","Oregon","9/30/16","Hoffman Research Group",146,"B-",605,"likelyvoters",45,33,39
+"1472","OR","Oregon","9/30/16","Google Consumer Surveys",73,"B",438,"likelyvoters",48.01,26.47,39
+"1473","OR","Oregon","9/29/16","Ipsos",25,"A-",483,"likelyvoters",51.33,36,40
+"1474","OR","Oregon","9/25/16","CVOTER International",192,"C+",502,"likelyvoters",50.2,44.6,44
+"1475","OR","Oregon","9/23/16","Google Consumer Surveys",73,"B",347,"likelyvoters",44.09,28.75,46
+"1476","OR","Oregon","9/22/16","Ipsos",25,"A-",436,"likelyvoters",48.42,37.65,47
+"1477","OR","Oregon","9/18/16","CVOTER International",192,"C+",508,"likelyvoters",50.5,43.5,51
+"1478","OR","Oregon","9/17/16","Google Consumer Surveys",73,"B",373,"likelyvoters",40.19,28.11,52
+"1479","OR","Oregon","9/15/16","Ipsos",25,"A-",381,"likelyvoters",43.63,41.36,54
+"1480","OR","Oregon","9/10/16","Google Consumer Surveys",73,"B",381,"likelyvoters",42.32,29.77,59
+"1481","OR","Oregon","9/5/16","Ipsos",25,"A-",508,"likelyvoters",44.19,40.95,64
+"1482","OR","Oregon","9/4/16","icitizen",NA,"",610,"registeredvoters",43,28,65
+"1483","OR","Oregon","9/3/16","Davis, Hibbitts & Midghall, Inc.",71,"B",517,"registeredvoters",38,25,66
+"1484","OR","Oregon","9/3/16","Google Consumer Surveys",73,"B",418,"likelyvoters",38.78,28.36,66
+"1485","OR","Oregon","8/29/16","Ipsos",25,"A-",472,"likelyvoters",46.76,35.01,71
+"1486","OR","Oregon","8/27/16","Google Consumer Surveys",73,"B",404,"likelyvoters",42.39,27.93,73
+"1487","OR","Oregon","8/22/16","Ipsos",25,"A-",402,"likelyvoters",44.3,39.17,78
+"1488","OR","Oregon","8/20/16","SurveyMonkey",352,"C-",877,"registeredvoters",47,32,80
+"1489","OR","Oregon","8/20/16","Google Consumer Surveys",73,"B",363,"likelyvoters",37.86,25.34,80
+"1490","OR","Oregon","8/15/16","Ipsos",25,"A-",459,"likelyvoters",44.92,36.58,85
+"1491","OR","Oregon","8/13/16","Google Consumer Surveys",73,"B",380,"likelyvoters",45.18,26.09,87
+"1492","OR","Oregon","8/8/16","Ipsos",25,"A-",444,"likelyvoters",43.38,39.05,92
+"1493","OR","Oregon","7/11/16","Clout Research/Wenzel Strategies",354,"C-",701,"likelyvoters",43.1,39.7,120
+"1494","OR","Oregon","6/25/16","icitizen",NA,"",555,"registeredvoters",46,32,136
+"1495","OR","Oregon","5/11/16","Clout Research/Wenzel Strategies",354,"C-",657,"likelyvoters",42,44,181
+"1496","OR","Oregon","5/7/16","Davis, Hibbitts & Midghall, Inc.",71,"B",901,"likelyvoters",43,32,185
+"1497","PA","Pennsylvania","10/18/16","Emerson College",119,"B",800,"likelyvoters",45,41,21
+"1498","PA","Pennsylvania","10/17/16","Ipsos",25,"A-",553,"likelyvoters",49.13,38.7,22
+"1499","PA","Pennsylvania","10/17/16","Google Consumer Surveys",73,"B",555,"likelyvoters",36.67,35.97,22
+"1500","PA","Pennsylvania","10/16/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",875,"likelyvoters",44,41,23
+"1501","PA","Pennsylvania","10/13/16","Quinnipiac University",26,"A-",660,"likelyvoters",47,41,26
+"1502","PA","Pennsylvania","10/12/16","CVOTER International",192,"C+",380,"likelyvoters",49.9,46,27
+"1503","PA","Pennsylvania","10/12/16","SurveyMonkey",352,"C-",1449,"likelyvoters",46,40,27
+"1504","PA","Pennsylvania","10/12/16","Google Consumer Surveys",73,"B",717,"likelyvoters",38.86,36.06,27
+"1505","PA","Pennsylvania","10/10/16","Ipsos",25,"A-",1153,"likelyvoters",46.13,41.91,29
+"1506","PA","Pennsylvania","10/9/16","Selzer & Company",3,"A+",806,"likelyvoters",48,39,30
+"1507","PA","Pennsylvania","10/8/16","The Times-Picayune/Lucid",NA,"",1457,"likelyvoters",47,38,31
+"1508","PA","Pennsylvania","10/6/16","Susquehanna Polling & Research, Inc.",131,"B-",764,"likelyvoters",44,40,33
+"1509","PA","Pennsylvania","10/6/16","Google Consumer Surveys",73,"B",737,"likelyvoters",39.65,33.6,33
+"1510","PA","Pennsylvania","10/6/16","YouGov",81,"B",997,"likelyvoters",48,40,33
+"1511","PA","Pennsylvania","10/5/16","CVOTER International",192,"C+",369,"likelyvoters",48.9,46.5,34
+"1512","PA","Pennsylvania","10/4/16","Marist College",8,"A",709,"likelyvoters",49,37,35
+"1513","PA","Pennsylvania","10/3/16","Ipsos",25,"A-",468,"likelyvoters",49.34,42.79,36
+"1514","PA","Pennsylvania","10/1/16","Monmouth University",1,"A+",402,"likelyvoters",50,40,38
+"1515","PA","Pennsylvania","9/30/16","Franklin & Marshall College",45,"B+",496,"likelyvoters",47,38,39
+"1516","PA","Pennsylvania","9/30/16","Google Consumer Surveys",73,"B",840,"likelyvoters",37.4,37.06,39
+"1517","PA","Pennsylvania","9/29/16","Quinnipiac University",26,"A-",535,"likelyvoters",45,41,40
+"1518","PA","Pennsylvania","9/27/16","Public Policy Polling",60,"B+",886,"likelyvoters",45,39,42
+"1519","PA","Pennsylvania","9/26/16","Ipsos",25,"A-",500,"likelyvoters",45.23,42.35,43
+"1520","PA","Pennsylvania","9/25/16","CVOTER International",192,"C+",649,"likelyvoters",46.4,49.5,44
+"1521","PA","Pennsylvania","9/23/16","Google Consumer Surveys",73,"B",734,"likelyvoters",35.11,35.75,46
+"1522","PA","Pennsylvania","9/23/16","Gravis Marketing",181,"B-",949,"likelyvoters",46,43,46
+"1523","PA","Pennsylvania","9/22/16","CNN/Opinion Research Corp.",30,"A-",771,"likelyvoters",45,44,47
+"1524","PA","Pennsylvania","9/21/16","Harper Polling",148,"B-",500,"likelyvoters",45,43,48
+"1525","PA","Pennsylvania","9/21/16","Muhlenberg College",9,"A",486,"likelyvoters",40,38,48
+"1526","PA","Pennsylvania","9/19/16","Ipsos",25,"A-",387,"likelyvoters",45.69,46.46,50
+"1527","PA","Pennsylvania","9/18/16","CVOTER International",192,"C+",605,"likelyvoters",47,48.3,51
+"1528","PA","Pennsylvania","9/17/16","Mercyhurst University",NA,"",420,"likelyvoters",42,41,52
+"1529","PA","Pennsylvania","9/17/16","Google Consumer Surveys",73,"B",772,"likelyvoters",34.81,36.05,52
+"1530","PA","Pennsylvania","9/14/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",400,"likelyvoters",46,38,55
+"1531","PA","Pennsylvania","9/14/16","Muhlenberg College",9,"A",405,"likelyvoters",40,32,55
+"1532","PA","Pennsylvania","9/12/16","Ipsos",25,"A-",423,"likelyvoters",46.11,43.81,57
+"1533","PA","Pennsylvania","9/10/16","Google Consumer Surveys",73,"B",831,"likelyvoters",33.59,36.18,59
+"1534","PA","Pennsylvania","9/5/16","Ipsos",25,"A-",422,"likelyvoters",49.12,44.29,64
+"1535","PA","Pennsylvania","9/3/16","Google Consumer Surveys",73,"B",808,"likelyvoters",33,34.57,66
+"1536","PA","Pennsylvania","9/2/16","Quinnipiac University",26,"A-",778,"likelyvoters",44,39,67
+"1537","PA","Pennsylvania","8/31/16","YouGov",81,"B",1091,"likelyvoters",45,37,69
+"1538","PA","Pennsylvania","8/30/16","Public Policy Polling",60,"B+",814,"likelyvoters",47,42,70
+"1539","PA","Pennsylvania","8/29/16","Ipsos",25,"A-",343,"likelyvoters",48.05,41.77,71
+"1540","PA","Pennsylvania","8/27/16","Monmouth University",1,"A+",402,"likelyvoters",48,40,73
+"1541","PA","Pennsylvania","8/27/16","Franklin & Marshall College",45,"B+",496,"likelyvoters",45,40,73
+"1542","PA","Pennsylvania","8/27/16","Google Consumer Surveys",73,"B",882,"likelyvoters",36.18,35.21,73
+"1543","PA","Pennsylvania","8/26/16","Public Policy Polling",60,"B+",1194,"likelyvoters",48,43,74
+"1544","PA","Pennsylvania","8/26/16","Emerson College",119,"B",800,"likelyvoters",45.9,42.7,74
+"1545","PA","Pennsylvania","8/24/16","GBA Strategies",94,"B",1200,"likelyvoters",46,40,76
+"1546","PA","Pennsylvania","8/22/16","Ipsos",25,"A-",334,"likelyvoters",49.83,43.29,78
+"1547","PA","Pennsylvania","8/20/16","SurveyMonkey",352,"C-",2861,"registeredvoters",41,38,80
+"1548","PA","Pennsylvania","8/20/16","Google Consumer Surveys",73,"B",898,"likelyvoters",37.04,32.82,80
+"1549","PA","Pennsylvania","8/15/16","Ipsos",25,"A-",771,"likelyvoters",45.79,45.28,85
+"1550","PA","Pennsylvania","8/13/16","Google Consumer Surveys",73,"B",882,"likelyvoters",40.37,30.59,87
+"1551","PA","Pennsylvania","8/5/16","Marist College",8,"A",834,"registeredvoters",45,36,95
+"1552","PA","Pennsylvania","8/3/16","Quinnipiac University",26,"A-",815,"likelyvoters",48,39,97
+"1553","PA","Pennsylvania","8/2/16","Susquehanna Polling & Research, Inc.",131,"B-",772,"likelyvoters",46,37,98
+"1554","PA","Pennsylvania","7/30/16","Franklin & Marshall College",45,"B+",389,"likelyvoters",49,36,101
+"1555","PA","Pennsylvania","7/30/16","Public Policy Polling",60,"B+",1505,"likelyvoters",45,42,101
+"1556","PA","Pennsylvania","7/26/16","Suffolk University",65,"B+",500,"likelyvoters",46,37,105
+"1557","PA","Pennsylvania","7/7/16","Marist College",8,"A",829,"registeredvoters",43,35,124
+"1558","PA","Pennsylvania","7/5/16","Quinnipiac University",26,"A-",982,"registeredvoters",34,40,126
+"1559","PA","Pennsylvania","6/27/16","Gravis Marketing",181,"B-",1958,"registeredvoters",49.5,48,134
+"1560","PA","Pennsylvania","6/16/16","Evolving Strategies",NA,"",601,"likelyvoters",46,32,145
+"1561","PA","Pennsylvania","6/16/16","TargetPoint",333,"C",200,"likelyvoters",45,41,145
+"1562","PA","Pennsylvania","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",45,36,146
+"1563","PA","Pennsylvania","6/13/16","Quinnipiac University",26,"A-",950,"registeredvoters",39,36,148
+"1564","PA","Pennsylvania","5/2/16","Quinnipiac University",26,"A-",1077,"registeredvoters",43,42,190
+"1565","PA","Pennsylvania","4/19/16","Marist College",8,"A",2606,"registeredvoters",54,39,203
+"1566","PA","Pennsylvania","4/5/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",1607,"likelyvoters",44,44,217
+"1567","PA","Pennsylvania","4/1/16","Quinnipiac University",26,"A-",1737,"likelyvoters",45,42,221
+"1568","PA","Pennsylvania","3/17/16","Franklin & Marshall College",45,"B+",828,"registeredvoters",46,33,236
+"1569","PA","Pennsylvania","3/6/16","Mercyhurst University",NA,"",421,"registeredvoters",43,35,247
+"1570","PA","Pennsylvania","3/1/16","Harper Polling",148,"B-",662,"likelyvoters",45,40,252
+"1571","RI","Rhode Island","10/17/16","Google Consumer Surveys",73,"B",70,"likelyvoters",45.07,32.76,22
+"1572","RI","Rhode Island","10/12/16","CVOTER International",192,"C+",305,"likelyvoters",58.3,38.6,27
+"1573","RI","Rhode Island","10/12/16","Google Consumer Surveys",73,"B",45,"likelyvoters",57.33,13.05,27
+"1574","RI","Rhode Island","10/6/16","Google Consumer Surveys",73,"B",51,"likelyvoters",52.2,25.04,33
+"1575","RI","Rhode Island","10/5/16","CVOTER International",192,"C+",303,"likelyvoters",57.8,38.6,34
+"1576","RI","Rhode Island","10/3/16","Emerson College",119,"B",600,"likelyvoters",52,32,36
+"1577","RI","Rhode Island","9/30/16","Google Consumer Surveys",73,"B",57,"likelyvoters",44.76,28.48,39
+"1578","RI","Rhode Island","9/25/16","CVOTER International",192,"C+",457,"likelyvoters",56.7,40.2,44
+"1579","RI","Rhode Island","9/23/16","Google Consumer Surveys",73,"B",57,"likelyvoters",42.37,22.99,46
+"1580","RI","Rhode Island","9/18/16","CVOTER International",192,"C+",455,"likelyvoters",56.2,40.2,51
+"1581","RI","Rhode Island","9/17/16","Google Consumer Surveys",73,"B",50,"likelyvoters",46.4,30.9,52
+"1582","RI","Rhode Island","9/10/16","Google Consumer Surveys",73,"B",53,"likelyvoters",37.65,30.19,59
+"1583","RI","Rhode Island","9/3/16","Emerson College",119,"B",800,"likelyvoters",44,41,66
+"1584","RI","Rhode Island","9/3/16","Google Consumer Surveys",73,"B",65,"likelyvoters",41.18,23.5,66
+"1585","RI","Rhode Island","8/27/16","Google Consumer Surveys",73,"B",85,"likelyvoters",38.94,19.93,73
+"1586","RI","Rhode Island","8/20/16","SurveyMonkey",352,"C-",625,"registeredvoters",41,33,80
+"1587","RI","Rhode Island","8/20/16","Google Consumer Surveys",73,"B",73,"likelyvoters",44.22,18.48,80
+"1588","RI","Rhode Island","8/13/16","Google Consumer Surveys",73,"B",72,"likelyvoters",34.17,27.03,87
+"1589","SC","South Carolina","10/17/16","Google Consumer Surveys",73,"B",387,"likelyvoters",29.2,45.11,22
+"1590","SC","South Carolina","10/12/16","CVOTER International",192,"C+",323,"likelyvoters",42.2,53,27
+"1591","SC","South Carolina","10/12/16","Google Consumer Surveys",73,"B",344,"likelyvoters",29.99,44.27,27
+"1592","SC","South Carolina","10/10/16","Ipsos",25,"A-",304,"likelyvoters",43.67,50.89,29
+"1593","SC","South Carolina","10/6/16","Google Consumer Surveys",73,"B",296,"likelyvoters",31.38,45.47,33
+"1594","SC","South Carolina","10/5/16","CVOTER International",192,"C+",333,"likelyvoters",42.2,52.6,34
+"1595","SC","South Carolina","10/3/16","Ipsos",25,"A-",346,"likelyvoters",45.97,48.85,36
+"1596","SC","South Carolina","9/30/16","Google Consumer Surveys",73,"B",413,"likelyvoters",29.83,40.78,39
+"1597","SC","South Carolina","9/29/16","Ipsos",25,"A-",258,"likelyvoters",46.67,48.25,40
+"1598","SC","South Carolina","9/25/16","CVOTER International",192,"C+",574,"likelyvoters",40.8,54.6,44
+"1599","SC","South Carolina","9/23/16","Google Consumer Surveys",73,"B",319,"likelyvoters",28.3,45.73,46
+"1600","SC","South Carolina","9/22/16","Ipsos",25,"A-",240,"likelyvoters",44.41,49,47
+"1601","SC","South Carolina","9/22/16","Winthrop University",NA,"",475,"likelyvoters",38,42,47
+"1602","SC","South Carolina","9/18/16","CVOTER International",192,"C+",571,"likelyvoters",40.8,53.9,51
+"1603","SC","South Carolina","9/17/16","Google Consumer Surveys",73,"B",368,"likelyvoters",33.23,40.95,52
+"1604","SC","South Carolina","9/12/16","Ipsos",25,"A-",317,"likelyvoters",42.92,49.66,57
+"1605","SC","South Carolina","9/10/16","Google Consumer Surveys",73,"B",374,"likelyvoters",30.53,39.13,59
+"1606","SC","South Carolina","9/9/16","Trafalgar Group",335,"C",1247,"likelyvoters",37.57,53,60
+"1607","SC","South Carolina","9/8/16","Starboard Communications",NA,"",600,"likelyvoters",35,48,61
+"1608","SC","South Carolina","9/5/16","Ipsos",25,"A-",314,"likelyvoters",43.47,50.55,64
+"1609","SC","South Carolina","9/3/16","Google Consumer Surveys",73,"B",354,"likelyvoters",30.31,40.17,66
+"1610","SC","South Carolina","8/31/16","First Tuesday Strategies",NA,"",775,"likelyvoters",38,50,69
+"1611","SC","South Carolina","8/29/16","Ipsos",25,"A-",302,"likelyvoters",44.55,48.91,71
+"1612","SC","South Carolina","8/27/16","Google Consumer Surveys",73,"B",425,"likelyvoters",31.75,41.66,73
+"1613","SC","South Carolina","8/22/16","Ipsos",25,"A-",299,"likelyvoters",45.14,48.14,78
+"1614","SC","South Carolina","8/20/16","SurveyMonkey",352,"C-",894,"registeredvoters",38,45,80
+"1615","SC","South Carolina","8/20/16","Google Consumer Surveys",73,"B",401,"likelyvoters",27.1,39.4,80
+"1616","SC","South Carolina","8/19/16","Feldman Group",153,"B-",600,"likelyvoters",39,39,81
+"1617","SC","South Carolina","8/16/16","Gravis Marketing",181,"B-",768,"registeredvoters",37,41,84
+"1618","SC","South Carolina","8/15/16","Ipsos",25,"A-",302,"likelyvoters",45.82,45.72,85
+"1619","SC","South Carolina","8/13/16","Google Consumer Surveys",73,"B",408,"likelyvoters",30.09,39.17,87
+"1620","SC","South Carolina","8/8/16","Ipsos",25,"A-",288,"likelyvoters",41.09,50.04,92
+"1621","SC","South Carolina","11/13/15","Morning Consult",NA,"",627,"registeredvoters",41,44,361
+"1622","SD","South Dakota","10/17/16","Google Consumer Surveys",73,"B",101,"likelyvoters",28.25,44.01,22
+"1623","SD","South Dakota","10/12/16","CVOTER International",192,"C+",311,"likelyvoters",41.8,54.1,27
+"1624","SD","South Dakota","10/12/16","Google Consumer Surveys",73,"B",91,"likelyvoters",28.56,38.29,27
+"1625","SD","South Dakota","10/10/16","Ipsos",25,"A-",103,"likelyvoters",32.76,49.64,29
+"1626","SD","South Dakota","10/6/16","Google Consumer Surveys",73,"B",65,"likelyvoters",32.71,36.87,33
+"1627","SD","South Dakota","10/5/16","CVOTER International",192,"C+",317,"likelyvoters",41.6,53.7,34
+"1628","SD","South Dakota","10/3/16","Ipsos",25,"A-",105,"likelyvoters",34.02,48.01,36
+"1629","SD","South Dakota","9/30/16","Google Consumer Surveys",73,"B",75,"likelyvoters",36.16,37.36,39
+"1630","SD","South Dakota","9/26/16","Ipsos",25,"A-",113,"likelyvoters",35.73,45.45,43
+"1631","SD","South Dakota","9/25/16","CVOTER International",192,"C+",463,"likelyvoters",40,56.2,44
+"1632","SD","South Dakota","9/23/16","Google Consumer Surveys",73,"B",86,"likelyvoters",29.11,31.07,46
+"1633","SD","South Dakota","9/19/16","Ipsos",25,"A-",105,"likelyvoters",31.67,46.8,50
+"1634","SD","South Dakota","9/18/16","CVOTER International",192,"C+",459,"likelyvoters",40.6,55,51
+"1635","SD","South Dakota","9/17/16","Google Consumer Surveys",73,"B",75,"likelyvoters",31.03,30.11,52
+"1636","SD","South Dakota","9/12/16","Ipsos",25,"A-",112,"likelyvoters",28.31,51.61,57
+"1637","SD","South Dakota","9/10/16","Google Consumer Surveys",73,"B",82,"likelyvoters",22.75,43,59
+"1638","SD","South Dakota","9/3/16","Google Consumer Surveys",73,"B",59,"likelyvoters",35.35,34.63,66
+"1639","SD","South Dakota","8/27/16","Google Consumer Surveys",73,"B",84,"likelyvoters",27.93,38.56,73
+"1640","SD","South Dakota","8/20/16","SurveyMonkey",352,"C-",809,"registeredvoters",29,43,80
+"1641","SD","South Dakota","8/20/16","Google Consumer Surveys",73,"B",72,"likelyvoters",33.23,25.56,80
+"1642","SD","South Dakota","8/13/16","Google Consumer Surveys",73,"B",95,"likelyvoters",24.68,34.67,87
+"1643","TN","Tennessee","10/17/16","Google Consumer Surveys",73,"B",401,"likelyvoters",26.92,44.64,22
+"1644","TN","Tennessee","10/15/16","icitizen",NA,"",508,"registeredvoters",34,44,24
+"1645","TN","Tennessee","10/13/16","Ipsos",25,"A-",433,"likelyvoters",34.69,44.35,26
+"1646","TN","Tennessee","10/12/16","CVOTER International",192,"C+",328,"likelyvoters",39.2,55.9,27
+"1647","TN","Tennessee","10/12/16","Google Consumer Surveys",73,"B",406,"likelyvoters",31.08,43,27
+"1648","TN","Tennessee","10/6/16","Ipsos",25,"A-",541,"likelyvoters",34.58,47.28,33
+"1649","TN","Tennessee","10/6/16","Google Consumer Surveys",73,"B",399,"likelyvoters",33.28,43.35,33
+"1650","TN","Tennessee","10/5/16","CVOTER International",192,"C+",331,"likelyvoters",39.3,55.2,34
+"1651","TN","Tennessee","9/30/16","Middle Tennessee State University",143,"B-",472,"likelyvoters",38,50,39
+"1652","TN","Tennessee","9/30/16","Google Consumer Surveys",73,"B",522,"likelyvoters",31.62,42.73,39
+"1653","TN","Tennessee","9/29/16","Ipsos",25,"A-",557,"likelyvoters",33.86,48.57,40
+"1654","TN","Tennessee","9/25/16","Vanderbilt University",57,"B+",1000,"registeredvoters",33,44,44
+"1655","TN","Tennessee","9/25/16","CVOTER International",192,"C+",555,"likelyvoters",38.1,57.1,44
+"1656","TN","Tennessee","9/23/16","Google Consumer Surveys",73,"B",449,"likelyvoters",25.38,47.7,46
+"1657","TN","Tennessee","9/22/16","Ipsos",25,"A-",495,"likelyvoters",35.1,47.07,47
+"1658","TN","Tennessee","9/18/16","CVOTER International",192,"C+",567,"likelyvoters",38.1,56.8,51
+"1659","TN","Tennessee","9/17/16","Google Consumer Surveys",73,"B",493,"likelyvoters",28.63,41.49,52
+"1660","TN","Tennessee","9/15/16","Ipsos",25,"A-",447,"likelyvoters",33.39,47.02,54
+"1661","TN","Tennessee","9/10/16","Google Consumer Surveys",73,"B",534,"likelyvoters",23.92,49.08,59
+"1662","TN","Tennessee","9/8/16","Ipsos",25,"A-",410,"likelyvoters",26.46,49.74,61
+"1663","TN","Tennessee","9/3/16","Google Consumer Surveys",73,"B",509,"likelyvoters",30.55,43.66,66
+"1664","TN","Tennessee","9/1/16","Ipsos",25,"A-",413,"likelyvoters",27.91,48.53,68
+"1665","TN","Tennessee","8/27/16","Google Consumer Surveys",73,"B",498,"likelyvoters",27.05,44.62,73
+"1666","TN","Tennessee","8/25/16","Ipsos",25,"A-",401,"likelyvoters",31.48,49.44,75
+"1667","TN","Tennessee","8/20/16","SurveyMonkey",352,"C-",1021,"registeredvoters",31,51,80
+"1668","TN","Tennessee","8/20/16","Google Consumer Surveys",73,"B",529,"likelyvoters",25.93,46.25,80
+"1669","TN","Tennessee","8/18/16","Ipsos",25,"A-",371,"likelyvoters",32.71,45.65,82
+"1670","TN","Tennessee","8/13/16","Google Consumer Surveys",73,"B",481,"likelyvoters",24.83,41.48,87
+"1671","TN","Tennessee","8/11/16","Ipsos",25,"A-",398,"likelyvoters",35.51,42.91,89
+"1672","TN","Tennessee","7/26/16","icitizen",NA,"",531,"registeredvoters",30,47,105
+"1673","TN","Tennessee","5/3/16","Princeton Survey Research Associates International",43,"B+",1001,"registeredvoters",35,44,189
+"1674","TX","Texas","10/17/16","Google Consumer Surveys",73,"B",1163,"likelyvoters",33.31,40.79,22
+"1675","TX","Texas","10/17/16","Ipsos",25,"A-",405,"likelyvoters",39.04,52.23,22
+"1676","TX","Texas","10/12/16","CVOTER International",192,"C+",460,"likelyvoters",41.4,53.4,27
+"1677","TX","Texas","10/12/16","SurveyMonkey",352,"C-",1332,"likelyvoters",42,44,27
+"1678","TX","Texas","10/12/16","Google Consumer Surveys",73,"B",978,"likelyvoters",29.79,41.49,27
+"1679","TX","Texas","10/11/16","University of Houston",109,"B",1000,"likelyvoters",38,41,28
+"1680","TX","Texas","10/11/16","SurveyUSA",12,"A",638,"likelyvoters",43,47,28
+"1681","TX","Texas","10/10/16","Ipsos",25,"A-",422,"likelyvoters",31.57,57,29
+"1682","TX","Texas","10/6/16","Google Consumer Surveys",73,"B",958,"likelyvoters",31.75,39.97,33
+"1683","TX","Texas","10/5/16","CVOTER International",192,"C+",425,"likelyvoters",41.3,53,34
+"1684","TX","Texas","10/3/16","Ipsos",25,"A-",583,"likelyvoters",33.59,50.14,36
+"1685","TX","Texas","9/30/16","Dixie Strategies",203,"C+",780,"likelyvoters",37.95,44.87,39
+"1686","TX","Texas","9/30/16","Google Consumer Surveys",73,"B",1000,"likelyvoters",33.42,40.37,39
+"1687","TX","Texas","9/26/16","Ipsos",25,"A-",464,"likelyvoters",32.9,48.31,43
+"1688","TX","Texas","9/25/16","CVOTER International",192,"C+",817,"likelyvoters",39.2,56.3,44
+"1689","TX","Texas","9/23/16","Google Consumer Surveys",73,"B",1003,"likelyvoters",29.93,42.1,46
+"1690","TX","Texas","9/19/16","Ipsos",25,"A-",462,"likelyvoters",32.6,48.1,50
+"1691","TX","Texas","9/18/16","CVOTER International",192,"C+",798,"likelyvoters",39.1,56.1,51
+"1692","TX","Texas","9/17/16","Google Consumer Surveys",73,"B",1046,"likelyvoters",28.94,42.35,52
+"1693","TX","Texas","9/12/16","Ipsos",25,"A-",462,"likelyvoters",28.51,51.13,57
+"1694","TX","Texas","9/10/16","Google Consumer Surveys",73,"B",1218,"likelyvoters",28.76,39.7,59
+"1695","TX","Texas","9/8/16","Emerson College",119,"B",700,"likelyvoters",36.1,42.4,61
+"1696","TX","Texas","9/6/16","Texas Lyceum",NA,"",502,"likelyvoters",32,39,63
+"1697","TX","Texas","9/5/16","Ipsos",25,"A-",405,"likelyvoters",30.91,48.29,64
+"1698","TX","Texas","9/3/16","Google Consumer Surveys",73,"B",1170,"likelyvoters",30.5,39.55,66
+"1699","TX","Texas","8/29/16","Ipsos",25,"A-",402,"likelyvoters",31.95,48.89,71
+"1700","TX","Texas","8/27/16","Google Consumer Surveys",73,"B",1120,"likelyvoters",34.09,37.44,73
+"1701","TX","Texas","8/22/16","Ipsos",25,"A-",443,"likelyvoters",32.13,45.36,78
+"1702","TX","Texas","8/20/16","SurveyMonkey",352,"C-",5147,"registeredvoters",40,40,80
+"1703","TX","Texas","8/20/16","Google Consumer Surveys",73,"B",1157,"likelyvoters",32.89,38.78,80
+"1704","TX","Texas","8/15/16","Ipsos",25,"A-",915,"likelyvoters",32.35,45.87,85
+"1705","TX","Texas","8/13/16","Public Policy Polling",60,"B+",944,"likelyvoters",38,44,87
+"1706","TX","Texas","8/13/16","Google Consumer Surveys",73,"B",1071,"likelyvoters",31.11,40.53,87
+"1707","TX","Texas","8/8/16","Dixie Strategies",203,"C+",1018,"likelyvoters",35.46,46.27,92
+"1708","TX","Texas","6/15/16","YouGov",81,"B",1200,"registeredvoters",32,39,146
+"1709","TX","Texas","6/13/16","Leland Beatty",NA,"",998,"registeredvoters",29.7,36.8,148
+"1710","TX","Texas","2/21/16","SurveyUSA",12,"A",1289,"likelyvoters",44,47,261
+"1711","UT","Utah","10/18/16","Emerson College",119,"B",700,"likelyvoters",24,27,21
+"1712","UT","Utah","10/17/16","Google Consumer Surveys",73,"B",281,"likelyvoters",26.62,21.68,22
+"1713","UT","Utah","10/15/16","Rasmussen Reports/Pulse Opinion Research",264,"C+",750,"likelyvoters",28,30,24
+"1714","UT","Utah","10/15/16","Dan Jones & Associates",273,"C+",818,"likelyvoters",25,30,24
+"1715","UT","Utah","10/13/16","YouGov",81,"B",951,"likelyvoters",20,37,26
+"1716","UT","Utah","10/12/16","CVOTER International",192,"C+",318,"likelyvoters",29.4,65.2,27
+"1717","UT","Utah","10/12/16","Google Consumer Surveys",73,"B",261,"likelyvoters",15.11,21.41,27
+"1718","UT","Utah","10/11/16","Monmouth University",1,"A+",403,"likelyvoters",28,34,28
+"1719","UT","Utah","10/10/16","Y2 Analytics",249,"C+",500,"likelyvoters",26,26,29
+"1720","UT","Utah","10/10/16","Ipsos",25,"A-",249,"likelyvoters",29.5,40.87,29
+"1721","UT","Utah","10/6/16","Google Consumer Surveys",73,"B",182,"likelyvoters",30.37,33.91,33
+"1722","UT","Utah","10/5/16","CVOTER International",192,"C+",316,"likelyvoters",29.7,64.2,34
+"1723","UT","Utah","10/3/16","Ipsos",25,"A-",282,"likelyvoters",35,41.45,36
+"1724","UT","Utah","9/30/16","Google Consumer Surveys",73,"B",231,"likelyvoters",28.64,34.24,39
+"1725","UT","Utah","9/26/16","Ipsos",25,"A-",280,"likelyvoters",32.94,47.94,43
+"1726","UT","Utah","9/25/16","CVOTER International",192,"C+",495,"likelyvoters",28.2,66.6,44
+"1727","UT","Utah","9/23/16","Google Consumer Surveys",73,"B",153,"likelyvoters",21.91,32.4,46
+"1728","UT","Utah","9/19/16","Ipsos",25,"A-",242,"likelyvoters",34.26,49.55,50
+"1729","UT","Utah","9/18/16","CVOTER International",192,"C+",490,"likelyvoters",27.8,66.3,51
+"1730","UT","Utah","9/17/16","Google Consumer Surveys",73,"B",189,"likelyvoters",27.93,24.07,52
+"1731","UT","Utah","9/15/16","Dan Jones & Associates",273,"C+",820,"likelyvoters",25,34,54
+"1732","UT","Utah","9/12/16","Ipsos",25,"A-",208,"likelyvoters",31.24,47.96,57
+"1733","UT","Utah","9/10/16","Google Consumer Surveys",73,"B",228,"likelyvoters",24.76,33.02,59
+"1734","UT","Utah","9/5/16","Dan Jones & Associates",273,"C+",605,"likelyvoters",24,39,64
+"1735","UT","Utah","9/5/16","Ipsos",25,"A-",198,"likelyvoters",28.65,47.72,64
+"1736","UT","Utah","9/3/16","Google Consumer Surveys",73,"B",247,"likelyvoters",20.3,27.92,66
+"1737","UT","Utah","8/29/16","Ipsos",25,"A-",196,"likelyvoters",28.6,46.23,71
+"1738","UT","Utah","8/27/16","Google Consumer Surveys",73,"B",253,"likelyvoters",25.94,27.88,73
+"1739","UT","Utah","8/22/16","Ipsos",25,"A-",168,"likelyvoters",34.14,34.92,78
+"1740","UT","Utah","8/20/16","SurveyMonkey",352,"C-",722,"registeredvoters",27,34,80
+"1741","UT","Utah","8/20/16","Public Policy Polling",60,"B+",1018,"likelyvoters",24,39,80
+"1742","UT","Utah","8/20/16","Google Consumer Surveys",73,"B",270,"likelyvoters",22.29,32.4,80
+"1743","UT","Utah","8/15/16","Ipsos",25,"A-",177,"likelyvoters",33.67,38.53,85
+"1744","UT","Utah","8/13/16","Google Consumer Surveys",73,"B",259,"likelyvoters",22.75,27.5,87
+"1745","UT","Utah","8/8/16","Ipsos",25,"A-",211,"likelyvoters",32.54,43.61,92
+"1746","UT","Utah","7/26/16","Dan Jones & Associates",273,"C+",858,"likelyvoters",25,37,105
+"1747","UT","Utah","6/12/16","Dan Jones & Associates",273,"C+",614,"registeredvoters",27,36,149
+"1748","UT","Utah","6/5/16","SurveyUSA",12,"A",1238,"likelyvoters",35,35,156
+"1749","UT","Utah","5/31/16","Gravis Marketing",181,"B-",1519,"registeredvoters",26,29,161
+"1750","UT","Utah","5/6/16","Dan Jones & Associates",273,"C+",588,"registeredvoters",30,43,186
+"1751","UT","Utah","3/11/16","Dan Jones & Associates",273,"C+",500,"likelyvoters",38,36,242
+"1752","VA","Virginia","10/17/16","Christopher Newport University",137,"B-",834,"likelyvoters",45,33,22
+"1753","VA","Virginia","10/17/16","Google Consumer Surveys",73,"B",644,"likelyvoters",40.71,31.13,22
+"1754","VA","Virginia","10/13/16","Tarrance Group",86,"B",500,"likelyvoters",47,38,26
+"1755","VA","Virginia","10/13/16","Ipsos",25,"A-",685,"likelyvoters",49.04,37.04,26
+"1756","VA","Virginia","10/12/16","Christopher Newport University",137,"B-",809,"likelyvoters",44,29,27
+"1757","VA","Virginia","10/12/16","CVOTER International",192,"C+",334,"likelyvoters",49.8,45.8,27
+"1758","VA","Virginia","10/12/16","SurveyMonkey",352,"C-",1644,"likelyvoters",49,38,27
+"1759","VA","Virginia","10/12/16","Google Consumer Surveys",73,"B",530,"likelyvoters",40.76,28.22,27
+"1760","VA","Virginia","10/11/16","Emerson College",119,"B",600,"likelyvoters",46,43,28
+"1761","VA","Virginia","10/6/16","Ipsos",25,"A-",884,"likelyvoters",49.22,38.8,33
+"1762","VA","Virginia","10/6/16","Google Consumer Surveys",73,"B",539,"likelyvoters",34.05,36.57,33
+"1763","VA","Virginia","10/5/16","CVOTER International",192,"C+",325,"likelyvoters",48.3,46.8,34
+"1764","VA","Virginia","10/4/16","Roanoke College",279,"C+",814,"likelyvoters",45,36,35
+"1765","VA","Virginia","10/3/16","Ipsos",25,"A-",479,"likelyvoters",50.49,39.05,36
+"1766","VA","Virginia","9/30/16","Hampton University",113,"B",800,"likelyvoters",46,34,39
+"1767","VA","Virginia","9/30/16","Google Consumer Surveys",73,"B",629,"likelyvoters",40.86,27,39
+"1768","VA","Virginia","9/28/16","Christopher Newport University",137,"B-",892,"likelyvoters",42,35,41
+"1769","VA","Virginia","9/27/16","Public Policy Polling",60,"B+",811,"likelyvoters",46,40,42
+"1770","VA","Virginia","9/25/16","CVOTER International",192,"C+",510,"likelyvoters",45.3,50.4,44
+"1771","VA","Virginia","9/23/16","Google Consumer Surveys",73,"B",546,"likelyvoters",40.36,32.04,46
+"1772","VA","Virginia","9/22/16","Ipsos",25,"A-",849,"likelyvoters",48.26,40.35,47
+"1773","VA","Virginia","9/22/16","YouGov",81,"B",1237,"likelyvoters",45,37,47
+"1774","VA","Virginia","9/19/16","Christopher Newport University",137,"B-",1003,"likelyvoters",39,33,50
+"1775","VA","Virginia","9/19/16","Ipsos",25,"A-",452,"likelyvoters",46.54,40.04,50
+"1776","VA","Virginia","9/18/16","CVOTER International",192,"C+",495,"likelyvoters",45.6,49.5,51
+"1777","VA","Virginia","9/17/16","Quinnipiac University",26,"A-",659,"likelyvoters",45,39,52
+"1778","VA","Virginia","9/17/16","Google Consumer Surveys",73,"B",616,"likelyvoters",36.26,36.84,52
+"1779","VA","Virginia","9/15/16","Roanoke College",279,"C+",841,"likelyvoters",44,37,54
+"1780","VA","Virginia","9/12/16","Ipsos",25,"A-",435,"likelyvoters",47.35,37.51,57
+"1781","VA","Virginia","9/10/16","Public Policy Polling",60,"B+",878,"likelyvoters",45,39,59
+"1782","VA","Virginia","9/10/16","Google Consumer Surveys",73,"B",560,"likelyvoters",37.17,31.32,59
+"1783","VA","Virginia","9/9/16","University of Mary Washington",NA,"",685,"likelyvoters",40,37,60
+"1784","VA","Virginia","9/3/16","Google Consumer Surveys",73,"B",560,"likelyvoters",36.11,29.32,66
+"1785","VA","Virginia","9/1/16","Ipsos",25,"A-",743,"likelyvoters",50.38,37.08,68
+"1786","VA","Virginia","8/31/16","Emerson College",119,"B",800,"likelyvoters",44,43,69
+"1787","VA","Virginia","8/27/16","Google Consumer Surveys",73,"B",578,"likelyvoters",38.52,29.96,73
+"1788","VA","Virginia","8/26/16","Hampton University",113,"B",801,"likelyvoters",43,41,74
+"1789","VA","Virginia","8/25/16","Ipsos",25,"A-",713,"likelyvoters",50.06,36.87,75
+"1790","VA","Virginia","8/20/16","SurveyMonkey",352,"C-",2468,"registeredvoters",43,36,80
+"1791","VA","Virginia","8/20/16","Google Consumer Surveys",73,"B",599,"likelyvoters",36.24,28.95,80
+"1792","VA","Virginia","8/18/16","Ipsos",25,"A-",654,"likelyvoters",47.58,36.67,82
+"1793","VA","Virginia","8/13/16","Google Consumer Surveys",73,"B",636,"likelyvoters",40.29,25.98,87
+"1794","VA","Virginia","8/12/16","ABC News/Washington Post",6,"A+",707,"likelyvoters",46,39,88
+"1795","VA","Virginia","8/12/16","Quinnipiac University",26,"A-",808,"likelyvoters",45,34,88
+"1796","VA","Virginia","8/12/16","Roanoke College",279,"C+",803,"likelyvoters",48,32,88
+"1797","VA","Virginia","8/11/16","Ipsos",25,"A-",643,"likelyvoters",45.18,39.02,89
+"1798","VA","Virginia","8/7/16","Marist College",8,"A",897,"registeredvoters",43,31,93
+"1799","VA","Virginia","8/3/16","YouGov",81,"B",1181,"likelyvoters",49,37,97
+"1800","VA","Virginia","7/26/16","RABA Research",252,"C+",655,"registeredvoters",42,46,105
+"1801","VA","Virginia","7/10/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",601,"registeredvoters",39,34,121
+"1802","VA","Virginia","7/8/16","Marist College",8,"A",876,"registeredvoters",41,34,123
+"1803","VA","Virginia","7/8/16","Hampton University",113,"B",805,"likelyvoters",38.8,39.2,123
+"1804","VA","Virginia","6/16/16","Evolving Strategies",NA,"",612,"likelyvoters",43,35,145
+"1805","VA","Virginia","5/24/16","Gravis Marketing",181,"B-",1728,"registeredvoters",44,38,168
+"1806","VA","Virginia","5/13/16","Roanoke College",279,"C+",610,"likelyvoters",38,38,179
+"1807","VA","Virginia","3/28/16","Christopher Newport University",137,"B-",1102,"likelyvoters",44,35,225
+"1808","VA","Virginia","2/20/16","Hampton University",113,"B",500,"likelyvoters",48,39,262
+"1809","VA","Virginia","1/22/16","Roanoke College",279,"C+",524,"likelyvoters",52,35,291
+"1810","VA","Virginia","11/11/15","Roanoke College",279,"C+",555,"registeredvoters",50,36,363
+"1811","VT","Vermont","10/17/16","Google Consumer Surveys",73,"B",91,"likelyvoters",48.17,21.49,22
+"1812","VT","Vermont","10/12/16","CVOTER International",192,"C+",304,"likelyvoters",63.1,32.8,27
+"1813","VT","Vermont","10/12/16","Google Consumer Surveys",73,"B",71,"likelyvoters",65.93,10.76,27
+"1814","VT","Vermont","10/6/16","Castleton University",41,"B+",579,"likelyvoters",45,17,33
+"1815","VT","Vermont","10/6/16","Google Consumer Surveys",73,"B",47,"likelyvoters",57.02,16.11,33
+"1816","VT","Vermont","10/5/16","CVOTER International",192,"C+",316,"likelyvoters",62.2,33.3,34
+"1817","VT","Vermont","9/30/16","Google Consumer Surveys",73,"B",61,"likelyvoters",44.43,27.34,39
+"1818","VT","Vermont","9/26/16","Ipsos",25,"A-",102,"likelyvoters",46.34,21.29,43
+"1819","VT","Vermont","9/25/16","CVOTER International",192,"C+",464,"likelyvoters",61,35.4,44
+"1820","VT","Vermont","9/23/16","Google Consumer Surveys",73,"B",56,"likelyvoters",48.29,28.19,46
+"1821","VT","Vermont","9/18/16","CVOTER International",192,"C+",465,"likelyvoters",60.4,35.7,51
+"1822","VT","Vermont","9/17/16","Google Consumer Surveys",73,"B",61,"likelyvoters",43.99,18.62,52
+"1823","VT","Vermont","9/10/16","Google Consumer Surveys",73,"B",72,"likelyvoters",49.71,18.36,59
+"1824","VT","Vermont","9/3/16","Emerson College",119,"B",600,"likelyvoters",47,26,66
+"1825","VT","Vermont","9/3/16","Google Consumer Surveys",73,"B",66,"likelyvoters",43.01,12.63,66
+"1826","VT","Vermont","8/27/16","Google Consumer Surveys",73,"B",69,"likelyvoters",50.15,18.1,73
+"1827","VT","Vermont","8/20/16","SurveyMonkey",352,"C-",550,"registeredvoters",45,24,80
+"1828","VT","Vermont","8/20/16","Google Consumer Surveys",73,"B",87,"likelyvoters",42.83,11.42,80
+"1829","VT","Vermont","8/13/16","Google Consumer Surveys",73,"B",67,"likelyvoters",59.87,9.46,87
+"1830","VT","Vermont","7/17/16","Castleton University",41,"B+",637,"likelyvoters",39,17,114
+"1831","VT","Vermont","6/27/16","Fairbank, Maslin, Maullin, Metz & Associates",150,"B-",600,"registeredvoters",39,24,134
+"1832","WA","Washington","10/17/16","Google Consumer Surveys",73,"B",594,"likelyvoters",45.72,25.4,22
+"1833","WA","Washington","10/13/16","Ipsos",25,"A-",488,"likelyvoters",46.14,42.36,26
+"1834","WA","Washington","10/12/16","CVOTER International",192,"C+",320,"likelyvoters",53.6,42.1,27
+"1835","WA","Washington","10/12/16","Google Consumer Surveys",73,"B",571,"likelyvoters",43.16,26.71,27
+"1836","WA","Washington","10/6/16","Ipsos",25,"A-",602,"likelyvoters",46.94,37.24,33
+"1837","WA","Washington","10/6/16","Google Consumer Surveys",73,"B",538,"likelyvoters",45.5,27.99,33
+"1838","WA","Washington","10/5/16","CVOTER International",192,"C+",326,"likelyvoters",53.4,41.7,34
+"1839","WA","Washington","10/3/16","Ipsos",25,"A-",341,"likelyvoters",50.9,33.29,36
+"1840","WA","Washington","10/1/16","Strategies 360",70,"B",500,"likelyvoters",47,31,38
+"1841","WA","Washington","9/30/16","Google Consumer Surveys",73,"B",569,"likelyvoters",45.41,24.67,39
+"1842","WA","Washington","9/26/16","Emerson College",119,"B",700,"likelyvoters",44.2,38.4,43
+"1843","WA","Washington","9/25/16","CVOTER International",192,"C+",496,"likelyvoters",52,43.5,44
+"1844","WA","Washington","9/23/16","Google Consumer Surveys",73,"B",510,"likelyvoters",42.92,25.27,46
+"1845","WA","Washington","9/22/16","Ipsos",25,"A-",496,"likelyvoters",48.94,35.28,47
+"1846","WA","Washington","9/18/16","CVOTER International",192,"C+",488,"likelyvoters",52.3,42.6,51
+"1847","WA","Washington","9/17/16","Google Consumer Surveys",73,"B",486,"likelyvoters",36.97,28.2,52
+"1848","WA","Washington","9/15/16","Ipsos",25,"A-",429,"likelyvoters",49.39,35.21,54
+"1849","WA","Washington","9/13/16","Insights West",NA,"",505,"likelyvoters",38,28,56
+"1850","WA","Washington","9/10/16","Google Consumer Surveys",73,"B",613,"likelyvoters",43.87,24.3,59
+"1851","WA","Washington","9/8/16","Ipsos",25,"A-",460,"likelyvoters",46.81,36.92,61
+"1852","WA","Washington","9/3/16","Google Consumer Surveys",73,"B",587,"likelyvoters",41.52,25.56,66
+"1853","WA","Washington","9/1/16","Ipsos",25,"A-",502,"likelyvoters",45.05,37.02,68
+"1854","WA","Washington","8/27/16","Google Consumer Surveys",73,"B",600,"likelyvoters",40.49,26.91,73
+"1855","WA","Washington","8/25/16","Ipsos",25,"A-",404,"likelyvoters",45.38,35.41,75
+"1856","WA","Washington","8/20/16","SurveyMonkey",352,"C-",722,"registeredvoters",41,31,80
+"1857","WA","Washington","8/20/16","Google Consumer Surveys",73,"B",578,"likelyvoters",43.11,24.38,80
+"1858","WA","Washington","8/18/16","Ipsos",25,"A-",349,"likelyvoters",49.27,32.57,82
+"1859","WA","Washington","8/13/16","Google Consumer Surveys",73,"B",595,"likelyvoters",43.08,27.17,87
+"1860","WA","Washington","8/11/16","Ipsos",25,"A-",399,"likelyvoters",45.35,33.48,89
+"1861","WA","Washington","8/11/16","Elway Research",4,"A+",350,"likelyvoters",45,24,89
+"1862","WA","Washington","6/17/16","American Strategies",NA,"",804,"likelyvoters",48,36,144
+"1863","WA","Washington","6/14/16","Public Policy Polling",60,"B+",679,"likelyvoters",49,37,147
+"1864","WI","Wisconsin","10/18/16","Public Policy Polling",60,"B+",804,"likelyvoters",50,38,21
+"1865","WI","Wisconsin","10/17/16","Google Consumer Surveys",73,"B",725,"likelyvoters",38.22,28.86,22
+"1866","WI","Wisconsin","10/16/16","Monmouth University",1,"A+",403,"likelyvoters",47,40,23
+"1867","WI","Wisconsin","10/14/16","St. Norbert College",33,"A-",664,"likelyvoters",47,39,25
+"1868","WI","Wisconsin","10/13/16","Ipsos",25,"A-",470,"likelyvoters",45.38,41.86,26
+"1869","WI","Wisconsin","10/12/16","CVOTER International",192,"C+",361,"likelyvoters",51.1,45.5,27
+"1870","WI","Wisconsin","10/12/16","SurveyMonkey",352,"C-",1076,"likelyvoters",43,38,27
+"1871","WI","Wisconsin","10/12/16","Google Consumer Surveys",73,"B",669,"likelyvoters",42.17,27.33,27
+"1872","WI","Wisconsin","10/7/16","Marquette University",18,"A",878,"likelyvoters",44,37,32
+"1873","WI","Wisconsin","10/6/16","Ipsos",25,"A-",622,"likelyvoters",41.56,37.39,33
+"1874","WI","Wisconsin","10/6/16","Google Consumer Surveys",73,"B",738,"likelyvoters",44.29,27.22,33
+"1875","WI","Wisconsin","10/6/16","YouGov",81,"B",993,"likelyvoters",43,39,33
+"1876","WI","Wisconsin","10/5/16","CVOTER International",192,"C+",349,"likelyvoters",50.5,45.6,34
+"1877","WI","Wisconsin","10/4/16","Loras College",170,"B-",500,"likelyvoters",43.2,34.6,35
+"1878","WI","Wisconsin","10/4/16","Gravis Marketing",181,"B-",1102,"registeredvoters",48,40,35
+"1879","WI","Wisconsin","9/30/16","Google Consumer Surveys",73,"B",691,"likelyvoters",43.01,27.71,39
+"1880","WI","Wisconsin","9/29/16","Ipsos",25,"A-",687,"likelyvoters",45.72,42.28,40
+"1881","WI","Wisconsin","9/25/16","CVOTER International",192,"C+",575,"likelyvoters",49.6,47.1,44
+"1882","WI","Wisconsin","9/23/16","Google Consumer Surveys",73,"B",672,"likelyvoters",40.71,27.62,46
+"1883","WI","Wisconsin","9/22/16","Ipsos",25,"A-",592,"likelyvoters",42.48,42,47
+"1884","WI","Wisconsin","9/19/16","Emerson College",119,"B",700,"likelyvoters",44.5,38.4,50
+"1885","WI","Wisconsin","9/18/16","CVOTER International",192,"C+",553,"likelyvoters",49.8,46.4,51
+"1886","WI","Wisconsin","9/17/16","Google Consumer Surveys",73,"B",748,"likelyvoters",42.22,24.49,52
+"1887","WI","Wisconsin","9/16/16","Marquette University",18,"A",677,"likelyvoters",41,38,53
+"1888","WI","Wisconsin","9/15/16","Ipsos",25,"A-",526,"likelyvoters",41.12,41.09,54
+"1889","WI","Wisconsin","9/10/16","Google Consumer Surveys",73,"B",786,"likelyvoters",37.41,27.08,59
+"1890","WI","Wisconsin","9/8/16","Ipsos",25,"A-",533,"likelyvoters",42.89,39.63,61
+"1891","WI","Wisconsin","9/3/16","Google Consumer Surveys",73,"B",784,"likelyvoters",40.83,29.07,66
+"1892","WI","Wisconsin","9/1/16","Ipsos",25,"A-",523,"likelyvoters",38.43,39.67,68
+"1893","WI","Wisconsin","8/28/16","Monmouth University",1,"A+",404,"likelyvoters",43,38,72
+"1894","WI","Wisconsin","8/27/16","Google Consumer Surveys",73,"B",653,"likelyvoters",39.85,27.23,73
+"1895","WI","Wisconsin","8/26/16","Public Policy Polling",60,"B+",1054,"likelyvoters",48,41,74
+"1896","WI","Wisconsin","8/26/16","Marquette University",18,"A",650,"likelyvoters",41,38,74
+"1897","WI","Wisconsin","8/25/16","Ipsos",25,"A-",447,"likelyvoters",37.55,38.16,75
+"1898","WI","Wisconsin","8/20/16","SurveyMonkey",352,"C-",2687,"registeredvoters",39,37,80
+"1899","WI","Wisconsin","8/20/16","Google Consumer Surveys",73,"B",685,"likelyvoters",41.95,27.88,80
+"1900","WI","Wisconsin","8/18/16","Ipsos",25,"A-",454,"likelyvoters",36.15,39.27,82
+"1901","WI","Wisconsin","8/13/16","Google Consumer Surveys",73,"B",660,"likelyvoters",44.14,24.51,87
+"1902","WI","Wisconsin","8/11/16","Ipsos",25,"A-",512,"likelyvoters",37.83,36.52,89
+"1903","WI","Wisconsin","8/5/16","Marquette University",18,"A",683,"likelyvoters",47,34,95
+"1904","WI","Wisconsin","7/8/16","Marquette University",18,"A",665,"likelyvoters",43,37,123
+"1905","WI","Wisconsin","6/22/16","YouGov",81,"B",993,"likelyvoters",41,36,139
+"1906","WI","Wisconsin","6/15/16","Greenberg Quinlan Rosner (Democracy Corps)",127,"B-",300,"likelyvoters",44,32,146
+"1907","WI","Wisconsin","6/10/16","Marquette University",18,"A",666,"likelyvoters",46,37,151
+"1908","WI","Wisconsin","5/11/16","Public Opinion Strategies",87,"B",600,"likelyvoters",43,31,181
+"1909","WI","Wisconsin","4/13/16","St. Norbert College",33,"A-",616,"registeredvoters",46,34,209
+"1910","WI","Wisconsin","4/1/16","Emerson College",119,"B",1198,"likelyvoters",47,37,221
+"1911","WI","Wisconsin","3/29/16","Fox News/Anderson Robbins Research/Shaw & Company Research",17,"A",1602,"likelyvoters",49,35,224
+"1912","WI","Wisconsin","3/29/16","Gravis Marketing",181,"B-",1480,"registeredvoters",49,41,224
+"1913","WI","Wisconsin","3/26/16","Marquette University",18,"A",1405,"registeredvoters",47,37,227
+"1914","WI","Wisconsin","3/21/16","Emerson College",119,"B",922,"likelyvoters",47,38,232
+"1915","WI","Wisconsin","2/19/16","Marquette University",18,"A",802,"registeredvoters",48,37,263
+"1916","WI","Wisconsin","1/22/16","Marquette University",18,"A",806,"registeredvoters",47,38,291
+"1917","WI","Wisconsin","11/13/15","Marquette University",18,"A",803,"registeredvoters",48,38,361
+"1918","WV","West Virginia","10/17/16","Google Consumer Surveys",73,"B",111,"likelyvoters",26.82,45.26,22
+"1919","WV","West Virginia","10/14/16","Global Strategy Group",275,"C+",601,"likelyvoters",31,58,25
+"1920","WV","West Virginia","10/12/16","CVOTER International",192,"C+",310,"likelyvoters",36.4,58.1,27
+"1921","WV","West Virginia","10/12/16","Google Consumer Surveys",73,"B",115,"likelyvoters",23.1,58.73,27
+"1922","WV","West Virginia","10/10/16","Ipsos",25,"A-",129,"likelyvoters",39.5,55.84,29
+"1923","WV","West Virginia","10/6/16","Google Consumer Surveys",73,"B",78,"likelyvoters",27.41,50.21,33
+"1924","WV","West Virginia","10/5/16","CVOTER International",192,"C+",308,"likelyvoters",36.5,57.7,34
+"1925","WV","West Virginia","10/3/16","Ipsos",25,"A-",153,"likelyvoters",40.71,53.95,36
+"1926","WV","West Virginia","9/30/16","Google Consumer Surveys",73,"B",110,"likelyvoters",24.42,48.57,39
+"1927","WV","West Virginia","9/26/16","Ipsos",25,"A-",165,"likelyvoters",36.37,55.31,43
+"1928","WV","West Virginia","9/25/16","CVOTER International",192,"C+",480,"likelyvoters",34.4,60.5,44
+"1929","WV","West Virginia","9/23/16","Google Consumer Surveys",73,"B",100,"likelyvoters",30.64,40.3,46
+"1930","WV","West Virginia","9/19/16","Ipsos",25,"A-",173,"likelyvoters",33.12,52.74,50
+"1931","WV","West Virginia","9/18/16","CVOTER International",192,"C+",466,"likelyvoters",35.3,59.3,51
+"1932","WV","West Virginia","9/17/16","Google Consumer Surveys",73,"B",82,"likelyvoters",19.42,35.52,52
+"1933","WV","West Virginia","9/15/16","Garin-Hart-Yang Research Group",44,"B+",500,"likelyvoters",28,60,54
+"1934","WV","West Virginia","9/12/16","Ipsos",25,"A-",146,"likelyvoters",34.55,51.74,57
+"1935","WV","West Virginia","9/10/16","Google Consumer Surveys",73,"B",94,"likelyvoters",36.13,35.28,59
+"1936","WV","West Virginia","9/9/16","Just Win Strategies",NA,"",600,"registeredvoters",30,57,60
+"1937","WV","West Virginia","9/5/16","Ipsos",25,"A-",146,"likelyvoters",38.76,49.23,64
+"1938","WV","West Virginia","9/3/16","Google Consumer Surveys",73,"B",93,"likelyvoters",22.99,52.23,66
+"1939","WV","West Virginia","8/29/16","Ipsos",25,"A-",137,"likelyvoters",39.41,54.04,71
+"1940","WV","West Virginia","8/27/16","Google Consumer Surveys",73,"B",88,"likelyvoters",19.6,48.64,73
+"1941","WV","West Virginia","8/22/16","Ipsos",25,"A-",142,"likelyvoters",37.84,54.98,78
+"1942","WV","West Virginia","8/20/16","SurveyMonkey",352,"C-",698,"registeredvoters",27,52,80
+"1943","WV","West Virginia","8/20/16","Google Consumer Surveys",73,"B",107,"likelyvoters",25.72,47.13,80
+"1944","WV","West Virginia","8/18/16","R.L. Repass & Partners",271,"C+",386,"likelyvoters",31,49,82
+"1945","WV","West Virginia","8/15/16","Ipsos",25,"A-",134,"likelyvoters",39.49,46.86,85
+"1946","WV","West Virginia","8/13/16","Google Consumer Surveys",73,"B",100,"likelyvoters",34.34,38.67,87
+"1947","WV","West Virginia","8/8/16","Ipsos",25,"A-",183,"likelyvoters",38.93,48.45,92
+"1948","WV","West Virginia","2/21/16","Orion Strategies",160,"B-",306,"likelyvoters",24,61,261
+"1949","WY","Wyoming","10/17/16","Google Consumer Surveys",73,"B",76,"likelyvoters",27.37,46.11,22
+"1950","WY","Wyoming","10/12/16","CVOTER International",192,"C+",311,"likelyvoters",30.2,64.3,27
+"1951","WY","Wyoming","10/12/16","Google Consumer Surveys",73,"B",61,"likelyvoters",16.58,51.9,27
+"1952","WY","Wyoming","10/6/16","Google Consumer Surveys",73,"B",35,"likelyvoters",11.04,52.74,33
+"1953","WY","Wyoming","10/5/16","CVOTER International",192,"C+",309,"likelyvoters",30.7,63,34
+"1954","WY","Wyoming","9/30/16","Google Consumer Surveys",73,"B",43,"likelyvoters",18.8,35.07,39
+"1955","WY","Wyoming","9/25/16","CVOTER International",192,"C+",462,"likelyvoters",29.4,65.2,44
+"1956","WY","Wyoming","9/23/16","Google Consumer Surveys",73,"B",55,"likelyvoters",17.78,45.91,46
+"1957","WY","Wyoming","9/18/16","CVOTER International",192,"C+",461,"likelyvoters",29.2,65.1,51
+"1958","WY","Wyoming","9/17/16","Google Consumer Surveys",73,"B",60,"likelyvoters",30.13,45.26,52
+"1959","WY","Wyoming","9/10/16","Google Consumer Surveys",73,"B",63,"likelyvoters",16.57,58.22,59
+"1960","WY","Wyoming","9/8/16","DFM Research",135,"B-",402,"likelyvoters",19,54,61
+"1961","WY","Wyoming","9/3/16","Google Consumer Surveys",73,"B",69,"likelyvoters",22.38,46.76,66
+"1962","WY","Wyoming","8/27/16","Google Consumer Surveys",73,"B",75,"likelyvoters",21.3,42.45,73
+"1963","WY","Wyoming","8/20/16","SurveyMonkey",352,"C-",727,"registeredvoters",21,57,80
+"1964","WY","Wyoming","8/20/16","Google Consumer Surveys",73,"B",78,"likelyvoters",26.27,41.75,80
+"1965","WY","Wyoming","8/13/16","Google Consumer Surveys",73,"B",66,"likelyvoters",21.98,40.77,87
