@@ -85,7 +85,7 @@ library(tidyverse)
 library(lubridate)
 polls16 <- read.csv("data/polls16.csv") 
 pres16 <- read.csv("data/pres16.csv")
-demographics <- read.csv("data/demographics.csv")
+demographics <- read.csv("data/demographics.csv") %>% filter(year==2016)
 polls16 <- polls16 %>% mutate(poll.margin = trump - clinton,days.until=mdy("11/8/16") - mdy(middate))
 pres16 <- pres16 %>% mutate(act.margin = trump - clinton)
 
