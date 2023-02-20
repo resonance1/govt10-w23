@@ -130,7 +130,7 @@ polls16$margin <- polls16$clinton - polls16$trump
 polls16$days.until <- as.Date("2016-11-08") - as.Date(polls16$middate, "%m/%d/%y")
 polls20 <- read.csv("data/polls20.csv")
 polls20$margin <- polls20$biden - polls20$trump
-pres16 <- read.csv("pres16.csv")
+pres16 <- read.csv("data/pres16.csv")
 pres16$actual.margin <- pres16$clinton - pres16$trump
 polls12 <- read.csv("data/polls12.csv")
 polls12$margin <- polls12$Obama - polls12$Romney
