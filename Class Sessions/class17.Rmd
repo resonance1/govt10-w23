@@ -1,0 +1,250 @@
+---
+title: "Class 17"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Quiz Review
+* Regression and ATE (lecture)
+* Group work
+* Limits of multivariate models 
+* Review on Creating Predictive Models
+
+# Quiz Review
+
+## Question A.4:
+
+To predict student grades in Gov 10, your overzealous classmate Prudence gathers data on historical performance in Gov 10, and fits a regression model that incorporates interest in the subject and hours spent studying. She obtains an R^2 of 0.87. Using the same historical course data, Ethel fits a model with different independent variables and obtains an R^2 of 0.48.  Evaluate the following statement: Prudence's model will provide better predictions of future Gov 10 performance than Ethel’s model. 
+
+Select one:
+[True/False/Unknown]
+
+## Question A.5:
+
+Evaluate the following statement: 
+- The correlation between X and Q is 0.36 
+- The correlation between Q and Y is 0.0 
+- The correlation between Z and X is 0.0 
+- The correlation between Z and Y is 0.78 
+ 
+Imagine you fit the multivariate regression model Y= X + Z. If you then fit a second model, Y = X + Z + Q, would the coefficient on X change when comparing the two models?
+
+Select one:
+[Yes/No/Unknown]
+
+# Brief Lecture
+
+# Group work
+
+Let's examine the Kenyan savings experiment again:
+
+```{r}
+kenya <- read.csv("data/rosca2.csv")
+kenya <- subset(kenya,has_followup2 == 1)
+```
+
+fol2_amtinvest            The outcome (investment in Kenyan shilllings)
+encouragement             1 if the person is in the control group, 0 otherwise
+locked_box                1 if the person is in the locked box group, 0 otherwise
+safe_box                  1 if the person is in the safe_box group, 0 otherwise
+bg_b1_age                 Age of participant
+bg_married                Whether participant is married (1) or not (0)
+bg_female                 Whether participant is female (1) or not (0)
+
+Calculate the ATE of the locked_box and safe_box groups, using a single multivariate regression model.
+
+```{r}
+
+
+```
+
+Now add the background characteristics of participants to the model. Do the ATEs change? What does this tell you about the quality of the randomization? Interpret the coefficient on Locked Box.
+
+```{r}
+
+
+```
+
+
+# Demonstration: limits on adding new predictors to multivariate models.
+
+*Degrees of freedom:*
+This corresponds to our number of observations (n), minus 1, minus the number of independent variables in our model. Degrees of freedom must always be positive to return cofficients. If degrees of freedom is too small, we also become more uncertain about whether our coefficients are accurate.
+
+*Collinearity:*
+If independent variables are perfectly correlated, we cannot estimate both terms. Very high correlation is also problematic for accurate coefficients (difficult to disentangle direct and indirect effects)
+
+```{r}
+
+# Number of observations
+
+kenya_subset <- kenya %>% sample_n()
+
+
+# Collinearity
+
+kenya <- kenya %>% mutate(bg_unmarried = case_when(bg_married==1 ~ 0, TRUE ~1))
+kenya$bg_b1_age_18 = kenya$bg_b1_age - 18
+kenya$bg_b1_age2 = jitter(kenya$bg_b1_age)
+
+
+```
+
+# Review on Creating Predictive Models
+
+Let's create a predictive model with the latest poll from 2008 and the percent of Black voters, and use it to predict 2020 outcomes.
+
+To do this, we need the following:
+
+*Training Dataset:*
+Actual Margin in 2008 (y)
+Poll Margin in 2008 (x)
+% Black  in 2008 (x)
+
+*Test Dataset:*
+Poll Margin in 2020 (x)
+% Black in 2020 (x)
+
+
+```{r}
+# All margins defined as Democrat - Republican
+
+library(tidyverse)
+votes08 <- read.csv("data/pres08.csv")
+votes08$actual.margin <- votes08$Obama - votes08$McCain
+polls08 <- read.csv("data/polls08.csv")
+polls08$days.until <- as.Date("2008-11-04") - as.Date(polls08$middate, "%m/%d/%y")
+polls08$margin <- polls08$Obama - polls08$McCain
+polls16 <- read.csv("data/polls16.csv")
+polls16$margin <- polls16$clinton - polls16$trump
+polls16$days.until <- as.Date("2016-11-08") - as.Date(polls16$middate, "%m/%d/%y")
+polls20 <- read.csv("data/polls20.csv")
+polls20$margin <- polls20$biden - polls20$trump
+pres16 <- read.csv("pres16.csv")
+pres16$actual.margin <- pres16$clinton - pres16$trump
+polls12 <- read.csv("data/polls12.csv")
+polls12$margin <- polls12$Obama - polls12$Romney
+pres12 <- read.csv("data/pres12.csv")
+pres12$actual.margin <- pres12$Obama - pres12$Romney
+demographics <- read.csv("data/demographics.csv")
+
+
+### CREATE THE TRAINING DATASET AND FIT THE MODEL
+
+# Get most recent poll in 2008, by state
+polls08_latest <- polls08 %>% group_by(state) %>% 
+  arrange(days.until) %>% slice(1) %>%
+  select()
+
+# Find the % black in 2008, by state
+
+demographics08 <- demographics %>% filter()
+
+# Merge the two independent variables together
+
+training <- polls08_latest %>% left_join()
+  
+# Merge in the outcomes for 2008
+
+training <- training %>% left_join()
+  
+# Fit the model
+result <- lm(data=training,)
+summary(result)
+
+```
+
+```{r}
+
+### CREATE THE TEST DATASET AND PREDICT ON 2020
+
+
+# Get most recent poll in 2020, by state
+polls20_latest <- polls20 %>% group_by(state) %>% 
+  arrange(days.until) %>% slice(1) %>%
+  select()
+
+# Find the % black , by state
+demographics_20 <-  demographics %>% filter() 
+
+# Merge the two together
+test <- polls20_latest %>% left_join()
+  
+# Create a test dataframe
+predict_frame <- data.frame()
+
+# Predict
+out <- predict(result,newdata=predict_frame)
+
+out.df <- data.frame(state=test$state,predict=out)
+out.df
+
+
+```
+
+```{r}
+
+### CROSS-VALIDATE ON 2016 (predict)
+
+# Get most recent poll in 2016, by state
+polls16_latest <- polls16 %>% group_by(state) %>% 
+  arrange(days.until) %>% slice(1) %>%
+  select()
+
+# Find the % black in 2016, by state
+demographics_16 <-  demographics %>% filter()
+
+# Merge the two together
+xvalidate <- polls16_latest %>% left_join()
+  
+# Create a test dataframe
+predict_frame <- data.frame()
+
+# Predict
+predictions <- predict(result,newdata=predict_frame)
+xv.out.df <- data.frame(state=xvalidate$state,predict=predictions)
+xv.out.df
+
+
+### Diagnose
+
+# Merge in actual outcomes
+
+# Calculate error
+
+# RMSE
+
+# Plot
+
+x<- 
+y<- 
+  
+plot(type="n",x =  x , y = y, xlab = "Predicted Results", ylab = "Actual Election Results")
+text(x = x  , y = y, 
+     labels = , 
+     col = "blue",
+     cex=.5)
+
+# Diagnosis Lines
+abline(0, 1, lty = "dashed")
+abline(v=0)
+abline(h=0)
+
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
