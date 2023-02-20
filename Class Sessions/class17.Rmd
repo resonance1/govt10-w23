@@ -120,8 +120,8 @@ Poll Margin in 2020 (x)
 # All margins defined as Democrat - Republican
 
 library(tidyverse)
-votes08 <- read.csv("data/pres08.csv")
-votes08$actual.margin <- votes08$Obama - votes08$McCain
+pres08 <- read.csv("data/pres08.csv")
+pres08$actual.margin <- pres08$Obama - pres08$McCain
 polls08 <- read.csv("data/polls08.csv")
 polls08$days.until <- as.Date("2008-11-04") - as.Date(polls08$middate, "%m/%d/%y")
 polls08$margin <- polls08$Obama - polls08$McCain
