@@ -1,0 +1,189 @@
+---
+title: "Class 18"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Probability & Uncertainty (Lecture)
+* Central Limit Theorem
+* Standard error
+
+# Basic probability theory (lecture)
+
+# Probability practice (group work)
+
+If the probability that the Democrats win State A is 47%, and the probability they win State B 
+is 37%, what is the probability that they win both states?
+
+```{r}
+
+```
+
+If the probability that the Democrats win State A is 47%, and the probability they win State B 
+is 37%, what is the probability that they win either of the states?
+
+```{r}
+
+```
+
+If the probability that the Democrats win State A is 47%, and the probability that the Green party win State A 
+is 2%, what is the probability that either the Democrats or the Green party win?
+
+```{r}
+
+```
+
+If the probability that the Democrats win State A is 47%, and the probability that the Green party win State A 
+is 2%, what is the probability that the Democrats and the Green party both lose?
+
+```{r}
+
+```
+
+
+# Uncertainty (lecture)
+
+# Central Limit Theorem Demonstration
+
+Biden Supporter     = 1
+Non-Biden Supporter = 0 
+
+The support for Biden in this particular state is 60%:
+
+```{r}
+state <- c(rep(1,60000),rep(0,40000))
+```
+
+Loop through each poll, one at a time
+
+```{r}
+# You do not need to understand this code
+n <- 10000     # number of polls
+ss <- 1000     # sample size of each poll
+results <- rep(NA,n)
+for (i in 1:n){
+  poll <- sample(state,ss,replace=F)
+  results[i] <- mean(poll)
+}
+```
+
+Plot
+
+```{r}
+hist(results,xlim=c(.5,.7),col="lightgray",breaks=(n/2))
+abline(v=mean(results),col="blue",lwd=3)
+abline(v=.6,col="red",lwd=3)
+```
+
+We have n values: how many are outside the boundaries? 
+
+If it's a normal distribution, it should be ~2.5% on each side.
+
+```{r}
+length(results[results < mean(results) - 1.96*sd(results)])  / n
+length(results[results > mean(results) + 1.96*sd(results)])  / n
+```
+
+
+# Standard error
+
+Let's use the normal distribution to calculate the standard error of a poll of size 100:
+
+```{r}
+population <- c(rep(1,60000),rep(0,40000))
+
+# Simulation - Get sampling distribution
+n <- 1000  # number of polls
+ss <- 100  # sample size
+results <- rep(NA,n)
+for (i in 1:n){
+  poll <- sample(population,ss,replace=F)
+  results[i] <- mean(poll)
+}
+
+# Sampling distribution
+hist(results,breaks=50)
+
+# Standard deviation of sampling distribution
+round(sd(results),2)
+```
+
+Manual calculation (with only 1 poll)
+
+```{r}
+poll <- sample(population,ss,replace=F)
+p_sd <- sd(poll)
+se <- p_sd / sqrt(ss)
+round(se, 2)
+```
+
+# Group Work: Error in Average Treatment Effects
+
+Obtain the difference in means between the treated and control group for the _postattack_ variable.
+
+Treated group: (fire==1)
+Control group: (fire==0)
+
+```{r}
+library(tidyverse)
+chechen <- read.csv("data/chechen.csv")
+
+
+```
+
+Estimate the standard error for this difference in means, by obtaining the standard deviation and sample size of _each_ distribution. Remember that you can use table() to count; you can also use n() inside summarize(). To obtain the standard deviations for each group, use sd() on a filtered dataset, or use sd() within summarize()
+
+```{r}
+# Sample Size
+n_treatment <- 
+n_control <- 
+  
+# Standard deviation
+# Combine using formula
+# sqrt( sd1 / n1     + sd2 / n2 )
+  
+# Answer should match: 0.4165658
+```
+
+
+# As a class:
+
+Note that standard deviation squared is variance, so we can also do it this way:
+
+```{r}
+
+```
+
+For a _binary treatment indicator_, standard errors can be quickly calculated using linear regression. 
+
+```{r}
+result <- lm()
+summary(result)
+```
+
+This also applies to the multivariate case:
+
+```{r}
+kenya <- read.csv("data/rosca2.csv")
+kenya <- subset(kenya,has_followup2 == 1)
+
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
+
