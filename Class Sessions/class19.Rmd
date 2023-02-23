@@ -1,0 +1,156 @@
+---
+title: "Class 19"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+
+- Group work: Error in ATE
+- Confidence Intervals (lecture)
+- Group work: Confidence intervals
+- Standard error in linear regression
+
+# Group Work: Error in Average Treatment Effects
+
+Let's work with the Chechen artillery fire example. First, obtain the difference in means between the treated and control group for the _postattack_ variable.
+
+Treated group: (fire==1)
+Control group: (fire==0)
+
+```{r}
+library(tidyverse)
+chechen <- read.csv("data/chechen.csv")
+
+```
+
+Estimate the standard error for this difference in means, by obtaining the standard deviation and sample size of _each_ distribution. Remember that you can use table() to count; you can also use n() inside summarize(). To obtain the standard deviations for each group, use sd(outcome) on a filtered dataset, or use sd(outcome) within summarize()
+
+```{r}
+
+# Sample Size
+n_treatment <- 
+n_control <- 
+  
+# Standard deviation
+sd_treatment <-
+sd_control <-  	
+
+# Combine using formula
+#sqrt( sd1^2 / n1     + sd2^2 / n2 )
+  
+# Answer should match: 0.4165658
+```
+
+# As a class:
+
+Note that standard deviation squared is variance, so we can also do it this way:
+
+```{r}
+
+```
+
+
+# Confidence Intervals in R
+
+The support for Biden in this particular state is 60%:
+
+```{r}
+state <- c(rep(1,60000),rep(0,40000))
+```
+
+How precise is our estimate, given the sample size and the dispersion in the outcome?
+
+```{r}
+# Take a single sample of size 1000
+ss <- 1000
+poll <- sample(state,ss,replace=F)
+
+# Calculate the mean and standard error
+p_mean <- 
+p_se <- 
+```
+
+Since this is a random sample, let's take the information about the standard error to make an inference about how repeated measurements of the same population could vary (how far off could we be, still drawing from the 'correct population)?
+
+```{r}
+# Assume a normal distribution, use the 95% critical values
+
+```
+
+Is the 'true value' in this confidence interval? (With our choice of critical values, roughly 5% of you will have a confidence interval that does not contain the true value)
+
+Instead of memorizing 1.96, can use the _qnorm()_ function to get exact critical values from the normal distribution.
+
+```{r}
+
+```
+
+
+
+# Group work: Confidence intervals  
+
+Let's build on the previous group work, and construct confidence intervals for our Chechnya estimates.
+
+1.1 Obtain 90%, 95%, and 99% confidence intervals for the Chechen difference in means you calculated above, using _qnorm()_ to obtain the exact critical values.
+
+```{r}
+
+```
+
+1.2 Interpret the 90% confidence interval using appropriate language. 
+
+[sentence here]
+
+Reload the Boston immigration experiment dataset. The dependent variable is "diff_imm", which measures the change in support for immigration. The treatment variable is called _treatment_
+
+```{r}
+boston <- read.csv("data/boston.csv")
+boston$diff_imm <- boston$numberim.post - boston$numberim.pre
+```
+
+2.1 Calculate the average treatment effect, as well as the standard error. Remember that since this is a difference in means between two samples (treatment adn control), you will need to use this formula to calculate the standard error:
+
+sqrt( (sd_treatmentˆ2 / n_treatment) + (sd_controlˆ2 / n_control))
+
+```{r}
+```
+
+2.2 Generate a 99% confidence interval for the average treatment effect, and interpret the results.
+
+```{r}
+
+```
+
+
+# With class: standard error and regression
+
+For a _binary treatment indicator_, standard errors can be quickly calculated using linear regression. Let's regress fire on postattack 
+
+```{r}
+
+```
+
+We can use _confint()_ to quickly calculate confidence intervals for regression coefficients.
+
+```{r}
+
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
+
