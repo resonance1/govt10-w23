@@ -1,0 +1,247 @@
+---
+title: "Class 20"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+- Confidence Intervals Review
+- Group work
+- t-statistics (lecture)
+- t-statistics in R
+
+# Review: qnorm()
+
+```{r}
+# Normal distribution (don't need to know this code)
+x <- seq(-4, 4, length=100)
+hx <- dnorm(x)
+plot(x,hx,lty=1,type="l")
+
+# 90% confidence interval
+
+#abline(v=qnorm(),col="burlywood")
+#abline(v=qnorm(),col="burlywood")
+
+# 95% confidence interval
+
+#abline(v=qnorm(),col="thistle")
+#abline(v=qnorm(),col="thistle")
+
+# 99% confidence interval
+
+#abline(v=qnorm(),col="darkgoldenrod")
+#abline(v=qnorm(),col="darkgoldenrod")
+
+```
+
+# Review of group work
+
+Reload the Boston immigration experiment dataset. The dependent variable is "diff_imm", which measures the change in support for immigration. The treatment variable is called _treatment_
+
+```{r}
+library(tidyverse)
+boston <- read.csv("data/boston.csv")
+boston$diff_imm <- boston$immigration_after - boston$immigration_before
+```
+
+2.1 Calculate the average treatment effect, as well as the standard error. Remember that since this is a difference in means between two samples (treatment and control), you will need to use this formula to calculate the standard error:
+
+sqrt( (sd_treatmentˆ2 / n_treatment) + (sd_controlˆ2 / n_control)) 
+
+```{r}
+n_treatment <- 
+n_control <-
+sd_treatment <- 
+sd_control <-
+
+```
+
+2.2 Generate a 99% confidence interval for the average treatment effect, and interpret the results.
+
+```{r}
+
+```
+
+[Answer here]
+
+
+
+# Standard error and regression
+
+For a _binary treatment indicator_, standard errors can be quickly calculated using linear regression. Let's regress the treatment variable on the diff_imm variable.
+
+```{r}
+
+```
+
+We can use _confint()_ to quickly calculate confidence intervals for regression coefficients.
+
+```{r}
+
+```
+
+
+# Group Work: Confidence Intervals
+
+Let's re-evaluate the study on racial bias in hiring. 
+
+```{r}
+resume <- read.csv("data/resume.csv")
+```
+
+In this experiment, identical resumes were sent out, except for the signaled race and gender, which was randomly assigned. We are interested in whether a resume received a call back from an employer or not.
+
+Variables:
+race    Signaled race on resume
+sex     Signaled gender on resume
+call    A binary variable indicating a call back (1) or not (0) 
+
+1.1 First, calculate the average treatment effect:
+
+Avg (Callback for White Resumes) - Avg (Callback for Black Resumes) 
+
+```{r}
+```
+
+1.2 Now calculate the standard error for this difference in means. You can either use this formula:
+sqrt( (sd_treatment^2 / n_treatment) + (sd_control^2 / n_control)) or a regression.
+
+
+```{r}
+n_treatment <- 
+n_control <-
+sd_treatment <- 
+sd_control <-
+```
+
+1.3 Calculate a 90% confidence interval for the difference in means. 
+
+```{r}
+
+```
+
+1.4 With 90% confidence, can we conclude based on 1.3 that there is racial bias in hiring?
+
+1.5: Would this change with a 99% confidence interval (critical value = 2.58)?
+
+```{r}
+
+```
+
+1.6 Conceptual question:
+The 90% confidence interval for the average of Group A is -0.04 to 0.07
+The 90% confidence interval for the average of Group B is -0.03 to 0.17
+
+Can we conclude that B > A?
+
+# Lecture: t-distributions and t-statistics
+
+## Demonstrations in R
+
+Compare t to normal (don't need to know this code)
+```{r}
+# Do not need to know this code
+n <- samplesize <- 5
+x <- seq(-4, 4, length=100)
+hx <- dnorm(x)
+plot(x,hx,lty=1,type="l",col="blue")
+lines(x, dt(x,n-1), lwd=2, col="red")
+```
+
+Manual calculation of a t-statistic:
+
+Mean:          .19
+Sample SD:   .3294
+Sample Size:    20
+
+```{r}
+
+# First calculate the standard error
+
+# Then calculate the t-statistic
+
+```
+
+Manual calculation of a t-statistic for a difference in means:
+
+```{r}
+chechen <- read.csv("data/chechen.csv")
+
+result <- chechen %>% group_by(fire) %>%
+summarize(out = mean(postattack), n = n(), variance = var(postattack))
+
+diff <- result$out[2] - result$out[1]
+se <- sqrt(result$variance[2]/result$n[2] + result$variance[1]/result$n[1])
+
+# Calculate t-statistic (ate/se)
+
+
+```
+
+What does a t-statistic of -1.33 mean?
+
+```{r}
+# Do not need to know this code
+n  <- 318
+x <- seq(-4, 4, length=100)
+plot(x,dt(x,n-1),lty=1,type="l")
+abline(v=-1.33)
+```
+
+Note: for smaller sample sizes, we can use _qt()_ to obtain critical values and confidence intervals. This is the equivalent of _qnorm_ for the t-distribution.
+
+```{r}
+# qt( level, df)
+```
+
+
+_If Time_
+
+The _t.test_ command can also rapidly generate t-statistics:
+
+## One sample t-test (for a single distribution):
+
+```{r}
+chechen <- read.csv("data/chechen.csv")
+#t.test(, mu = 0)
+```
+
+## Two sample t-test  (t-test for difference in means):
+
+Chechen ATE t.test:
+
+```{r}
+#t.test(, , mu = 0)
+```
+
+Returning to the resume experiment, let's use a t.test to examine the hypothesis that the true racial discrimination in our sample is 0
+
+```{r}
+
+```
+
+We can also use t-tests to check for accurate randomization. Let's check that sex was independent randomized:
+
+```{r}
+
+```
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
+
+
