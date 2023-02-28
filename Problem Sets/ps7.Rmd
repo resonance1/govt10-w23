@@ -1,0 +1,148 @@
+---
+  title: "Problem Set 7"
+author: ""
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Part 1 - Hypothesis testing for a difference in means 
+
+In the 1991 National Race and Politics survey, researchers randomly divided respondents into two groups. Those assigned to the control condition were read the following script:
+  
+  Now, I am going to read you three things that sometimes make people angry or upset. After I read all three, just tell me HOW MANY of them upset you. I don't want to know which ones, just HOW MANY.
+
+The federal government increasing the tax on gasoline
+Professional athletes getting million-dollar contracts
+Large corporations polluting the environment
+
+Those respondents assigned to the treatment group received the same script except that the list included one additional item: 'a black family moving in next door.' The list experiment functions as follows: if we assume that members of the treatment and control groups are equally likely to be upset by the first three items, if we observe an increase in the average number of 'upsetting' items in the treatment group, we know that at least some respondents within the treatment group were upset with the possibility of a 'black family moving in next door'. If the treatment and control groups are randomly assigned, the percentage of respondents in the treatment group who selected an additional item should match the underlying racial prejudice in the survey sample. 
+
+```{r}
+library(tidyverse)
+listdata <- read.csv("data/listexp.csv")
+listdata <- na.omit(listdata)
+```
+
+Relevant Variables:
+
+id            Unique id of the respondent
+y             The number of items selected from the list (outcome variable)
+treat         The treatment indicator (binary)
+south         An indicator for residence in a Southern state
+
+1.1  Estimate the proportion of respondents in the 1991 survey population who demonstrate racial prejudice by comparing the average number of items selected between the treatment and control groups. Compute the 90% confidence interval for this estimate, using the null hypothesis that the actual level of racial prejudice in this study is 0. Give a brief interpretation of the result. Are the findings statistically significant? 
+
+```{r}
+
+```
+
+[Sentences here]
+
+1.2 Conduct the same test as in the previous question, separately for Southern and non-Southern respondents (in other words, calculate separate treatment effects for southern and non-southern states). Interpret the result. 
+
+```{r}
+
+```
+
+[Sentences here]
+
+1.3 Re-evaluate the findings for the south in 1.2, using a 99% confidence interval. Do the results change? What does the p-value suggest that our maximum confidence in this estimate is? 
+
+```{r}
+
+```
+
+[Sentences here]
+
+
+# Part 2 - Attitudes towards refugees
+
+One week after President Donald Trump signed an executive order to limit the flow of refugees to the United States, researchers fielded a nationally representative survey to understand American citizens’ attitudes toward refugee resettlement. 
+One of the goals the study was to assess the prevalence of NIMBYism (Not in my backyard syndrome) -- in this case, the idea that individuals support refugee resettlement in the abstract, but only as long as it does not impact their own lives or local community. To determine NIMBYism, the researchers asked respondents whether they supported (a) increasing the number of refugees the United States accepts each year, or (b) increasing the number of refugees their state or local community accepts each year, in random order. 
+
+
+```{r}
+nimby <- read.csv("nimby.csv")
+```
+
+Variables:
+
+L:                     Support for refugee resettlement in respondent's local community, on a 0 to 10 scale, where 10 indicates highest support
+US:                    Support for refugee resettlement in the United States, on a 0 to 10 scale, where 10 indicates highest support
+rep:                   Whether the respondent identifies as a Republican (1) or not (0)
+dem:                   Whether the respondent identifies as a Democrat (1) or not (0)
+female:                Whether the respondent is female (1) or not (0)
+employed:              Whether the respondent is employed (1) or not (0)
+nonhispanic_white:     Whether the respondent is non-hispanic white (1) or not (0)
+bachelors:             Whether the respondent has a bachelors degree (1) or not (0)
+above_median_income:   Whether the respondent's income is above the median level (1) or not (0)
+zip                    Zip code of respondent
+
+
+1. Create a boxplot showing the distribution of support for refugee resettlement in the United States among self-identified Republicans and Democrats, respectively. Then, evaluate the average support among each party. Interpret the results. Do the two means differ statistically, at the 99% level? 
+
+```{r}
+
+
+```
+
+[Sentences here]
+
+2. Calculate the support for refugee resettlement in the US among independents (those who do not identify with either party). You will need to create a new variable to assess this.
+
+```{r}
+
+
+```
+
+3. Now we will begin to evaluate NIMBYism. Using the full sample, calculate the average support for refugee resettlement in the United States (US) vs. support for refugee resettlement in respondent's local communities (L). Which value is higher? Do the two means differ statistically, at the 95% level? 
+
+```{r}
+
+
+```
+
+[Sentences here]
+
+4. Now we will examine whether NIMBYism varies according to sociodemographic factors. First, create a new dependent variable called _diff_ which measures the difference in support for refugee resettlement in the US, vs. refugee resettlement in respondent's local community (US-L). Calculate the average value of _diff_ separately for self-reported Republicans and Democrats, respectively. Interpret the results. Do the two means differ statistically, at the 99% level? 
+
+```{r}
+
+
+```
+
+[Sentences here]
+
+5. We will now use regression to test multiple possible predictors of NIMBYism. First, run a bivariate regression in which the dependent variable is _diff_ and the independent variables is _female_. Interpret the coefficient on female, as well as either the t-value or p-value. Based on these results, do female respondents differ with respect to NIMBYism?
+
+```{r}
+
+
+```
+
+[Sentences here]
+
+6. Add all demographic factors in the dataset (except zip code) to the regression from the previous step. Evaluate the results of the multivariate regression. Do any of these factors predict differences in NIMBYism, at the 95% level? What does this suggest about the prevalence of NIMBYism among US citizens? You do not need to interpret the individual coefficients. 
+
+```{r}
+
+
+```
+
+[Sentences here]
+
+7. One possibility that could explain these results is that respondents living in rural areas may believe that their community does not have the capacity to accept refugees. Join the density dataset below to our existing dataset, using the zip code as the key. Then regress population density on _diff_. Does population density explain why some individuals are more hesitant to accept refugees in their 'backyard'?
+
+
+```{r}
+density <- read.csv("zip_density.csv")
+
+```
+
+[Sentences here]
