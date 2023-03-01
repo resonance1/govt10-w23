@@ -109,7 +109,7 @@ Re-evaluate the Boston immigration experiment. Recall that the outcome in this s
 
 ```{r}
 boston <- read.csv("data/boston.csv")
-boston$diff_imm <- boston$immigration_after - boston$immnigration_before
+boston$diff_imm <- boston$immigration_after - boston$immigration_before
 ```
 
 Obtain a 90% confidence interval for the treated and control groups. Calculate the t-statistic and p-value (at the 90% level) for the null hypothesis that the difference between the treated group and the control group is 0. Do you reject or fail to reject the null?
