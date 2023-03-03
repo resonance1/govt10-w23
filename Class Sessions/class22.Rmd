@@ -1,0 +1,166 @@
+---
+title: "Class 22"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+
+# Visualizing the null hypothesis 
+
+```{r}
+# Do not need to know this code -- just a demonstration!
+
+resume <- read.csv("data/resume.csv")
+
+###### REJECTING THE NULL
+out <- t.test(call ~ race, data=resume,mu=0)
+t <- out$statistic
+
+#### Plot
+n  <- nrow(resume)
+conflevel = .95
+x <- seq(-8, 8, length=100)
+plot(x,dt(x,n-1),lty=1,type="l",xlab-"Standard Deviations of Sampling Distribution (Centered on 0)")
+abline(v=qt((1-conflevel)/2,n-1)*-1,col="red")
+abline(v=qt((1-conflevel)/2,n-1),col="red")
+abline(v=t,col="blue")
+abline(v=-t,col="blue")
+
+
+###### FAIL TO REJECT THE NULL
+chechen <- read.csv("data/chechen.csv")
+out <- t.test(postattack ~ fire, data=chechen,mu=0)
+t <- out$statistic
+#### Plot
+n  <- nrow(chechen)
+conflevel = .95
+x <- seq(-8, 8, length=100)
+plot(x,dt(x,n-1),lty=1,type="l",xlab="Standard Deviations of Sampling Distribution (Centered on 0)")
+abline(v=qt((1-conflevel)/2,n-1)*-1,col="red")
+abline(v=qt((1-conflevel)/2,n-1),col="red")
+abline(v=t,col="blue")
+abline(v=-t,col="blue")
+```
+
+# Review of Group Work 
+
+```{r}
+library(tidyverse)
+boston <- read.csv("data/boston.csv")
+boston$diff_imm <- boston$immigration_after - boston$immigration_before
+```
+
+Obtain a 90% confidence interval for the treated and control groups. 
+
+```{r}
+
+```
+
+Calculate the t-statistic and p-value (at the 90% level) for the null hypothesis that the difference between the treated group and the control group is 0. Do you reject or fail to reject the null?
+
+```{r}
+
+```
+
+Would your answer change if you used a 95% confidence level?
+
+
+Next, evaluate whether age, income, white, college, and usborn are balanced between the treated and control groups (i.e., the difference in means is 0), using two sample t-tests and a 90% confidence interval. What is the associated p value for each background characteristic?
+
+```{r}
+
+
+```
+
+# Group project results!
+
+# Uncertainty and predictions
+
+```{r}
+# A simple model
+polls08 <- read.csv("polls08.csv")
+polls08$margin <- polls08$Obama - polls08$McCain
+polls08$days.until <- as.Date("2008-11-04") - as.Date(polls08$middate, "%m/%d/%y")
+pres08 <- read.csv("pres08.csv")
+pres08$actual.margin <- pres08$Obama - pres08$McCain
+training <- polls08 %>% group_by(state) %>% arrange(days.until) %>% slice(1) %>% left_join(pres08,by="state")
+model <- lm(data=training,actual.margin ~ margin)
+summary(model)
+
+
+# Test dataset
+polls20 <- read.csv("polls20.csv")
+polls20$margin <- polls20$biden - polls20$trump
+test <- polls20 %>% group_by(state) %>% arrange(days.until) %>% slice(1)  %>% select(margin,state)
+
+# Predict
+out <- predict(model,newdata=test)
+names(out) <- test$state
+out
+
+# Adding error
+out <- predict(model,newdata=test,interval="confidence",level=.95)
+out <- data.frame(out,state=test$state)
+out
+
+# Compare to actual results
+pres20 <- read.csv("pres20.csv")
+out <- out %>% left_join(pres20,by="state")
+
+# Misclassification including the error term 
+print(out$state[sign(out$actualmargin) != sign(out$lwr) & sign(out$actualmargin) != sign(out$upr)])
+ 
+# plot lines
+y <- out$fit
+x <- out$actualmargin
+lowerb <- out$lwr
+upperb <- out$upr
+ggplot(out, aes(x, y))  + geom_linerange(colour="blue",aes(ymin = lowerb, ymax = upperb)) + 
+  geom_abline(intercept = 0, slope = 1) + ylab("Predicted") + ylab("Predicted") + 
+  geom_vline(xintercept=0,linetype="dotted") + geom_hline(yintercept=0,linetype="dotted") + 
+  xlab("Actual") + theme_minimal()
+
+
+```
+
+
+
+
+# (If time permits) With your prediction group:
+
+Update the predict() function to generate lower and upper bounds for 2020 as follows: 
+
+```{r}
+predict(model,newdata=X,level=.95,interval="confidence") # 95% confidence interval
+# where model is the name of your model, and X is the name of your 2020 prediction dataframe
+```
+
+Taking error into account, how many of your states were mis-classified in 2020? 
+(You can use the misclassification code below, just save your outputed predictions as 'out' first)
+
+```{r}
+
+print(out$state[sign(out$actualmargin) != sign(out$lwr) & sign(out$actualmargin) != sign(out$upr)])
+ 
+```
+
+Plot your model errors. Did you tend to overestimate or underestimate Biden's margin of victory in 2020?
+
+```{r}
+
+```
+
+
+## Check-in
+
+1. What topic(s) would you most like to see reviewed on Monday? 
+
