@@ -29,7 +29,7 @@ t <- out$statistic
 n  <- nrow(resume)
 conflevel = .95
 x <- seq(-8, 8, length=100)
-plot(x,dt(x,n-1),lty=1,type="l",xlab-"Standard Deviations of Sampling Distribution (Centered on 0)")
+plot(x,dt(x,n-1),lty=1,type="l",xlab="Standard Deviations of Sampling Distribution (Centered on 0)")
 abline(v=qt((1-conflevel)/2,n-1)*-1,col="red")
 abline(v=qt((1-conflevel)/2,n-1),col="red")
 abline(v=t,col="blue")
