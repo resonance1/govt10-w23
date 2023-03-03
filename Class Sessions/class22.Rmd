@@ -87,10 +87,10 @@ Next, evaluate whether age, income, white, college, and usborn are balanced betw
 
 ```{r}
 # A simple model
-polls08 <- read.csv("polls08.csv")
+polls08 <- read.csv("data/polls08.csv")
 polls08$margin <- polls08$Obama - polls08$McCain
 polls08$days.until <- as.Date("2008-11-04") - as.Date(polls08$middate, "%m/%d/%y")
-pres08 <- read.csv("pres08.csv")
+pres08 <- read.csv("data/pres08.csv")
 pres08$actual.margin <- pres08$Obama - pres08$McCain
 training <- polls08 %>% group_by(state) %>% arrange(days.until) %>% slice(1) %>% left_join(pres08,by="state")
 model <- lm(data=training,actual.margin ~ margin)
@@ -98,7 +98,7 @@ summary(model)
 
 
 # Test dataset
-polls20 <- read.csv("polls20.csv")
+polls20 <- read.csv("data/polls20.csv")
 polls20$margin <- polls20$biden - polls20$trump
 test <- polls20 %>% group_by(state) %>% arrange(days.until) %>% slice(1)  %>% select(margin,state)
 
@@ -113,7 +113,7 @@ out <- data.frame(out,state=test$state)
 out
 
 # Compare to actual results
-pres20 <- read.csv("pres20.csv")
+pres20 <- read.csv("data/pres20.csv")
 out <- out %>% left_join(pres20,by="state")
 
 # Misclassification including the error term 
