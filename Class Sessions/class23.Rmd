@@ -1,0 +1,104 @@
+---
+title: "Class 23 - Review"
+author: " "
+header-includes:
+   - \usepackage{pdfpages}
+output:
+  pdf_document: default
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+You do not need to submit this notebook.
+
+
+# t and p
+
+First, let's construct a 95% confidence interval
+
+sample mean = 48
+sample standard deviation = 6
+sample size = 10
+
+```{r}
+n <- 
+se <- 
+
+
+```
+
+Now let's calculate the t manually
+
+```{r}
+
+```
+
+And now, let's grab the p value
+
+```{r}
+pt(t, df=n-1, lower.tail=FALSE)*2
+
+```
+
+
+## A data example
+
+Re-evaluate the Kenyan savings experiments.
+
+```{r}
+kenya <- read.csv("data/rosca2.csv")
+kenya <- subset(kenya,has_followup2 == 1)
+```
+
+Variables:
+
+fol2_amtinvest  Amount invested in Kenyan shillings, in Wave 2 (outcome)
+encouragement   Binary variable indicating whether individuals are in the control group (1) or not (0)
+safe_box        Binary variable indicating whether individuals are in the safe deposit box treatment group (1) or not (0)
+locked_box       Binary variable indicating whether individuals are in the locked box treatment group (1) or not (0)
+bg_b1_age       age of participant
+bg_female       gender of participant
+bg_married     marital status of participant
+
+
+Calculate the t-statistic and p-value (at the 95% level) for the null hypothesis that the difference between the locked box group and the control group is 0. Repeat for the safe box group. What is the 95% confidence interval for the difference in means?
+ 
+```{r}
+
+```
+
+Now evaluate balance between the treated and control conditions with respect to age, gender, and marital status, at the 95% confidence level. Note: since there are two treatment conditions, you will have to evaluate the balance of each treatment relative to control.
+
+```{r}
+
+```
+
+
+
+# Scratchpad for conceptual problems
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
